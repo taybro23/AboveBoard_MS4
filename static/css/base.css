@@ -1,9 +1,12 @@
-/* General CSS */
+/* ---------- General CSS ---------- */
+
+html {
+    height: 100%;
+}
 
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Lato';
 }
 
 h1 {
@@ -14,16 +17,17 @@ h1 {
     text-decoration: underline;
 }
 
-/* Navbar */
-
-.link-main {
-    margin-left: 20px;
-    margin-right: 20px;
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: #000;
-}
+/* ---------- Top Navbar ---------- */
 
 /* from Bulma */
 .icon {
@@ -34,12 +38,67 @@ h1 {
     width: 1.5rem;
 }
 
-/* -------------------------------- Media Queries */
+/* ---------- Main Navbar ---------- */
+
+.link-main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+
+/* ---------- Carousel ---------- */
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* ---------- Hover ---------- */
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #ff521b;
+}
+
+.search-btn:hover {
+    background-color: #ff521b;
+    color: #fff;
+}
+
+/* ---------- Media Queries ---------- */
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
     .container {
         max-width: 80%;
+    }
+    .header-container {
+        padding-top: 112px;
+    }
+    .carousel-inner {
+        height: 500px;
+    }
+    .carousel-padding {
+        padding: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header-container {
+        padding-top: 112px;
+    }
+
+    .carousel-inner {
+        height: 500px;
+    }
+
+    .carousel-padding {
+        padding: 0;
     }
 }
 
@@ -52,10 +111,6 @@ h1 {
         left: 0;
         z-index: 1030;
     }
-
-    .header-container {
-        padding-top: 164px;
-    }
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
@@ -63,4 +118,11 @@ h1 {
     .header-container {
         padding-top: 116px;
     }
+}
+
+/* Code for navbar hover dropdowns from https://bootstrap-menu.com/detail-basic-hover.html */
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }

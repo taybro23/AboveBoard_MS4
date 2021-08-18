@@ -1,8 +1,49 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block page_header %}
+
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+
+{% endblock %}
+
 {% block content %}
 
-    <h1 class="display-4 text-success">It works!</h1>
+        <!-- Featured Products Carousel -->
+        <div class="container-fluid justify-content-center carousel-padding">
+            <div id="carousel-fade" class="carousel slide carousel-fade mt-3 mb-3" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="#">
+                            <img src="/media/skateboard-home-feat.jpg" class="d-block w-100 image-1" alt="...">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#">
+                            <img src="/media/clothing-home-feat.jpg" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#">
+                            <img src="/media/shoes-home-feat.jpg" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                </div>
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carousel-fade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-fade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button> -->
+            </div>
+        </div>
 
 {% endblock %}
