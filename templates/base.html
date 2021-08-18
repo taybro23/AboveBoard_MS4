@@ -4,7 +4,6 @@
 <html lang="en">
 
 <head>
-
     {% block meta %}
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta charset="utf-8">
@@ -38,8 +37,18 @@
 
 <body>
 
+    {% if messages %}
+        <div class="message-container"></div>
+    {% endif %}
 
-    
+    {% block page_header %}
+    {% endblock %}
+
+    {% block content %}
+    {% endblock %}
+
+    {% block postloadjs %}
+    {% endblock %}
+
 </body>
-
 </html>
