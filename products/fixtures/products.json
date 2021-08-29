@@ -1,0 +1,29 @@
+[{
+      "pk": 1,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5001340155",
+         "name": "Plan B Snake Skin Skateboard Deck",
+         "description": "Constructed from 7-Ply Maple for a strong build, the Snake Skin skateboard deck from Plan B features clean artwork and tons of pop.",
+         "price": 50.00,
+         "category": 1,
+         "rating": 5,
+         "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Decks/plan-b-snake-skin-skateboard-deck-825-00.jpg?auto=format%2Ccompress&bluhash=b66f5616d7505b131593003ffdb6d4a4&w=750&h=750&fit=fillmax&fill=solid&s=ba90b0dde6f183cc28ea715579ee17d0",
+         "image": "plan-b-snake-skin-skateboard-deck.jpg"
+      }
+   },
+   {
+      "pk": 2,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5001340156",
+         "name": "Thrasher T-Shirt",
+         "description": "Stylish Thrasher T-Shirt",
+         "price": 35.00,
+         "category": 2,
+         "rating": 4,
+         "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/THR-120-FLA-LOG-TEE-NAV.jpg?auto=format%2Ccompress&bluhash=046ee4b432e64cbcdd36d9dc05f59ba3&w=750&h=750&fit=fillmax&fill=solid&s=4f382d3126d59ca22cb5b8c6e4db15a6",
+         "image": "thrasher-t.jpg"
+      }
+   }
+]
