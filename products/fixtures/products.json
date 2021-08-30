@@ -5,11 +5,11 @@
       "fields": {
          "sku": "sbc001",
          "name": "Real Be Free Complete Skateboard",
-         "description": "Complete Skateboard Deck",
+         "description": "The Real Be Free complete skateboard is great for those getting comfortable on a skateboard. With a strong build and great design, it's the perfect choice!",
          "price": 79.99,
          "category": 1,
          "rating": 5,
-         "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard Complete/real-be-free-complete-skateboard-8-00.jpg?auto=format%2Ccompress&bluhash=efb2ffbcdf19b93db465392f66b4222d&w=750&h=750&fit=fillmax&fill=solid&s=1ad74fc586504783a04a18e114888dbd",
+         "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Complete/real-be-free-complete-skateboard-8-00.jpg?auto=format%2Ccompress&bluhash=efb2ffbcdf19b93db465392f66b4222d&w=750&h=750&fit=fillmax&fill=solid&s=1ad74fc586504783a04a18e114888dbd",
          "image": "101-real-be-free-complete.jpg"
       }
    },
@@ -19,8 +19,8 @@
       "fields": {
          "sku": "sbc002",
          "name": "Chocolate OG Chunk Roberts Complete Skateboard - Blue",
-         "description": "Complete Skateboard Deck",
-         "price": 119.99,
+         "description": "This complete skateboard from Chocolate is a great intermediate level skateboard setup.",
+         "price": 149.99,
          "category": 1,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Custom%20Skateboards/CHO-OGC-ROB-CUS-SKA-775-CUS.jpg?auto=format%2Ccompress&bluhash=6d9c25c039cf02d296c8b74a3c3e765d&w=750&h=750&fit=fillmax&fill=solid&s=e351d2347429c4949eca0310de04a8c1",
@@ -33,7 +33,7 @@
       "fields": {
          "sku": "sbd001",
          "name": "Plan B Snake Skin Deck",
-         "description": "Plan B Skateboard Deck",
+         "description": "This Plan B Snake Skin deck is a best seller, and it's not hard to see why. The stunning visuals paired with a quality build makes this a great choice.",
          "price": 50.99,
          "category": 2,
          "rating": 4,
@@ -47,7 +47,7 @@
       "fields": {
          "sku": "sbd002",
          "name": "Plan B Team Foil Deck - Sheckler",
-         "description": "Plan B Skateboard Deck",
+         "description": "The Plan B team foil skateboard decks are a wonderful series. Built strong and designed well, there's nothing not to love about this series.",
          "price": 55.99,
          "category": 2,
          "rating": 5,
@@ -61,7 +61,7 @@
       "fields": {
          "sku": "sbt001",
          "name": "Royal Inverted Kingpin Skateboard Trucks - Raw",
-         "description": "Royal Skateboard Trucks - Pair",
+         "description": "Turn the competition on its head with the Inverted Kingpin Skateboard Trucks from Royal! Introducing an intuative, inverted design, this high-quality hardware is perfect for grinding without getting caught up or carving a patch through the crowd! (Price is for a pair.)",
          "price": 30.00,
          "category": 3,
          "rating": 4,
@@ -75,7 +75,7 @@
       "fields": {
          "sku": "sbt002",
          "name": "Tensor Alloys Skateboard Trucks - Teal/Black",
-         "description": "Tensor Trucks - Pair",
+         "description": "Tensors Alloy trucks are their entry level model, but still have the quality build and materials you'd expect from Tensor. (Price is for a pair.)",
          "price": 23.00,
          "category": 3,
          "rating": 5,
@@ -89,7 +89,7 @@
       "fields": {
          "sku": "sbw001",
          "name": "Autobahn Torus Ultra Skateboard Wheels 52mm – White",
-         "description": "Skateboard Wheels 4-Pack",
+         "description": "The Torus Ultra is a super hard wheel built for technical park and street skating. (Price is for set of 4.)",
          "price": 31.99,
          "category": 4,
          "rating": 5,
@@ -103,7 +103,7 @@
       "fields": {
          "sku": "sbw002",
          "name": "Mosaic MC Skateboard Wheels",
-         "description": "Mosaic MC Skateboard Wheels - 52mm - 4-Pack",
+         "description": "High quality, speedy and tough skateboard wheels from Mosaic, with a stylish design.",
          "price": 19.99,
          "category": 4,
          "rating": 5,
@@ -117,7 +117,7 @@
       "fields": {
          "sku": "sbgt001",
          "name": "Grizzly Stamp Skateboard Grip Tape - White",
-         "description": "Grizzly Skateboard Grip Tape.",
+         "description": "Make your mark and your deck stand out with some awesome Grizzly grip tape. This grip features a Grizzly's classic Stamp Logo in the centre of a white grip tape.",
          "price": 10.00,
          "category": 5,
          "rating": 5,
@@ -131,7 +131,7 @@
       "fields": {
          "sku": "sbgt002",
          "name": "CORE Skateboard Grip Tape - Black",
-         "description": "CORE Skateboard Grip Tape - Black",
+         "description": "Classic black skateboard griptape, made with a grippy silicone carbide formula and super tough to keep you on your board for longer. Made from one of the worlds best griptape factories so you know it's going to be sick!",
          "price": 5.99,
          "category": 5,
          "rating": 5,
@@ -145,7 +145,7 @@
       "fields": {
          "sku": "cts001",
          "name": "Santa Cruz Classic Dot Long Sleeve T Shirt – Black",
-         "description": "Santa Cruz Classic Dot Long Sleeve T Shirt – Black",
+         "description": "Classic Cruz! This Long Sleeve tee is part of the Santa Cruz Core collection, and features the Classic Dot logo.",
          "price": 20.99,
          "category": 6,
          "rating": 4,
@@ -159,7 +159,7 @@
       "fields": {
          "sku": "cts002",
          "name": "Spitfire Classic 87' Swirl T Shirt - Navy/Sliver Fleck & White",
-         "description": "Spitfire Classic 87' Swirl T Shirt - Navy/Sliver Fleck & White",
+         "description": "The Spitfire Swirl is one of the most popular designs from Spitfire, it gives off a swirling effect so good it can trick the human eye! It features a silver fleck Spitfire Swirl print to the back and a smaller print to the left of the chest.",
          "price": 31.99,
          "category": 6,
          "rating": 3,
@@ -173,7 +173,7 @@
       "fields": {
          "sku": "ch001",
          "name": "Independent Blockade Raglan Hoodie - Black/Silver",
-         "description": "Independent Blockade Raglan Hoodie - Black/Silver",
+         "description": "A high quality, comfortable and wearable hoodie from the masters of skateboarding hardware, Independent Truck Co.",
          "price": 55.99,
          "category": 7,
          "rating": 5,
@@ -187,7 +187,7 @@
       "fields": {
          "sku": "ch002",
          "name": "Spitfire Olde E Bighead Fill Sleeve Hoodie - Charcoal/Red & Yellow",
-         "description": "Spitfire Olde E Bighead Fill Sleeve Hoodie - Charcoal/Red & Yellow",
+         "description": "The Spitfire Big E Fill hoodie features the iconic Bighead logo along the sleeves and the Spitfire name across the chest! Made from a heavyweight cotton blend for warmth and comfort with a lined drawstring hood and front pouch pocket.",
          "price": 65.99,
          "category": 7,
          "rating": 5,
@@ -201,7 +201,7 @@
       "fields": {
          "sku": "chs001",
          "name": "CORE Sweatshirt - Jet Black",
-         "description": "CORE Sweatshirt - Jet Black",
+         "description": "Time to upgrade your wardrobe with this CORE Logo sweatshirt. Represent CORE wherever you are with this premium quality crewneck!",
          "price": 32.99,
          "category": 8,
          "rating": 4,
@@ -215,7 +215,7 @@
       "fields": {
          "sku": "chs002",
          "name": "Santa Cruz Womens Poppy Strip Crew - Athletic Heather",
-         "description": "Santa Cruz Womens Poppy Strip Crew - Athletic Heather",
+         "description": "Super soft polyester cotton blend crewneck from Santa Cruz, featuring classic artwork and a comfortable fit.",
          "price": 35.99,
          "category": 8,
          "rating": 4,
@@ -229,7 +229,7 @@
       "fields": {
          "sku": "cha001",
          "name": "Independent Split Cross Snapback Cap - Black/Orange",
-         "description": "Independent Split Cross Snapback Cap - Black/Orange",
+         "description": "The Split Cross mid profile 5 panel is an unstructured, flat bill snapback hat in cotton twill fabric. It features a contrast bill and back plastic adjuster, as well as a front Independent Split Cross logo print.",
          "price": 22.99,
          "category": 9,
          "rating": 4,
@@ -243,7 +243,7 @@
       "fields": {
          "sku": "cha002",
          "name": "Vans Classic Patch Trucker Cap - Black/White",
-         "description": "Vans Classic Patch Trucker Cap - Black/White",
+         "description": "The Classic Patch Trucker Cap is a 5-panel mesh back trucker cap with Vans OTW logo patch on front panel and Vans clip label at the rear.",
          "price": 20.99,
          "category": 9,
          "rating": 5,
@@ -257,7 +257,7 @@
       "fields": {
          "sku": "cbb001",
          "name": "Hype Pink Mint Speckle 18L Backpack – Multi",
-         "description": "Hype Pink Mint Speckle 18L Backpack – Multi",
+         "description": "Carry all the essentials in this high-quality, stylish backpack from Hype.",
          "price": 24.99,
          "category": 10,
          "rating": 5,
@@ -271,7 +271,7 @@
       "fields": {
          "sku": "cbb002",
          "name": "Hype Astro Space Drawstring Bag – Multi",
-         "description": "Hype Astro Space Drawstring Bag – Multi",
+         "description": "The Hype Script Drawstring will go with you anywhere! The drawstrings keep your favourite belongings safe and secure, while the polyester material will also keep them dry during bad weather. Perfect for those days when you're on the go!",
          "price": 10.00,
          "category": 10,
          "rating": 3,
@@ -285,7 +285,7 @@
       "fields": {
          "sku": "ssa001",
          "name": "Adidas Busenitz Vulc II Shoes",
-         "description": "Adidas Busenitz Vulc II Shoes",
+         "description": "This redesign of legendary skater Dennis Busenitz's signature shoes one-ups the original with even more cushioning and durability.",
          "price": 65.00,
          "category": 11,
          "rating": 5,
@@ -299,7 +299,7 @@
       "fields": {
          "sku": "ssa002",
          "name": "Adidas Copa Nationale Shoes",
-         "description": "Adidas Copa Nationale Shoes",
+         "description": "The Copa Nationale Shoes instantly became a standout for their tech-forward features and modern design. This version injects even more eye-catching detail with colourways inspired by the flashy kits of the '90s. The mix of durable suede and breathable mesh along with a Cloudfoam heel offer a snug, responsive fit and balanced board feel. Shock absorption and flexibility allow the Copa to adapt to your needs.",
          "price": 79.99,
          "category": 11,
          "rating": 5,
@@ -313,7 +313,7 @@
       "fields": {
          "sku": "ssdc001",
          "name": "DC Net Leather Shoes",
-         "description": "DC Net Leather Shoes",
+         "description": "This classic DC shoe design is always a winner.",
          "price": 54.99,
          "category": 12,
          "rating": 5,
@@ -327,7 +327,7 @@
       "fields": {
          "sku": "ssdc002",
          "name": "DC Central Leather Shoes Black/White",
-         "description": "DC Central Leather Shoes Black/White",
+         "description": "DC never fail to make incredibly stylish and comfortable shoes. They have been a staple in the skateboarding world for many years, and it's easy to see why!",
          "price": 50.99,
          "category": 12,
          "rating": 5,
@@ -341,7 +341,7 @@
       "fields": {
          "sku": "sse001",
          "name": "Etnies Calli Vulc Womens Skate Shoes – Denim",
-         "description": "Etnies Calli Vulc Womens Skate Shoes – Denim",
+         "description": "Inspired by the Calli-Cut. A die-cut EVA midsole with egg crate constuction. Vulcanized outsole with a fully deconstructed upper and geo-hex tread pattern. Low toe box keeping the vamp closer to your foot. Single wrap vulcanized foxing tape.",
          "price": 27.99,
          "category": 13,
          "rating": 5,
@@ -355,7 +355,7 @@
       "fields": {
          "sku": "sse002",
          "name": "Etnies Joslin Vulc Skate Shoes – Royal",
-         "description": "Etnies Joslin Vulc Skate Shoes – Royal",
+         "description": "Etnies is proud to introduce two firsts, the Joslin Vulc, designed by Chris Joslin himself, featuring the first ever Michelin Vulc outsole, designed for extended durability and high performance. The Joslin Vulc is created with a durable Michelin tread pattern inspired from the Marana, a Pro Foam 1 PU insole, rubber to underlay and double wrap vulc foxing. For even more durability, they've added a rubber heel wrap for additional support. The Joslin Vulc offers another option for the skater craving a slimmed down Joslin Pro model, that can still skate anything and everything Chris does. Designed and tested by Chris Joslin.",
          "price": 48.99,
          "category": 13,
          "rating": 4,
@@ -369,7 +369,7 @@
       "fields": {
          "sku": "ssn001",
          "name": "Nike SB Bruin React T Skate Shoes - Summit White/Black-Bright Crimson",
-         "description": "Nike SB Bruin React T Skate Shoes - Summit White/Black-Bright Crimson",
+         "description": "The Nike SB Bruin React T Skate Shoes in Summit White/Black-Bright Crimson are a lightweight, flexible skate shoe that are built to last.",
          "price": 90.00,
          "category": 14,
          "rating": 4,
@@ -383,7 +383,7 @@
       "fields": {
          "sku": "ssn002",
          "name": "Nike SB BLZR Court Skate Shoes - Pink Salt/White-Pink Salt-White",
-         "description": "Nike SB BLZR Court Skate Shoes - Pink Salt/White-Pink Salt-White",
+         "description": "The Nike SB BLZR Court in Pink Salt/White-Pink Salt-White are a low key, minimal skate shoe that offers a retro court silhouette and have been designed to withstand the wear-and-tear of modern street skating.",
          "price": 60.00,
          "category": 14,
          "rating": 5,
@@ -397,7 +397,7 @@
       "fields": {
          "sku": "ssv001",
          "name": "Vans Old Skool Pro Skate Shoes - Black/Orange",
-         "description": "Vans Old Skool Pro Skate Shoes - Black/Orange",
+         "description": "Introducing the Vans Old Skool Pro in Black/Orange. These shoes feature a suede/canvas upper atop a classic Vans Old Skool silhouette, with original leather side stripe and upgraded UltraCush HD Sockliners for advanced cushioning.",
          "price": 42.99,
          "category": 15,
          "rating": 4,
@@ -411,7 +411,7 @@
       "fields": {
          "sku": "ssv002",
          "name": "Vans Skate Old Skool Shoes - Black/White",
-         "description": "Vans Skate Old Skool Shoes - Black/White",
+         "description": "Built specifically for skateboarding, vans skate classics are all style on the outside and extra tough on the inside. Featuring reinforced materials and upgraded construction for added durability and energy-return cushioning for longer skate sessions. Plus a few finishing touches for a more heritage look and style.",
          "price": 65.00,
          "category": 15,
          "rating": 5,
