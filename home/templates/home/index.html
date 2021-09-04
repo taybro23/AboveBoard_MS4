@@ -19,17 +19,17 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <a href="#">
-                            <img src="/media/skateboard-home-feat.jpg" class="d-block w-100 image-1" alt="...">
+                            <img src="{% static 'images/newarrivals.jpg' %}" class="d-block w-100 image-1" alt="...">
                         </a>
                     </div>
                     <div class="carousel-item">
                         <a href="#">
-                            <img src="/media/clothing-home-feat.jpg" class="d-block w-100" alt="...">
+                            <img src="{% static 'images/bestsellers.jpg' %}" class="d-block w-100" alt="...">
                         </a>
                     </div>
                     <div class="carousel-item">
                         <a href="#">
-                            <img src="/media/shoes-home-feat.jpg" class="d-block w-100" alt="...">
+                            <img src="{% static 'images/saleitems.jpg' %}" class="d-block w-100" alt="...">
                         </a>
                     </div>
                 </div>
@@ -46,10 +46,53 @@
             </div>
         </div>
 
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <h1 class="text-center mt-5">Featured Brands</h1>
+        <!-- Featured Brands -->
+        <div class="container-fluid text-center">
+            <h1 class="text-center mt-5 mb-5">
+                <span class="underline title-span">Featured</span> Brands
+            </h1>
+            <div class="row justify-content-center">
+                <div class="col-6 col-md-3">
+                    <a href="#">
+                        <img class="brand-img" src="{% static 'images/nikesblogo.jpg' %}" alt="brand">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="#">
+                        <img class="brand-img" src="{% static 'images/tensorlogo.jpg' %}" alt="brand">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="#">
+                        <img class="brand-img" src="{% static 'images/santacruzlogo.jpg' %}" alt="brand">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="#">
+                        <img class="brand-img" src="{% static 'images/chocolatelogo.jpg' %}" alt="brand">
+                    </a>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-6 col-md-3">
+                    <a href="#">
+                        <img class="brand-img" src="{% static 'images/reallogo.jpg' %}" alt="brand">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="#">
+                        <img class="brand-img" src="{% static 'images/planblogo.jpg' %}" alt="brand">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="#">
+                        <img class="brand-img" src="{% static 'images/etnieslogo.jpg' %}" alt="brand">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="#">
+                        <img class="brand-img" src="{% static 'images/independentlogo.jpg' %}" alt="brand">
+                    </a>
                 </div>
             </div>
         </div>
@@ -57,7 +100,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
-                    <h1 class="text-center mt-5">About Above Board</h1>
+                    <h1 class="text-center mt-5"><span class="underline title-span">About</span> Above Board</h1>
                 </div>
             </div>
             <div class="row">
