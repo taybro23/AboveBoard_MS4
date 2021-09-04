@@ -27,7 +27,15 @@ h1 {
     z-index: -1;
 }
 
+.title-span {
+    color: #ff521b;
+}
+
 /* ---------- Top Navbar ---------- */
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem #ff521b91;
+}
 
 /* from Bulma */
 .icon {
@@ -36,6 +44,11 @@ h1 {
     justify-content: center;
     height: 1.5rem;
     width: 1.5rem;
+}
+
+.search-btn {
+    background-color: #fff;
+    color: #ff521b;
 }
 
 /* ---------- Main Navbar ---------- */
@@ -56,6 +69,14 @@ h1 {
     position: relative;
     width: 100%;
     overflow: hidden;
+}
+
+
+/* ---------- Brand Bar ---------- */
+
+.brand-img {
+    width: 120px;
+    margin-bottom: 30px;
 }
 
 
@@ -86,6 +107,10 @@ h1 {
     .carousel-padding {
         padding: 0;
     }
+    .brand-img {
+        width: 190px;
+        margin-bottom: 45px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -99,6 +124,10 @@ h1 {
 
     .carousel-padding {
         padding: 0;
+    }
+    .brand-img {
+        width: 150px;
+        margin-bottom: 30px;
     }
 }
 
