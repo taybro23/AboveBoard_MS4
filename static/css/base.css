@@ -33,8 +33,12 @@ h1 {
 
 /* ---------- Top Navbar ---------- */
 
+#topnav {
+    background-color: #ff521b;
+}
+
 .form-control:focus {
-    box-shadow: 0 0 0 0.25rem #ff521b91;
+    box-shadow: 0 0 0 0.25rem #fff9;
 }
 
 /* from Bulma */
@@ -53,15 +57,18 @@ h1 {
 
 /* ---------- Main Navbar ---------- */
 
+.main-navbar {
+    background-color: #ffc61d;
+}
+
 .link-main {
     margin-left: 20px;
     margin-right: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #000;
+    color: #6f675a;
 }
-
 
 /* ---------- Carousel ---------- */
 
@@ -71,7 +78,6 @@ h1 {
     overflow: hidden;
 }
 
-
 /* ---------- Brand Bar ---------- */
 
 .brand-img {
@@ -79,35 +85,66 @@ h1 {
     margin-bottom: 30px;
 }
 
+/* ---------- Products Page ---------- */
+
+.cat-badge {
+    border: 1px solid #ff521b!important;
+    color: #ff521b;
+}
+
+/* ---------- Back To Top Button ---------- */
 
 .btt-button {
-    height: 42px;
-    width: 42px;
+    height: 50px;
+    width: 50px;
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    bottom: 20px;
+    right: 20px;
+    border: 1px solid #ff521b;
+}
+
+a.btt-link {
+    text-decoration: none;
 }
 
 .btt-link {
     cursor: pointer;
+    color: #ff521b;
 }
 
 /* ---------- Hover ---------- */
 
+/* -- Nav Bars -- */
+
 .search-btn:hover {
-    background-color: #ff521b;
-    color: #fff;
+    background-color: #ffc61d;
+    color: #000;
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #ff521b;
+    color: #000;
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
-    color: #ffffff;
+    background-color: #ffc61d;
+}
+
+/* -- Products Page -- */
+
+.cat-badge:hover {
+    color: #fff;
     background-color: #ff521b;
 }
 
+/* -- Products Page -- */
+
+.btt-button:hover {
+    background-color: #ff521b;
+}
+
+.btt-link:hover {
+    color: #fff;
+}
 
 /* ---------- Media Queries ---------- */
 
