@@ -118,5 +118,21 @@
          "name":"vans",
          "friendly_name":"Vans"
       }
+   },
+   {
+      "pk":16,
+      "model":"products.category",
+      "fields":{
+         "name":"new_arrivals",
+         "friendly_name":"New Arrivals"
+      }
+   },
+   {
+      "pk":17,
+      "model":"products.category",
+      "fields":{
+         "name":"sale",
+         "friendly_name":"Sale"
+      }
    }
 ]

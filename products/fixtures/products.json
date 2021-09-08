@@ -418,5 +418,229 @@
          "image_url": "https://cdn.shopify.com/s/files/1/0274/4293/7933/products/001114089_804x.progressive.jpg?v=1616166456",
          "image": "342-vans-black-white.jpg"
       }
+   },
+   {
+      "pk": 31,
+      "model": "products.product",
+      "fields": {
+         "sku": "na001",
+         "name": "Alien Workshop Spectrum Complete Skateboard",
+         "description": "Constructed from 7-Ply Canadian Hard Rock Maple for a strong build, the Spectrum Complete Skateboard from Alien Workshop features high quality components, awesome artwork and it's ready to ride out the box.",
+         "price": 70.00,
+         "category": 16,
+         "rating": 5,
+         "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Complete/alien-workshop-spectrum-complete-skateboard-00.jpg?auto=format%2Ccompress&bluhash=edad34aa52e7483de49e582b749a5197&w=750&h=750&fit=fillmax&fill=solid&s=94837b88a2e050d68969cfc956e3bea1",
+         "image": "501-alien-workshop-spectrum-complete.jpg"
+      }
+   },
+   {
+      "pk": 32,
+      "model": "products.product",
+      "fields": {
+         "sku": "na002",
+         "name": "Element Section Complete Skateboard",
+         "description": "Try one of these awesome Element Completes. Element complete skateboards are made with the most cutting-edge technologies and best materials for an unrivalled combination of durability and functionality. You can skate with confidence and style with the smooth, solid ride of an Element skateboards FeatherLite deck.",
+         "price": 86.99,
+         "category": 16,
+         "rating": 5,
+         "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Element-Section-Complete-Skateboard.jpg?auto=format%2Ccompress&bluhash=5c236c3f8a9a4977feefb1cc5395c8a9&w=750&h=750&fit=fillmax&fill=solid&s=31d13693d7190d88ea7a24faab3ff076",
+         "image": "502-element-section-complete.jpg"
+      }
+   },
+   {
+      "pk": 33,
+      "model": "products.product",
+      "fields": {
+         "sku": "na003",
+         "name": "Flip Garden Skateboard Deck – Luan",
+         "description": "Constructed from 7-Ply Maple for a strong build, the Luan Garden skateboard deck from Flip features awesome artwork and tons of pop.",
+         "price": 48.99,
+         "category": 16,
+         "rating": 5,
+         "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Decks/flip-garden-skateboard-deck-luan-825-00.jpg?auto=format%2Ccompress&bluhash=3e830cf864a1ba580b9b66cb891cb696&w=750&h=750&fit=fillmax&fill=solid&s=ef20c729ac9725bff26796a09c1107e2",
+         "image": "503-flip-garden-deck-luan.jpg"
+      }
+   },
+   {
+      "pk": 34,
+      "model": "products.product",
+      "fields": {
+         "sku": "na004",
+         "name": "Real Team Classic Oval Skateboard Deck",
+         "description": "Constructed from 7-Ply Canadian Maple for a strong build, the Team Classic Oval Skateboard Deck from Real features classic iconography and tons of pop. Black and white colourways feature pearlescent ink accents.",
+         "price": 49.99,
+         "category": 16,
+         "rating": 5,
+         "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Decks/real-team-classic-oval-skateboard-deck-806-00.jpg?auto=format%2Ccompress&bluhash=3df52facca4d0012953351504fc493c7&w=750&h=750&fit=fillmax&fill=solid&s=e09bd4230faf6e356076237469e4b7ad",
+         "image": "504-real-team-classic-oval-deck.jpg"
+      }
+   },
+   {
+      "pk": 35,
+      "model": "products.product",
+      "fields": {
+         "sku": "na005",
+         "name": "Zero Cole MMXX Reaper Skateboard Deck - Black",
+         "description": "Time is running out to harvest one of these Chris Cole MMXX Reaper pro decks from Zero. Made from high quality 7-Ply maple for responsiveness and pop.",
+         "price": 58.99,
+         "category": 16,
+         "rating": 5,
+         "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Decks/zero-cole-mmxx-reaper-skateboard-deck-black-8-25.jpg?auto=format%2Ccompress&bluhash=5cd3ffe98636ad3af3614631bef1cc3c&w=750&h=750&fit=fillmax&fill=solid&s=2e96149d9d086e5c5581a09dc0694b2b",
+         "image": "505-zero-cole-mmxx-reaper-deck-black.jpg"
+      }
+   },
+   {
+      "pk": 36,
+      "model": "products.product",
+      "fields": {
+         "sku": "na006",
+         "name": "Independent Pro Mason Silva Standard Skateboard Trucks - Black/Silver",
+         "description": "Independent uses only the best materials: 356 T6 Aluminum Hangers and Baseplates, 4140 Chromoly Steel Axles, and Grade 8 Kingpins. Every component has been carefully designed and tested to be responsive, lightweight, and ultra-durable.",
+         "price": 68.99,
+         "category": 16,
+         "rating": 5,
+         "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Parts/independent-pro-mason-silva-standard-skateboard-trucks-black-silver-00.jpg?auto=format%2Ccompress&bluhash=063c1ff6b3dbf1642ce8ce48e50408ac&w=750&h=750&fit=fillmax&fill=solid&s=edfaaf21361e5335420aa2a5be0ca836",
+         "image": "506-independent-pro-mason-silva-trucks-black-silver.jpg"
+      }
+   },
+   {
+      "pk": 37,
+      "model": "products.product",
+      "fields": {
+         "sku": "na007",
+         "name": "Darkstar Divide Skateboard Wheels",
+         "description": "Tune up your setup with these Divide Wheels with two-tone graphic from Darkstar.",
+         "price": 18.00,
+         "category": 16,
+         "rating": 5,
+         "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Parts/darkstar-divide-skateboard-wheels_1-53mm.jpg?auto=format%2Ccompress&bluhash=a4b60e2c40ae1c6adf579b9a7ba42094&w=750&h=750&fit=fillmax&fill=solid&s=ecaafb5234e04e4a8469af573c0274f2",
+         "image": "507-darkstar-divide-wheels.jpg"
+      }
+   },
+   {
+      "pk": 38,
+      "model": "products.product",
+      "fields": {
+         "sku": "na008",
+         "name": "Enuff Refresher II 55D 53mm Skateboard Wheels",
+         "description": "The extremely popular Refresher shape and 55D compound means these wheels are ideal for park and street and are incredibly hard wearing. Subtle in design and available in 7 great colours these wheels are fantastic for riders of all abilities. These wheels provide great quality at a great price!",
+         "price": 18.00,
+         "category": 16,
+         "rating": 5,
+         "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Enuff%20Refresher%20II%2055D%20Skateboard%20Wheels.jpg?auto=format%2Ccompress&bluhash=44fa20edaf862f53fedba03513fb49fa&w=750&h=750&fit=fillmax&fill=solid&s=a1f87294ec56f5384c3d6c8b8ecd8fc9",
+         "image": "508-enuff-refresher-II-wheels.jpg"
+      }
+   },
+   {
+      "pk": 39,
+      "model": "products.product",
+      "fields": {
+         "sku": "s001",
+         "name": "DC Gridlock T-Shirt – Black",
+         "description": "Check out this retro style t-shirt from DC Shoe Co! ",
+         "price": 14.99,
+         "category": 17,
+         "rating": 5,
+         "image_url": "https://cdn.shopify.com/s/files/1/0274/4293/7933/products/001111653_804x.progressive.jpg?v=1613667081",
+         "image": "701-dc-gridlock-tshirt.jpg"
+      }
+   },
+   {
+      "pk": 40,
+      "model": "products.product",
+      "fields": {
+         "sku": "s002",
+         "name": "Nike SB Icon Essential Hoodie - Violet Star/Dark Wine",
+         "description": "This Nike SB Icon Hoodie keeps you warm on and off your board thanks to soft fleece and an adjustable hood.",
+         "price": 55.99,
+         "category": 17,
+         "rating": 5,
+         "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Clothing/nike-sb-icon-essential-hoodie-violet-star-dark-wine-04.jpeg?auto=format%2Ccompress&bluhash=738a3c298cd130c4eea79f899818fe04&w=750&h=750&fit=fillmax&fill=solid&s=6fe5f91449a3fbee9164f43f58ecda80",
+         "image": "702-nike-sb-icon-essential-hoodie-violet-star-dark-wine.jpeg"
+      }
+   },
+   {
+      "pk": 41,
+      "model": "products.product",
+      "fields": {
+         "sku": "s003",
+         "name": "Nike SB Icon Essential Pullover Hoodie - Game Royal/White",
+         "description": "The Nike SB Icon Essential Pullover Hoodie in Game Royal/White is pretty much as essential as you could get. No fuss, just the perfect everyday hood with clean, bold branding. Constructed from a cotton/poly blend, this hood features a brushed interior lining, stretchy rib at the cuffs and hem, raglan sleeves for manoeuvrability, an adjustable drawstring hood and a large kangaroo pocket.",
+         "price": 50.00,
+         "category": 17,
+         "rating": 5,
+         "image_url": "https://cdn.shopify.com/s/files/1/0274/4293/7933/products/001110999_7ba3e9d3-353d-4df1-aee5-93e056adb0e8_804x.progressive.jpg?v=1619610272",
+         "image": "703-nike-sb-essential-blue.jpg"
+      }
+   },
+   {
+      "pk": 42,
+      "model": "products.product",
+      "fields": {
+         "sku": "s004",
+         "name": "Thrasher Skate Mag Logo Crewneck – Grey",
+         "description": "Add some flavour to your wardrobe with the Skate Mag Logo Crewneck from Thrasher! With its bold and basic design, this classic Crewneck is the perfect way to look hot whilst keeping your cool, all at the same time! Pick up yours today and tear up the street!",
+         "price": 39.99,
+         "category": 17,
+         "rating": 5,
+         "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Thrasher%20Skate%20Mag%20Logo%20Crewneck%20-%20Grey.jpg?auto=format%2Ccompress&bluhash=3a910ca619225ff2ab0462a4d005b020&w=750&h=750&fit=fillmax&fill=solid&s=ef28c37a97adc74885a1ccbc7f8e1f80",
+         "image": "704-thrasher-crewneck-grey.jpg"
+      }
+   },
+   {
+      "pk": 43,
+      "model": "products.product",
+      "fields": {
+         "sku": "s005",
+         "name": "Adidas Matchbreak Super Skate Shoes - Crystal White/Collegiate Green/C",
+         "description": "The Adidas Matchbreak Super Skate Shoes in Crystal White/Collegiate Green/C have been specially designed from the inside out, meaning they feature a seamless interior which helps creates a glove-like fit. The higher foxing tape relieves pressure on the upper and the foot sits closer to the ground for better board feel and control.",
+         "price": 44.99,
+         "category": 17,
+         "rating": 5,
+         "image_url": "https://cdn.shopify.com/s/files/1/0274/4293/7933/products/001109049.jpg?v=1613750226",
+         "image": "705-adidas-matchbreak.jpg"
+      }
+   },
+   {
+      "pk": 44,
+      "model": "products.product",
+      "fields": {
+         "sku": "s006",
+         "name": "Converse Louie Lopez Pro Mid Skate Shoes - Black/Black/White",
+         "description": "The Converse Louie Lopez Pro has returned with an updated profile. The Midtop version of the shoe in Black/Black/White boasts all of the same features as the original, like resilient rubber backed suede upper, a durable vulcanised gum outsole, CX foam cushioning and a ridiculously comfortable sock liner. With extra protection around the ankle, the shoe is more durable, comfortable, and protective. These come with an overall clean aesthetic with Converse branding and Louie Lopez details.",
+         "price": 40.00,
+         "category": 17,
+         "rating": 5,
+         "image_url": "https://cdn.shopify.com/s/files/1/0274/4293/7933/products/001119251_804x.progressive.jpg?v=1629990811",
+         "image": "706-converse-louie-lopez.jpg"
+      }
+   },
+   {
+      "pk": 45,
+      "model": "products.product",
+      "fields": {
+         "sku": "s007",
+         "name": "éS Silo SC Skate Shoes - White/Navy",
+         "description": "The Silo SC is a modern, slimmed-down version of the original Silo shoe. The clean, classic style cup sole offers protection from big drops and high impact whilst still being thin and offering an amazing board feel. The synthetic leather and mesh uppers offer a blend of durability and breathability when skating. The shoe is made easy to put on with classic tong and heel pull tabs, adding to that OG skate shoe look. This is a perfect shoe for those who love the 90's aesthetic with the functionality of a modern skate shoe. To top it all of this shoe is completely vegan!",
+         "price": 69.99,
+         "category": 17,
+         "rating": 5,
+         "image_url": "https://cdn.shopify.com/s/files/1/0274/4293/7933/products/001109260_804x.progressive.jpg?v=1621518009",
+         "image": "707-es-silo.jpg"
+      }
+   },
+   {
+      "pk": 46,
+      "model": "products.product",
+      "fields": {
+         "sku": "s008",
+         "name": "Lakai Cambridge Skate Shoes - White/Teal Suede",
+         "description": "The Lakai Cambridge Skate Shoes in White/Teal Suede feature a PARA-MOUNT™ outsole that has been described as their most advanced vulcanised construction to date and a suede/mesh/perforated leather upper with bold branding and clean lines. Finished off with a DELUX-LITE™ footbed for supreme comfort. A clean, effortless skate shoe with all the added details you'll need for days on end skating.",
+         "price": 59.99,
+         "category": 17,
+         "rating": 5,
+         "image_url": "https://cdn.shopify.com/s/files/1/0274/4293/7933/products/001115046_804x.progressive.jpg?v=1627483320",
+         "image": "708-lakai-cambridge.jpg"
+      }
    }
 ]

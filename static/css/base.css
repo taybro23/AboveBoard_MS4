@@ -7,6 +7,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1 {
@@ -71,6 +72,10 @@ h1 {
 }
 
 /* ---------- Carousel ---------- */
+
+.carousel-padding {
+    padding: 0;
+}
 
 .carousel-inner {
     position: relative;
@@ -159,9 +164,6 @@ a.btt-link {
     .carousel-inner {
         height: 500px;
     }
-    .carousel-padding {
-        padding: 0;
-    }
     .brand-img {
         width: 190px;
         margin-bottom: 45px;
@@ -172,13 +174,8 @@ a.btt-link {
     .header-container {
         padding-top: 112px;
     }
-
     .carousel-inner {
         height: 500px;
-    }
-
-    .carousel-padding {
-        padding: 0;
     }
     .brand-img {
         width: 150px;
@@ -197,7 +194,7 @@ a.btt-link {
     }
 }
 
-/* pad the top a bit when navbar is collapsed on mobile */
+/* pad the top when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
         padding-top: 116px;
