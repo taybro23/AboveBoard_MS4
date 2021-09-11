@@ -112,9 +112,10 @@ a.btt-link {
     text-decoration: none;
 }
 
-.btt-link {
+.btt-link,
+.update-link,
+.remove-item {
     cursor: pointer;
-    color: #ff521b;
 }
 
 /* ---------- Hover ---------- */
