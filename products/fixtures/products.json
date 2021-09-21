@@ -150,7 +150,8 @@
          "category": 6,
          "rating": 4,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/SAN-218-CLA-LON-BLA.jpg?auto=format%2Ccompress&bluhash=3e5679cd37f572121767eb8599d77e6e&w=750&h=750&fit=fillmax&fill=solid&s=9db34bc08a92f9fcd1ca926646a6b4ed",
-         "image": "201-santa-cruz-classic.jpg"
+         "image": "201-santa-cruz-classic.jpg",
+         "has_sizes": "True"
       }
    },
    {
@@ -164,7 +165,8 @@
          "category": 6,
          "rating": 3,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Clothing/spitfire-classic-87-swirl-t-shirt-navy-sliver-fleck-white-00.jpg?auto=format%2Ccompress&bluhash=4d033d81900aaafe9f8494ad05e2f607&w=750&h=750&fit=fillmax&fill=solid&s=341774c8c93cc3aa70eedf915156b73f",
-         "image": "202-spitfire-classic-87-swirl-t-shirt-navy-sliver-fleck-white.jpg"
+         "image": "202-spitfire-classic-87-swirl-t-shirt-navy-sliver-fleck-white.jpg",
+         "has_sizes": "True"
       }
    },
    {
@@ -178,7 +180,8 @@
          "category": 7,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Clothing/independent-blockade-raglan-hoodie-black-silver-00.jpg?auto=format%2Ccompress&bluhash=6e8e707f3d136545bda98e2f72d8db19&w=750&h=750&fit=fillmax&fill=solid&s=01fc829e8885a5a7a391df1bb27cc2f9",
-         "image": "211-independent-blockade-raglan-hoodie-black-silver.jpg"
+         "image": "211-independent-blockade-raglan-hoodie-black-silver.jpg",
+         "has_sizes": "True"
       }
    },
    {
@@ -192,7 +195,8 @@
          "category": 7,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Clothing/spitfire-olde-e-bighead-fill-sleeve-hoodie-charcoal-red-yellow-00.jpg?auto=format%2Ccompress&bluhash=50828f094f387e4df600329c128bd61a&w=750&h=750&fit=fillmax&fill=solid&s=fb9398e7c7c56c38b4fd50b3bfa39129",
-         "image": "212-spitfire-olde-e-bighead-fill-sleeve-hoodie-charcoal-red-yellow.jpg"
+         "image": "212-spitfire-olde-e-bighead-fill-sleeve-hoodie-charcoal-red-yellow.jpg",
+         "has_sizes": "True"
       }
    },
    {
@@ -206,7 +210,8 @@
          "category": 8,
          "rating": 4,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Clothing/core-awdis-hoodie-jet-black-00.jpg?auto=format%2Ccompress&bluhash=3a17508aa60e29478f08d8853433d055&w=750&h=750&fit=fillmax&fill=solid&s=4afbf55969d9e314b8bd3d575ddd54f7",
-         "image": "221-core-awdis-hoodie-jet-black.jpg"
+         "image": "221-core-awdis-hoodie-jet-black.jpg",
+         "has_sizes": "True"
       }
    },
    {
@@ -220,7 +225,8 @@
          "category": 8,
          "rating": 4,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Clothing/santa-cruz-womens-poppy-strip-crew-athletic-heather-00.jpg?auto=format%2Ccompress&bluhash=f98ab42de429f31f05a3c519e0839d5c&w=750&h=750&fit=fillmax&fill=solid&s=7d72a80e24c8f9ecfe6bc9f1cf78873e",
-         "image": "222-santa-cruz-womens-poppy-strip-crew-athletic-heather.jpg"
+         "image": "222-santa-cruz-womens-poppy-strip-crew-athletic-heather.jpg",
+         "has_sizes": "True"
       }
    },
    {
@@ -542,7 +548,8 @@
          "category": 17,
          "rating": 5,
          "image_url": "https://cdn.shopify.com/s/files/1/0274/4293/7933/products/001111653_804x.progressive.jpg?v=1613667081",
-         "image": "701-dc-gridlock-tshirt.jpg"
+         "image": "701-dc-gridlock-tshirt.jpg",
+         "has_sizes": "True"
       }
    },
    {
@@ -556,7 +563,8 @@
          "category": 17,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Clothing/nike-sb-icon-essential-hoodie-violet-star-dark-wine-04.jpeg?auto=format%2Ccompress&bluhash=738a3c298cd130c4eea79f899818fe04&w=750&h=750&fit=fillmax&fill=solid&s=6fe5f91449a3fbee9164f43f58ecda80",
-         "image": "702-nike-sb-icon-essential-hoodie-violet-star-dark-wine.jpeg"
+         "image": "702-nike-sb-icon-essential-hoodie-violet-star-dark-wine.jpeg",
+         "has_sizes": "True"
       }
    },
    {
@@ -570,7 +578,8 @@
          "category": 17,
          "rating": 5,
          "image_url": "https://cdn.shopify.com/s/files/1/0274/4293/7933/products/001110999_7ba3e9d3-353d-4df1-aee5-93e056adb0e8_804x.progressive.jpg?v=1619610272",
-         "image": "703-nike-sb-essential-blue.jpg"
+         "image": "703-nike-sb-essential-blue.jpg",
+         "has_sizes": "True"
       }
    },
    {
@@ -584,7 +593,8 @@
          "category": 17,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Thrasher%20Skate%20Mag%20Logo%20Crewneck%20-%20Grey.jpg?auto=format%2Ccompress&bluhash=3a910ca619225ff2ab0462a4d005b020&w=750&h=750&fit=fillmax&fill=solid&s=ef28c37a97adc74885a1ccbc7f8e1f80",
-         "image": "704-thrasher-crewneck-grey.jpg"
+         "image": "704-thrasher-crewneck-grey.jpg",
+         "has_sizes": "True"
       }
    },
    {
