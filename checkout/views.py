@@ -14,19 +14,19 @@ def checkout(request):
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
 
-    if request.method == 'post':
+    if request.method == 'POST':
         bag = request.session.get('bag', {})
 
         form_data = {
-            'full_name': request.POST['full_name']
-            'email': request.POST['email']
-            'phone_number': request.POST['phone_number']
-            'country': request.POST['country']
-            'postcode': request.POST['postcode']
-            'town_or_city': request.POST['town_or_city']
-            'street_address1': request.POST['street_address1']
-            'street_address2': request.POST['street_address2']
-            'county': request.POST['county']
+            'full_name': request.POST['full_name'],
+            'email': request.POST['email'],
+            'phone_number': request.POST['phone_number'],
+            'country': request.POST['country'],
+            'postcode': request.POST['postcode'],
+            'town_or_city': request.POST['town_or_city'],
+            'street_address1': request.POST['street_address1'],
+            'street_address2': request.POST['street_address2'],
+            'county': request.POST['county'],
         }
         order_form = OrderForm(form_data)
         if order_form.is_valid():
@@ -66,7 +66,7 @@ def checkout(request):
     else:
         bag = request.session.get('bag', {})
         if not bag:
-            messages.error(request, "There's nothing in your bag at the moment!")
+            messages.error(request, "There's nothing in your bag at the moment")
             return redirect(reverse('products'))
 
         current_bag = bag_contents(request)
@@ -88,10 +88,11 @@ def checkout(request):
     context = {
         'order_form': order_form,
         'stripe_public_key': stripe_public_key,
-        'client_secret': intent.client_secret
+        'client_secret': intent.client_secret,
     }
 
     return render(request, template, context)
+
 
 def checkout_success(request, order_number):
     """
