@@ -1,1 +1,1 @@
-web: gunicorn AboveBoard_MS4.wsgi:application
+web: gunicorn aboveboard.wsgi:application
