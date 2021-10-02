@@ -27,7 +27,7 @@
         <script src="https://kit.fontawesome.com/a5a5384453.js" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-        <!-- Stripe -->
+        <!----- Stripe ----->
         <script src="https://js.stripe.com/v3/"></script>
     {% endblock %}
 
@@ -38,7 +38,7 @@
 </head>
 
 <body>
-    <!-- Top Navbar -->
+    <!----- Top Nav Bar ------------------------------------------->
     <header class="container-fluid fixed-top">
         <div id="topnav" class="row pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
@@ -102,7 +102,7 @@
                 </ul>
             </div>
         </div>
-        <!-- Bottom Navbar -->
+        <!----- Bottom Nav Bar ---------------------------------------->
         <div class="row main-navbar">
             <nav class="navbar navbar-expand-lg navbar-light w-100">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
@@ -115,6 +115,7 @@
         </div>
     </header>
 
+    <!----- Messages ---------------------------------------------->
     {% if messages %}
         <div class="message-container">
             {% for message in messages %}
@@ -136,9 +137,59 @@
     {% block page_header %}
     {% endblock %}
 
+    <!----- Page Content ------------------------------------------>
     {% block content %}
     {% endblock %}
 
+    <!----- Footer ------------------------------------------------>
+    <footer class="container-fluid footer-container mt-3">
+        <div class="row">
+            <div class="col-12 col-md-5 text-center mt-4">
+                <h1>Above Board</h1>
+                <hr>
+                <p>
+                    Welcome to Above Board, the online skateshop built FOR skaters, BY skaters!
+                </p>
+            </div>
+            <div class="col-12 col-md text-center mt-4">
+                <h1>Menu</h1>
+                <hr>
+                <p><a href="{% url 'products' %}?category=completes,decks,trucks,wheels,grip_tape" class="footer-menu-link">Skateboards</a></p>
+                <p><a href="{% url 'products' %}?category=tshirts,hoodies,jumpers_sweatshirts,hats,backpacks_bags" class="footer-menu-link">Clothing</a></p>
+                <p><a href="{% url 'products' %}?category=adidas,dc,etnies,nike_sb,vans" class="footer-menu-link">Skate Shoes</a></p>
+                <p><a href="" class="footer-menu-link">Help & Guidance</a></p>
+            </div>
+            <div class="col-12 col-md-5 text-center mt-4">
+                <h1>Contact Us</h1>
+                <hr>
+                <p><i class="fas fa-phone"></i> 07123456789</p>
+                <p><i class="fas fa-envelope-open"></i> info@aboveboard.co.uk</p>
+                <p><i class="fas fa-map-marker-alt"></i> Above Board, 100 Skate Road, Skaterton, SK8 3ER</p>
+                <ul class="list-inline d-flex justify-content-center">
+                    <li class="list-inline-item footer-li">
+                        <a href="https://www.instagram.com" target="_blank">
+                            <i class="fab fa-instagram footericon" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item footer-li">
+                        <a href="https://www.youtube.com" target="_blank">
+                            <i class="fab fa-youtube footericon" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item footer-li">
+                        <a href="https://www.pinterest.com/" target="_blank">
+                            <i class="fab fa-pinterest-p footericon" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!----- Toast JavaScript -------------------------------------->
     {% block postloadjs %}
         <script type="text/javascript">
             $(document).ready(function(){

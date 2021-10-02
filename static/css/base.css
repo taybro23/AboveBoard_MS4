@@ -1,4 +1,4 @@
-/* ---------- General CSS ---------- */
+/*-------------------- General CSS --------------------*/
 
 html {
     height: 100%;
@@ -32,7 +32,7 @@ h1 {
     color: #ff521b;
 }
 
-/* ---------- Top Navbar ---------- */
+/*-------------------- Top Nav Bar --------------------*/
 
 #topnav {
     background-color: #ff521b;
@@ -56,7 +56,7 @@ h1 {
     color: #ff521b;
 }
 
-/* ---------- Main Navbar ---------- */
+/*-------------------- Main Nav Bar --------------------*/
 
 .main-navbar {
     background-color: #ffc61d;
@@ -71,7 +71,39 @@ h1 {
     color: #6f675a;
 }
 
-/* ---------- Carousel ---------- */
+/*-------------------- Footer --------------------*/
+
+.footer-container {
+    background-color: #ffc61d;
+}
+
+.footer-container div hr {
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.footer-container div p {
+    margin-bottom: 5px;
+}
+
+.footer-menu-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-li {
+    margin-top: 5px;
+}
+
+.footericon {
+    color: #ff521b;
+    font-size: 26px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*-------------------- Carousel --------------------*/
 
 .carousel-padding {
     padding: 0;
@@ -83,21 +115,21 @@ h1 {
     overflow: hidden;
 }
 
-/* ---------- Brand Bar ---------- */
+/*-------------------- Brand Bar --------------------*/
 
 .brand-img {
     width: 120px;
     margin-bottom: 30px;
 }
 
-/* ---------- Products Page ---------- */
+/*-------------------- Products Page --------------------*/
 
 .cat-badge {
     border: 1px solid #ff521b!important;
     color: #ff521b;
 }
 
-/* ---------- Back To Top Button ---------- */
+/*-------------------- Back To Top Button --------------------*/
 
 .btt-button {
     height: 50px;
@@ -118,7 +150,7 @@ a.btt-link {
     cursor: pointer;
 }
 
-/* ---------- Toasts ---------- */
+/*-------------------- Toasts --------------------*/
 
 .message-container {
     position: fixed;
@@ -186,10 +218,9 @@ a.btt-link {
     overflow-y: auto;
 }
 
+/*-------------------- Hover --------------------*/
 
-/* ---------- Hover ---------- */
-
-/* -- Nav Bars -- */
+/* ---------- Nav Bars ---------- */
 
 .search-btn:hover {
     background-color: #ffc61d;
@@ -204,14 +235,12 @@ a.btt-link {
     background-color: #ffc61d;
 }
 
-/* -- Products Page -- */
+/* ---------- Products Page ---------- */
 
 .cat-badge:hover {
     color: #fff;
     background-color: #ff521b;
 }
-
-/* -- Products Page -- */
 
 .btt-button:hover {
     background-color: #ff521b;
@@ -221,7 +250,13 @@ a.btt-link {
     color: #fff;
 }
 
-/* Allauth form formatting */
+/* ---------- Footer ---------- */
+
+.footer-menu-link:hover {
+    color: #ff521b;
+}
+
+/* ---------- Allauth Form Formatting ---------- */
 
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
@@ -275,7 +310,7 @@ a.btt-link {
 	color: #17a2b8; /* text-info */
 }
 
-/* Product Form */
+/* ---------- Product Form ---------- */
 
 .btn-file {
     position: relative;
@@ -303,7 +338,7 @@ a.btt-link {
     border-radius: 0;
 }
 
-/* ---------- Media Queries ---------- */
+/*-------------------- Media Queries --------------------*/
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
