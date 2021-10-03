@@ -80,7 +80,79 @@
       }
    },
    {
+      "pk":20,
+      "model":"products.category",
+      "fields":{
+         "name": "skate_shoes",
+         "friendly_name": "Skate Shoes"
+      }
+   },
+   {
+      "pk":11,
+      "model":"products.category",
+      "fields":{
+         "name":"adidas",
+         "friendly_name":"Adidas"
+      }
+   },
+   {
+      "pk":12,
+      "model":"products.category",
+      "fields":{
+         "name":"converse",
+         "friendly_name":"Converse"
+      }
+   },
+   {
+      "pk":13,
+      "model":"products.category",
+      "fields":{
+         "name":"dc",
+         "friendly_name":"DC"
+      }
+   },
+   {
+      "pk":14,
+      "model":"products.category",
+      "fields":{
+         "name":"es",
+         "friendly_name":"éS"
+      }
+   },
+   {
+      "pk":15,
+      "model":"products.category",
+      "fields":{
+         "name":"etnies",
+         "friendly_name":"Etnies"
+      }
+   },
+   {
       "pk":16,
+      "model":"products.category",
+      "fields":{
+         "name":"lakai",
+         "friendly_name":"Lakai"
+      }
+   },
+   {
+      "pk":17,
+      "model":"products.category",
+      "fields":{
+         "name":"nike_sb",
+         "friendly_name":"Nike SB"
+      }
+   },
+   {
+      "pk":18,
+      "model":"products.category",
+      "fields":{
+         "name":"vans",
+         "friendly_name":"Vans"
+      }
+   },
+   {
+      "pk":106,
       "model":"products.category",
       "fields":{
          "name":"new_arrivals",
@@ -88,7 +160,7 @@
       }
    },
    {
-      "pk":17,
+      "pk":107,
       "model":"products.category",
       "fields":{
          "name":"sale",
