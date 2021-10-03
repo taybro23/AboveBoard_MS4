@@ -1,13 +1,16 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <!---- Home Link ---->
         <li class="nav-item active">
             <a class="nav-link link-main" href="{% url 'home' %}">Home</a>
         </li>
+        <!---- Skateboard Links ---->
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle link-main" href="#" id="navbarDropdown1" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 Skateboards
             </a>
+            <!---- Skateboard Dropdowns ---->
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
                 <li><a class="dropdown-item" href="{% url 'products' %}?category=completes,decks,trucks,wheels,grip_tape">All Skateboards</a></li>
                 <li><a class="dropdown-item" href="{% url 'products' %}?category=completes">Completes</a></li>
@@ -17,11 +20,13 @@
                 <li><a class="dropdown-item" href="{% url 'products' %}?category=grip_tape">Grip Tape</a></li>
             </ul>
         </li>
+        <!---- Clothing Links ---->
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle link-main" href="#" id="navbarDropdown2" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 Clothing
             </a>
+            <!---- Clothing Dropdowns ---->
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
                 <li><a class="dropdown-item" href="{% url 'products' %}?category=tshirts,hoodies,jumpers_sweatshirts,hats,backpacks_bags">All Clothing</a></li>
                 <li><a class="dropdown-item" href="{% url 'products' %}?category=tshirts">T-Shirts</a></li>
@@ -31,16 +36,21 @@
                 <li><a class="dropdown-item" href="{% url 'products' %}?category=backpacks_bags">Backpacks & Bags</a></li>
             </ul>
         </li>
+        <!---- Skate Shoes Links ---->
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle link-main" href="#" id="navbarDropdown2" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 Skate Shoes
             </a>
+            <!---- Skate Shoes Dropdowns ---->
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
                 <li><a class="dropdown-item" href="{% url 'products' %}?category=adidas,converse,dc,es,etnies,lakai,nike_sb,vans">All Skate Shoes</a></li>
                 <li><a class="dropdown-item" href="{% url 'products' %}?category=adidas">Adidas</a></li>
+                <li><a class="dropdown-item" href="{% url 'products' %}?category=converse">Converse</a></li>
                 <li><a class="dropdown-item" href="{% url 'products' %}?category=dc">DC</a></li>
+                <li><a class="dropdown-item" href="{% url 'products' %}?category=es">éS</a></li>
                 <li><a class="dropdown-item" href="{% url 'products' %}?category=etnies">Etnies</a></li>
+                <li><a class="dropdown-item" href="{% url 'products' %}?category=lakai">Lakai</a></li>
                 <li><a class="dropdown-item" href="{% url 'products' %}?category=nike_sb">Nike SB</a></li>
                 <li><a class="dropdown-item" href="{% url 'products' %}?category=vans">Vans</a></li>
             </ul>
