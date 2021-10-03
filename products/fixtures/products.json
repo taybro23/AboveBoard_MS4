@@ -8,6 +8,7 @@
          "description": "The Real Be Free complete skateboard is great for those getting comfortable on a skateboard. With a strong build and great design, it's the perfect choice!",
          "price": 79.99,
          "category": 1,
+         "brand": 5,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Complete/real-be-free-complete-skateboard-8-00.jpg?auto=format%2Ccompress&bluhash=efb2ffbcdf19b93db465392f66b4222d&w=750&h=750&fit=fillmax&fill=solid&s=1ad74fc586504783a04a18e114888dbd",
          "image": "101-real-be-free-complete.jpg"
@@ -22,6 +23,7 @@
          "description": "This complete skateboard from Chocolate is a great intermediate level skateboard setup.",
          "price": 149.99,
          "category": 1,
+         "brand": 4,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Custom%20Skateboards/CHO-OGC-ROB-CUS-SKA-775-CUS.jpg?auto=format%2Ccompress&bluhash=6d9c25c039cf02d296c8b74a3c3e765d&w=750&h=750&fit=fillmax&fill=solid&s=e351d2347429c4949eca0310de04a8c1",
          "image": "102-chocolate-complete.jpg"
@@ -36,6 +38,7 @@
          "description": "This Plan B Snake Skin deck is a best seller, and it's not hard to see why. The stunning visuals paired with a quality build makes this a great choice.",
          "price": 50.99,
          "category": 2,
+         "brand": 6,
          "rating": 4,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Decks/plan-b-snake-skin-skateboard-deck-825-00.jpg?auto=format%2Ccompress&bluhash=b66f5616d7505b131593003ffdb6d4a4&w=750&h=750&fit=fillmax&fill=solid&s=ba90b0dde6f183cc28ea715579ee17d0",
          "image": "111-plan-b-snake-skin-deck.jpg"
@@ -50,6 +53,7 @@
          "description": "The Plan B team foil skateboard decks are a wonderful series. Built strong and designed well, there's nothing not to love about this series.",
          "price": 55.99,
          "category": 2,
+         "brand": 6,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Decks/plan-b-team-foil-skateboard-deck-sheckler-8-25-00.jpg?auto=format%2Ccompress&bluhash=4b28d7b73f007bec4b30270c888720fc&w=2000&h=2000&fit=max&s=29dcb0f469b41b1aa169d092106d46a2",
          "image": "112-plan-b-team-foil-deck-sheckler.jpg"
@@ -64,6 +68,7 @@
          "description": "Turn the competition on its head with the Inverted Kingpin Skateboard Trucks from Royal! Introducing an intuative, inverted design, this high-quality hardware is perfect for grinding without getting caught up or carving a patch through the crowd! (Price is for a pair.)",
          "price": 30.00,
          "category": 3,
+         "brand": 9,
          "rating": 4,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Parts/royal-inverted-kingpin-skateboard-trucks-raw-00%20copy.jpg?auto=format%2Ccompress&bluhash=72ebdd6b3910c9311df04c3ce2f5ddb9&w=750&h=750&fit=fillmax&fill=solid&s=c8eedc55811414c6ccfa07b0b6f8431c",
          "image": "121-royal-inverted-kingpin-trucks.jpg"
@@ -78,6 +83,7 @@
          "description": "Tensors Alloy trucks are their entry level model, but still have the quality build and materials you'd expect from Tensor. (Price is for a pair.)",
          "price": 23.00,
          "category": 3,
+         "brand": 2,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Parts/tensor-alloys-skateboard-trucks-teal-black-5-00.jpg?auto=format%2Ccompress&bluhash=4ea43f1ff6fcd1cb57db40049fd1f4bc&w=750&h=750&fit=fillmax&fill=solid&s=757cbab96f0590b28a6493e8ab4f124d",
          "image": "122-tensor-alloys-trucks-teal-black.jpg"
@@ -92,6 +98,7 @@
          "description": "The Torus Ultra is a super hard wheel built for technical park and street skating. (Price is for set of 4.)",
          "price": 31.99,
          "category": 4,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Parts/autobahn-torus-ultra-skateboard-wheels-52mm-white-00.jpg?auto=format%2Ccompress&bluhash=b7e1a273810be5127213ee04f4ad88df&w=750&h=750&fit=fillmax&fill=solid&s=ac5565d0dc1d5399340808f94f95e952",
          "image": "131-autobahn-torus-ultra-wheels-52mm-white-.jpg"
@@ -106,6 +113,7 @@
          "description": "High quality, speedy and tough skateboard wheels from Mosaic, with a stylish design.",
          "price": 19.99,
          "category": 4,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Parts/mosaic-mc-skateboard-wheels-52-000.jpg?auto=format%2Ccompress&bluhash=e543b34e7f3159194217e726bebb5481&w=750&h=750&fit=fillmax&fill=solid&s=f92fa4bc0760ccd6cf02fc117c23033c",
          "image": "132-mosaic-mc-wheels.jpg"
@@ -120,6 +128,7 @@
          "description": "Make your mark and your deck stand out with some awesome Grizzly grip tape. This grip features a Grizzly's classic Stamp Logo in the centre of a white grip tape.",
          "price": 10.00,
          "category": 5,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Grizzly-Stamp-Skateboard-Grip-Tape-White.jpg?auto=format%2Ccompress&bluhash=1eb2b2eba97939e60f9b3b8c0e8ca0f1&w=750&h=750&fit=fillmax&fill=solid&s=50b8f58c3cb98afef554c28cbb2ae213",
          "image": "141-grizzly-stamp-grip-tape-white.jpg"
@@ -134,6 +143,7 @@
          "description": "Classic black skateboard griptape, made with a grippy silicone carbide formula and super tough to keep you on your board for longer. Made from one of the worlds best griptape factories so you know it's going to be sick!",
          "price": 5.99,
          "category": 5,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Scooter%20Parts/core-skateboard-grip-tape-black.jpg?auto=format%2Ccompress&bluhash=a846d384e770bd8f0a1d728823fb22bc&w=750&h=750&fit=fillmax&fill=solid&s=f8745f0395e0433688ed5bb4c8e7f095",
          "image": "142-core-grip-tape-black.jpg"
@@ -148,6 +158,7 @@
          "description": "Classic Cruz! This Long Sleeve tee is part of the Santa Cruz Core collection, and features the Classic Dot logo.",
          "price": 20.99,
          "category": 6,
+         "brand": 3,
          "rating": 4,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/SAN-218-CLA-LON-BLA.jpg?auto=format%2Ccompress&bluhash=3e5679cd37f572121767eb8599d77e6e&w=750&h=750&fit=fillmax&fill=solid&s=9db34bc08a92f9fcd1ca926646a6b4ed",
          "image": "201-santa-cruz-classic.jpg",
@@ -163,6 +174,7 @@
          "description": "The Spitfire Swirl is one of the most popular designs from Spitfire, it gives off a swirling effect so good it can trick the human eye! It features a silver fleck Spitfire Swirl print to the back and a smaller print to the left of the chest.",
          "price": 31.99,
          "category": 6,
+         "brand": 9,
          "rating": 3,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Clothing/spitfire-classic-87-swirl-t-shirt-navy-sliver-fleck-white-00.jpg?auto=format%2Ccompress&bluhash=4d033d81900aaafe9f8494ad05e2f607&w=750&h=750&fit=fillmax&fill=solid&s=341774c8c93cc3aa70eedf915156b73f",
          "image": "202-spitfire-classic-87-swirl-t-shirt-navy-sliver-fleck-white.jpg",
@@ -178,6 +190,7 @@
          "description": "A high quality, comfortable and wearable hoodie from the masters of skateboarding hardware, Independent Truck Co.",
          "price": 55.99,
          "category": 7,
+         "brand": 8,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Clothing/independent-blockade-raglan-hoodie-black-silver-00.jpg?auto=format%2Ccompress&bluhash=6e8e707f3d136545bda98e2f72d8db19&w=750&h=750&fit=fillmax&fill=solid&s=01fc829e8885a5a7a391df1bb27cc2f9",
          "image": "211-independent-blockade-raglan-hoodie-black-silver.jpg",
@@ -193,6 +206,7 @@
          "description": "The Spitfire Big E Fill hoodie features the iconic Bighead logo along the sleeves and the Spitfire name across the chest! Made from a heavyweight cotton blend for warmth and comfort with a lined drawstring hood and front pouch pocket.",
          "price": 65.99,
          "category": 7,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Clothing/spitfire-olde-e-bighead-fill-sleeve-hoodie-charcoal-red-yellow-00.jpg?auto=format%2Ccompress&bluhash=50828f094f387e4df600329c128bd61a&w=750&h=750&fit=fillmax&fill=solid&s=fb9398e7c7c56c38b4fd50b3bfa39129",
          "image": "212-spitfire-olde-e-bighead-fill-sleeve-hoodie-charcoal-red-yellow.jpg",
@@ -208,6 +222,7 @@
          "description": "Time to upgrade your wardrobe with this CORE Logo sweatshirt. Represent CORE wherever you are with this premium quality crewneck!",
          "price": 32.99,
          "category": 8,
+         "brand": 9,
          "rating": 4,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Clothing/core-awdis-hoodie-jet-black-00.jpg?auto=format%2Ccompress&bluhash=3a17508aa60e29478f08d8853433d055&w=750&h=750&fit=fillmax&fill=solid&s=4afbf55969d9e314b8bd3d575ddd54f7",
          "image": "221-core-awdis-hoodie-jet-black.jpg",
@@ -223,6 +238,7 @@
          "description": "Super soft polyester cotton blend crewneck from Santa Cruz, featuring classic artwork and a comfortable fit.",
          "price": 35.99,
          "category": 8,
+         "brand": 3,
          "rating": 4,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Clothing/santa-cruz-womens-poppy-strip-crew-athletic-heather-00.jpg?auto=format%2Ccompress&bluhash=f98ab42de429f31f05a3c519e0839d5c&w=750&h=750&fit=fillmax&fill=solid&s=7d72a80e24c8f9ecfe6bc9f1cf78873e",
          "image": "222-santa-cruz-womens-poppy-strip-crew-athletic-heather.jpg",
@@ -238,6 +254,7 @@
          "description": "The Split Cross mid profile 5 panel is an unstructured, flat bill snapback hat in cotton twill fabric. It features a contrast bill and back plastic adjuster, as well as a front Independent Split Cross logo print.",
          "price": 22.99,
          "category": 9,
+         "brand": 8,
          "rating": 4,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Clothing/independent-split-cross-snapback-cap-black-orange.jpg?auto=format%2Ccompress&bluhash=9ea67033f66f20fa16cf0973c5e80b44&w=750&h=750&fit=fillmax&fill=solid&s=b4fda7f6a16f756c12ef174e24e98e99",
          "image": "231-independent-split-cross-snapback-cap-black-orange.jpg"
@@ -252,6 +269,7 @@
          "description": "The Classic Patch Trucker Cap is a 5-panel mesh back trucker cap with Vans OTW logo patch on front panel and Vans clip label at the rear.",
          "price": 20.99,
          "category": 9,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Vans-Classic-Patch-Trucker-Cap-Black-White.jpg?auto=format%2Ccompress&bluhash=be228fe3b0925d9d26e600cd552b2319&w=750&h=750&fit=fillmax&fill=solid&s=8ac9d2094e235398dec632f55ab339ce",
          "image": "232-vans-classic-patch-trucker-cap-black-white.jpg"
@@ -266,6 +284,7 @@
          "description": "Carry all the essentials in this high-quality, stylish backpack from Hype.",
          "price": 24.99,
          "category": 10,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Backpacks%20and%20Bags/hype-pink-mint-speckle-18l-backpack-multi-00.jpg?auto=format%2Ccompress&bluhash=67c25bc2d2d30edb0370a880c11a207e&w=750&h=750&fit=fillmax&fill=solid&s=87ce7d5007eeaae1c4628543b07771ba",
          "image": "241-hype-pink-mint-speckle.jpg"
@@ -280,6 +299,7 @@
          "description": "The Hype Script Drawstring will go with you anywhere! The drawstrings keep your favourite belongings safe and secure, while the polyester material will also keep them dry during bad weather. Perfect for those days when you're on the go!",
          "price": 10.00,
          "category": 10,
+         "brand": 9,
          "rating": 3,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Backpacks%20and%20Bags/hype-astro-space-drawstring-bag-multi.jpg?auto=format%2Ccompress&bluhash=0997c60965e31d26a2628b5eedf7ec4c&w=750&h=750&fit=fillmax&fill=solid&s=cccda1dce487fc8baa1c2a5abdb8ab84",
          "image": "242-hype-astro-space-drawstring-bag.jpg"
@@ -294,6 +314,7 @@
          "description": "This redesign of legendary skater Dennis Busenitz's signature shoes one-ups the original with even more cushioning and durability.",
          "price": 65.00,
          "category": 11,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://mcdn.assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/760df0e31dad44f4b874aa9e010178be_9366/Busenitz_Vulc_II_Shoes_Black_EF8472_01_standard.jpg",
          "image": "301-busenitz-vulc-II-black.jpg"
@@ -308,6 +329,7 @@
          "description": "The Copa Nationale Shoes instantly became a standout for their tech-forward features and modern design. This version injects even more eye-catching detail with colourways inspired by the flashy kits of the '90s. The mix of durable suede and breathable mesh along with a Cloudfoam heel offer a snug, responsive fit and balanced board feel. Shock absorption and flexibility allow the Copa to adapt to your needs.",
          "price": 79.99,
          "category": 11,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://mcdn.assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/97c1a481e4734e669446acbd012a29f5_9366/Copa_Nationale_Shoes_Orange_H04895_01_standard.jpg",
          "image": "302-copa-nationale-orange.jpg"
@@ -322,6 +344,7 @@
          "description": "This classic DC shoe design is always a winner.",
          "price": 54.99,
          "category": 12,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://images.boardriders.com/globalGrey/dcshoes-products/all/default/xlarge/302361_dcshoes,p_blw_frt1.jpg",
          "image": "311-dc-net.jpg"
@@ -336,6 +359,7 @@
          "description": "DC never fail to make incredibly stylish and comfortable shoes. They have been a staple in the skateboarding world for many years, and it's easy to see why!",
          "price": 50.99,
          "category": 12,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://images.boardriders.com/globalGrey/dcshoes-products/all/default/xlarge/adys100551_dcshoes,p_bkw_frt2.jpg",
          "image": "312-dc-central.jpg"
@@ -350,6 +374,7 @@
          "description": "Inspired by the Calli-Cut. A die-cut EVA midsole with egg crate constuction. Vulcanized outsole with a fully deconstructed upper and geo-hex tread pattern. Low toe box keeping the vamp closer to your foot. Single wrap vulcanized foxing tape.",
          "price": 27.99,
          "category": 13,
+         "brand": 7,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Shoes/etnies-calli-vulc-womens-skate-shoes-denim.jpg?auto=format%2Ccompress&bluhash=20a8eac0ba0c2d5f8871acde50348633&w=750&h=750&fit=fillmax&fill=solid&s=ff15aaadc6f2e0b7d510635b46034b3c",
          "image": "321-etnies-calli-vulc-womens-skate-shoes-denim.jpg"
@@ -364,6 +389,7 @@
          "description": "Etnies is proud to introduce two firsts, the Joslin Vulc, designed by Chris Joslin himself, featuring the first ever Michelin Vulc outsole, designed for extended durability and high performance. The Joslin Vulc is created with a durable Michelin tread pattern inspired from the Marana, a Pro Foam 1 PU insole, rubber to underlay and double wrap vulc foxing. For even more durability, they've added a rubber heel wrap for additional support. The Joslin Vulc offers another option for the skater craving a slimmed down Joslin Pro model, that can still skate anything and everything Chris does. Designed and tested by Chris Joslin.",
          "price": 48.99,
          "category": 13,
+         "brand": 7,
          "rating": 4,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Shoes/etnies-joslin-vulc-skate-shoes-royal-00.jpg?auto=format%2Ccompress&bluhash=0940f4fad0b87a37ab2d70ed4bef1e69&w=750&h=750&fit=fillmax&fill=solid&s=b6a93a81d0edfd9e599ee4ba046dbd1a",
          "image": "322-etnies-joslin-vulc-skate-shoes-royal.jpg"
@@ -378,6 +404,7 @@
          "description": "The Nike SB Bruin React T Skate Shoes in Summit White/Black-Bright Crimson are a lightweight, flexible skate shoe that are built to last.",
          "price": 90.00,
          "category": 14,
+         "brand": 1,
          "rating": 4,
          "image_url": "https://cdn.shopify.com/s/files/1/0274/4293/7933/products/001119079_804x.progressive.jpg?v=1628002469",
          "image": "331-nike-sb-bruin-react.jpg"
@@ -392,6 +419,7 @@
          "description": "The Nike SB BLZR Court in Pink Salt/White-Pink Salt-White are a low key, minimal skate shoe that offers a retro court silhouette and have been designed to withstand the wear-and-tear of modern street skating.",
          "price": 60.00,
          "category": 14,
+         "brand": 1,
          "rating": 5,
          "image_url": "https://cdn.shopify.com/s/files/1/0274/4293/7933/products/001119078_804x.progressive.jpg?v=1624372133",
          "image": "332-nike-sb-blzr-pink.jpg"
@@ -406,6 +434,7 @@
          "description": "Introducing the Vans Old Skool Pro in Black/Orange. These shoes feature a suede/canvas upper atop a classic Vans Old Skool silhouette, with original leather side stripe and upgraded UltraCush HD Sockliners for advanced cushioning.",
          "price": 42.99,
          "category": 15,
+         "brand": 9,
          "rating": 4,
          "image_url": "https://cdn.shopify.com/s/files/1/0274/4293/7933/products/001099954_804x.progressive.jpg?v=1605101260",
          "image": "341-vans-black-orange.jpg"
@@ -420,6 +449,7 @@
          "description": "Built specifically for skateboarding, vans skate classics are all style on the outside and extra tough on the inside. Featuring reinforced materials and upgraded construction for added durability and energy-return cushioning for longer skate sessions. Plus a few finishing touches for a more heritage look and style.",
          "price": 65.00,
          "category": 15,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://cdn.shopify.com/s/files/1/0274/4293/7933/products/001114089_804x.progressive.jpg?v=1616166456",
          "image": "342-vans-black-white.jpg"
@@ -434,6 +464,7 @@
          "description": "Constructed from 7-Ply Canadian Hard Rock Maple for a strong build, the Spectrum Complete Skateboard from Alien Workshop features high quality components, awesome artwork and it's ready to ride out the box.",
          "price": 70.00,
          "category": 16,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Complete/alien-workshop-spectrum-complete-skateboard-00.jpg?auto=format%2Ccompress&bluhash=edad34aa52e7483de49e582b749a5197&w=750&h=750&fit=fillmax&fill=solid&s=94837b88a2e050d68969cfc956e3bea1",
          "image": "501-alien-workshop-spectrum-complete.jpg"
@@ -448,6 +479,7 @@
          "description": "Try one of these awesome Element Completes. Element complete skateboards are made with the most cutting-edge technologies and best materials for an unrivalled combination of durability and functionality. You can skate with confidence and style with the smooth, solid ride of an Element skateboards FeatherLite deck.",
          "price": 86.99,
          "category": 16,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Element-Section-Complete-Skateboard.jpg?auto=format%2Ccompress&bluhash=5c236c3f8a9a4977feefb1cc5395c8a9&w=750&h=750&fit=fillmax&fill=solid&s=31d13693d7190d88ea7a24faab3ff076",
          "image": "502-element-section-complete.jpg"
@@ -462,6 +494,7 @@
          "description": "Constructed from 7-Ply Maple for a strong build, the Luan Garden skateboard deck from Flip features awesome artwork and tons of pop.",
          "price": 48.99,
          "category": 16,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Decks/flip-garden-skateboard-deck-luan-825-00.jpg?auto=format%2Ccompress&bluhash=3e830cf864a1ba580b9b66cb891cb696&w=750&h=750&fit=fillmax&fill=solid&s=ef20c729ac9725bff26796a09c1107e2",
          "image": "503-flip-garden-deck-luan.jpg"
@@ -476,6 +509,7 @@
          "description": "Constructed from 7-Ply Canadian Maple for a strong build, the Team Classic Oval Skateboard Deck from Real features classic iconography and tons of pop. Black and white colourways feature pearlescent ink accents.",
          "price": 49.99,
          "category": 16,
+         "brand": 5,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Decks/real-team-classic-oval-skateboard-deck-806-00.jpg?auto=format%2Ccompress&bluhash=3df52facca4d0012953351504fc493c7&w=750&h=750&fit=fillmax&fill=solid&s=e09bd4230faf6e356076237469e4b7ad",
          "image": "504-real-team-classic-oval-deck.jpg"
@@ -490,6 +524,7 @@
          "description": "Time is running out to harvest one of these Chris Cole MMXX Reaper pro decks from Zero. Made from high quality 7-Ply maple for responsiveness and pop.",
          "price": 58.99,
          "category": 16,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Decks/zero-cole-mmxx-reaper-skateboard-deck-black-8-25.jpg?auto=format%2Ccompress&bluhash=5cd3ffe98636ad3af3614631bef1cc3c&w=750&h=750&fit=fillmax&fill=solid&s=2e96149d9d086e5c5581a09dc0694b2b",
          "image": "505-zero-cole-mmxx-reaper-deck-black.jpg"
@@ -504,6 +539,7 @@
          "description": "Independent uses only the best materials: 356 T6 Aluminum Hangers and Baseplates, 4140 Chromoly Steel Axles, and Grade 8 Kingpins. Every component has been carefully designed and tested to be responsive, lightweight, and ultra-durable.",
          "price": 68.99,
          "category": 16,
+         "brand": 8,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Parts/independent-pro-mason-silva-standard-skateboard-trucks-black-silver-00.jpg?auto=format%2Ccompress&bluhash=063c1ff6b3dbf1642ce8ce48e50408ac&w=750&h=750&fit=fillmax&fill=solid&s=edfaaf21361e5335420aa2a5be0ca836",
          "image": "506-independent-pro-mason-silva-trucks-black-silver.jpg"
@@ -518,6 +554,7 @@
          "description": "Tune up your setup with these Divide Wheels with two-tone graphic from Darkstar.",
          "price": 18.00,
          "category": 16,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Parts/darkstar-divide-skateboard-wheels_1-53mm.jpg?auto=format%2Ccompress&bluhash=a4b60e2c40ae1c6adf579b9a7ba42094&w=750&h=750&fit=fillmax&fill=solid&s=ecaafb5234e04e4a8469af573c0274f2",
          "image": "507-darkstar-divide-wheels.jpg"
@@ -532,6 +569,7 @@
          "description": "The extremely popular Refresher shape and 55D compound means these wheels are ideal for park and street and are incredibly hard wearing. Subtle in design and available in 7 great colours these wheels are fantastic for riders of all abilities. These wheels provide great quality at a great price!",
          "price": 18.00,
          "category": 16,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Enuff%20Refresher%20II%2055D%20Skateboard%20Wheels.jpg?auto=format%2Ccompress&bluhash=44fa20edaf862f53fedba03513fb49fa&w=750&h=750&fit=fillmax&fill=solid&s=a1f87294ec56f5384c3d6c8b8ecd8fc9",
          "image": "508-enuff-refresher-II-wheels.jpg"
@@ -546,6 +584,7 @@
          "description": "Check out this retro style t-shirt from DC Shoe Co! ",
          "price": 14.99,
          "category": 17,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://cdn.shopify.com/s/files/1/0274/4293/7933/products/001111653_804x.progressive.jpg?v=1613667081",
          "image": "701-dc-gridlock-tshirt.jpg",
@@ -561,6 +600,7 @@
          "description": "This Nike SB Icon Hoodie keeps you warm on and off your board thanks to soft fleece and an adjustable hood.",
          "price": 55.99,
          "category": 17,
+         "brand": 1,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Clothing/nike-sb-icon-essential-hoodie-violet-star-dark-wine-04.jpeg?auto=format%2Ccompress&bluhash=738a3c298cd130c4eea79f899818fe04&w=750&h=750&fit=fillmax&fill=solid&s=6fe5f91449a3fbee9164f43f58ecda80",
          "image": "702-nike-sb-icon-essential-hoodie-violet-star-dark-wine.jpeg",
@@ -576,6 +616,7 @@
          "description": "The Nike SB Icon Essential Pullover Hoodie in Game Royal/White is pretty much as essential as you could get. No fuss, just the perfect everyday hood with clean, bold branding. Constructed from a cotton/poly blend, this hood features a brushed interior lining, stretchy rib at the cuffs and hem, raglan sleeves for manoeuvrability, an adjustable drawstring hood and a large kangaroo pocket.",
          "price": 50.00,
          "category": 17,
+         "brand": 1,
          "rating": 5,
          "image_url": "https://cdn.shopify.com/s/files/1/0274/4293/7933/products/001110999_7ba3e9d3-353d-4df1-aee5-93e056adb0e8_804x.progressive.jpg?v=1619610272",
          "image": "703-nike-sb-essential-blue.jpg",
@@ -591,6 +632,7 @@
          "description": "Add some flavour to your wardrobe with the Skate Mag Logo Crewneck from Thrasher! With its bold and basic design, this classic Crewneck is the perfect way to look hot whilst keeping your cool, all at the same time! Pick up yours today and tear up the street!",
          "price": 39.99,
          "category": 17,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://skatehut.images.blucommerce.com/skatehut/product/Thrasher%20Skate%20Mag%20Logo%20Crewneck%20-%20Grey.jpg?auto=format%2Ccompress&bluhash=3a910ca619225ff2ab0462a4d005b020&w=750&h=750&fit=fillmax&fill=solid&s=ef28c37a97adc74885a1ccbc7f8e1f80",
          "image": "704-thrasher-crewneck-grey.jpg",
@@ -606,6 +648,7 @@
          "description": "The Adidas Matchbreak Super Skate Shoes in Crystal White/Collegiate Green/C have been specially designed from the inside out, meaning they feature a seamless interior which helps creates a glove-like fit. The higher foxing tape relieves pressure on the upper and the foot sits closer to the ground for better board feel and control.",
          "price": 44.99,
          "category": 17,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://cdn.shopify.com/s/files/1/0274/4293/7933/products/001109049.jpg?v=1613750226",
          "image": "705-adidas-matchbreak.jpg"
@@ -620,6 +663,7 @@
          "description": "The Converse Louie Lopez Pro has returned with an updated profile. The Midtop version of the shoe in Black/Black/White boasts all of the same features as the original, like resilient rubber backed suede upper, a durable vulcanised gum outsole, CX foam cushioning and a ridiculously comfortable sock liner. With extra protection around the ankle, the shoe is more durable, comfortable, and protective. These come with an overall clean aesthetic with Converse branding and Louie Lopez details.",
          "price": 40.00,
          "category": 17,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://cdn.shopify.com/s/files/1/0274/4293/7933/products/001119251_804x.progressive.jpg?v=1629990811",
          "image": "706-converse-louie-lopez.jpg"
@@ -634,6 +678,7 @@
          "description": "The Silo SC is a modern, slimmed-down version of the original Silo shoe. The clean, classic style cup sole offers protection from big drops and high impact whilst still being thin and offering an amazing board feel. The synthetic leather and mesh uppers offer a blend of durability and breathability when skating. The shoe is made easy to put on with classic tong and heel pull tabs, adding to that OG skate shoe look. This is a perfect shoe for those who love the 90's aesthetic with the functionality of a modern skate shoe. To top it all of this shoe is completely vegan!",
          "price": 69.99,
          "category": 17,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://cdn.shopify.com/s/files/1/0274/4293/7933/products/001109260_804x.progressive.jpg?v=1621518009",
          "image": "707-es-silo.jpg"
@@ -648,6 +693,7 @@
          "description": "The Lakai Cambridge Skate Shoes in White/Teal Suede feature a PARA-MOUNT™ outsole that has been described as their most advanced vulcanised construction to date and a suede/mesh/perforated leather upper with bold branding and clean lines. Finished off with a DELUX-LITE™ footbed for supreme comfort. A clean, effortless skate shoe with all the added details you'll need for days on end skating.",
          "price": 59.99,
          "category": 17,
+         "brand": 9,
          "rating": 5,
          "image_url": "https://cdn.shopify.com/s/files/1/0274/4293/7933/products/001115046_804x.progressive.jpg?v=1627483320",
          "image": "708-lakai-cambridge.jpg"

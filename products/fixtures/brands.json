@@ -1,0 +1,74 @@
+[
+    {
+        "pk": 1,
+        "model": "products.brand",
+        "fields": { 
+            "name": "nikesb", 
+            "friendly_name": "NikeSB" 
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.brand",
+        "fields": { 
+            "name": "tensor", 
+            "friendly_name": "Tensor" 
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.brand",
+        "fields": { 
+            "name": "santa_cruz", 
+            "friendly_name": "SantaCruz" 
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.brand",
+        "fields": { 
+            "name": "chocolate", 
+            "friendly_name": "Chocolate" 
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.brand",
+        "fields": { 
+            "name": "real", 
+            "friendly_name": "Real" 
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.brand",
+        "fields": { 
+            "name": "planb", 
+            "friendly_name": "PlanB" 
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.brand",
+        "fields": { 
+            "name": "etnies", 
+            "friendly_name": "Etnies" 
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.brand",
+        "fields": { 
+            "name": "independent", 
+            "friendly_name": "Independent" 
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.brand",
+        "fields": { 
+            "name": "other", 
+            "friendly_name": "Other" 
+        }
+    }
+]

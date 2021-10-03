@@ -17,11 +17,6 @@
         <div class="container-fluid justify-content-center carousel-padding">
             <div id="carousel-fade" class="carousel slide carousel-fade mt-3 mb-3" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <!--<div class="carousel-item">
-                        <a href="#">
-                            <img src="{% static 'images/newarrivals.jpg' %}" class="d-block w-100 image-1" alt="...">
-                        </a>
-                    </div>-->
                     <div class="carousel-item active">
                         <a href="#">
                             <img src="{% static 'images/newarrivals.jpg' %}" class="d-block w-100" alt="...">
@@ -53,44 +48,44 @@
             </h1>
             <div class="row justify-content-center">
                 <div class="col-6 col-md-3">
-                    <a href="#">
+                    <a href="{% url 'products' %}?brand=nikesb">
                         <img class="brand-img" src="{% static 'images/nikesblogo.jpg' %}" alt="brand">
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
-                    <a href="#">
+                    <a href="{% url 'products' %}?brand=tensor">
                         <img class="brand-img" src="{% static 'images/tensorlogo.jpg' %}" alt="brand">
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
-                    <a href="#">
+                    <a href="{% url 'products' %}?brand=santa_cruz">
                         <img class="brand-img" src="{% static 'images/santacruzlogo.jpg' %}" alt="brand">
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
-                    <a href="#">
+                    <a href="{% url 'products' %}?brand=chocolate">
                         <img class="brand-img" src="{% static 'images/chocolatelogo.jpg' %}" alt="brand">
                     </a>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-6 col-md-3">
-                    <a href="#">
+                    <a href="{% url 'products' %}?brand=real">
                         <img class="brand-img" src="{% static 'images/reallogo.jpg' %}" alt="brand">
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
-                    <a href="#">
+                    <a href="{% url 'products' %}?brand=planb">
                         <img class="brand-img" src="{% static 'images/planblogo.jpg' %}" alt="brand">
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
-                    <a href="#">
+                    <a href="{% url 'products' %}?brand=etnies">
                         <img class="brand-img" src="{% static 'images/etnieslogo.jpg' %}" alt="brand">
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
-                    <a href="#">
+                    <a href="{% url 'products' %}?brand=independent">
                         <img class="brand-img" src="{% static 'images/independentlogo.jpg' %}" alt="brand">
                     </a>
                 </div>
