@@ -27,6 +27,7 @@ def cache_checkout_data(request):
             'save_info': request.POST.get('save_info'),
             'username': request.user,
         })
+        print(json.dumps(request.session.get('bag', {})))
         return HttpResponse(status=200)
     except Exception as e:
         messages.error(request, 'Sorry, your payment cannot be \
@@ -111,7 +112,7 @@ def checkout(request):
             amount=stripe_total,
             currency=settings.STRIPE_CURRENCY,
         )
-
+        print(intent)
         # Attempt to prefill the form with any info
         # the user maintains in their profile
         if request.user.is_authenticated:
