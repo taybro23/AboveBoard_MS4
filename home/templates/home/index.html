@@ -13,21 +13,24 @@
 
 {% block content %}
 
-        <!-- Featured Products Carousel -->
+        <!----- Carousel ------------------------------------------>
         <div class="container-fluid justify-content-center carousel-padding">
             <div id="carousel-fade" class="carousel slide carousel-fade mt-3 mb-3" data-bs-ride="carousel">
                 <div class="carousel-inner">
+                    <!---- New Arrivals ---->
                     <div class="carousel-item active">
                         <a href="#">
                             <img src="{% static 'images/newarrivals.jpg' %}" class="d-block w-100" alt="...">
                         </a>
                     </div>
+                    <!---- Sale Items ---->
                     <div class="carousel-item">
                         <a href="#">
                             <img src="{% static 'images/saleitems.jpg' %}" class="d-block w-100" alt="...">
                         </a>
                     </div>
                 </div>
+                <!---- Buttons ---->
                 <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carousel-fade"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -41,7 +44,7 @@
             </div>
         </div>
 
-        <!-- Featured Brands -->
+        <!----- Featured Brands ----------------------------------->
         <div class="container-fluid text-center">
             <h1 class="text-center mt-5 mb-5">
                 <span class="underline title-span">Featured</span> Brands
@@ -49,50 +52,50 @@
             <div class="row justify-content-center">
                 <div class="col-6 col-md-3">
                     <a href="{% url 'products' %}?brand=nikesb">
-                        <img class="brand-img" src="{% static 'images/nikesblogo.jpg' %}" alt="brand">
+                        <img class="brand-img" src="{% static 'images/nikesblogo.jpg' %}" alt="NikeSB Logo">
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
                     <a href="{% url 'products' %}?brand=tensor">
-                        <img class="brand-img" src="{% static 'images/tensorlogo.jpg' %}" alt="brand">
+                        <img class="brand-img" src="{% static 'images/tensorlogo.jpg' %}" alt="Tensor Logo">
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
                     <a href="{% url 'products' %}?brand=santa_cruz">
-                        <img class="brand-img" src="{% static 'images/santacruzlogo.jpg' %}" alt="brand">
+                        <img class="brand-img" src="{% static 'images/santacruzlogo.jpg' %}" alt="Santa Cruz Logo">
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
                     <a href="{% url 'products' %}?brand=chocolate">
-                        <img class="brand-img" src="{% static 'images/chocolatelogo.jpg' %}" alt="brand">
+                        <img class="brand-img" src="{% static 'images/chocolatelogo.jpg' %}" alt="Chocolate Logo">
                     </a>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-6 col-md-3">
                     <a href="{% url 'products' %}?brand=real">
-                        <img class="brand-img" src="{% static 'images/reallogo.jpg' %}" alt="brand">
+                        <img class="brand-img" src="{% static 'images/reallogo.jpg' %}" alt="Real Logo">
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
                     <a href="{% url 'products' %}?brand=planb">
-                        <img class="brand-img" src="{% static 'images/planblogo.jpg' %}" alt="brand">
+                        <img class="brand-img" src="{% static 'images/planblogo.jpg' %}" alt="PlanB Logo">
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
                     <a href="{% url 'products' %}?brand=etnies">
-                        <img class="brand-img" src="{% static 'images/etnieslogo.jpg' %}" alt="brand">
+                        <img class="brand-img" src="{% static 'images/etnieslogo.jpg' %}" alt="Etnies Logo">
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
                     <a href="{% url 'products' %}?brand=independent">
-                        <img class="brand-img" src="{% static 'images/independentlogo.jpg' %}" alt="brand">
+                        <img class="brand-img" src="{% static 'images/independentlogo.jpg' %}" alt="Independent Logo">
                     </a>
                 </div>
             </div>
         </div>
 
-        <!-- About Section -->
+        <!----- About Section ------------------------------------->
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
@@ -102,7 +105,7 @@
             <div class="row">
                 <div class="col">
                     <p class="text-center">
-                        Welcome to Above Board, the online skateshop built FOR skaters, BY skaters!
+                        Welcome to Above Board, the online skateshop built FOR skaters, BY skaters! 
                     </p>
                 </div>
             </div>
