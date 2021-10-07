@@ -81,6 +81,7 @@ h1 {
     margin: 0 auto;
     width: 50%;
     margin-bottom: 10px;
+    color: #000;
 }
 
 .footer-container div p {
@@ -122,11 +123,28 @@ h1 {
     margin-bottom: 30px;
 }
 
+.welcome-text {
+    font-style: italic;
+    width: 80%;
+    margin: auto;
+    font-size: 16px;
+}
+
 /*-------------------- Products Page --------------------*/
 
 .cat-badge {
     border: 1px solid #ff521b!important;
     color: #ff521b;
+}
+
+.badge {
+    font-size: 15px;
+}
+
+/*-------------------- Reviews --------------------*/
+
+.review-text {
+    font-size: 18px;
 }
 
 /*-------------------- Back To Top Button --------------------*/
