@@ -7,7 +7,9 @@
     <div class="row">
         <div class="col">
             {% if user.is_authenticated %}
-                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#reviewsModal">Leave A Review!</button>
+                <a href="#reviewsModal" data-bs-toggle="modal">
+                    <span class="p-3 mt-2 mb-2 badge rounded-0 cat-badge">Leave A Review!</span>
+                </a>
                 <!-- Modal -->
                 <div class="modal" id="reviewsModal" tabindex="-1">
                     <div class="modal-dialog">
@@ -30,12 +32,12 @@
         </div>
     </div>
     <div class="row">
-        <div class="col">
+        <div class="col mt-2">
             {% if product.review %}
                 {% for review in reviews %}
                 {% endfor %}
             {% else %}
-                <p>No reviews yet! Why not leave the first review!</p>
+                <p class="review-text">No reviews yet! Why not leave the first review?</p>
             {% endif %}
         </div>
     </div>
