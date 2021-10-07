@@ -14,10 +14,37 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col text-center mt-3">
-                <h1 class="underline mt-3 mb-3">Products</h1>
+                {% for c in current_categories %}
+                    {% if c.name == 'completes' and 'decks' and 'trucks' and 'wheels' and 'grip_tape' %}
+                        <h1 class="underline mt-3 mb-3">Skateboards</h1>
+                    {% elif c.name == 'tshirts' and 'hoodies' and 'jumpers_sweatshirts' and 'hats' and 'backpacks_bags' %}
+                        <h1 class="underline mt-3 mb-3">Clothing</h1>
+                    {% elif c.name == 'adidas' and 'converse' and 'dc' and 'es' and 'etnies' and 'lakai' and 'nike_sb' and 'vans' %}
+                        <h1 class="underline mt-3 mb-3">Skate Shoes</h1>
+                    {% endif %}
+                {% endfor %}
+                {% for b in current_brands %}
+                    {% if b.name == 'nikesb' %}
+                        <h1 class="underline mt-3 mb-3">Nike SB</h1>
+                    {% elif b.name == 'tensor' %}
+                        <h1 class="underline mt-3 mb-3">Tensor</h1>
+                    {% elif b.name == 'santa_cruz' %}
+                        <h1 class="underline mt-3 mb-3">Santa Cruz</h1>
+                    {% elif b.name == 'chocolate' %}
+                        <h1 class="underline mt-3 mb-3">Chocolate</h1>
+                    {% elif b.name == 'real' %}
+                        <h1 class="underline mt-3 mb-3">Real</h1>
+                    {% elif b.name == 'planb' %}
+                        <h1 class="underline mt-3 mb-3">Plan B</h1>
+                    {% elif b.name == 'etnies' %}
+                        <h1 class="underline mt-3 mb-3">Etnies</h1>
+                    {% elif b.name == 'independent' %}
+                        <h1 class="underline mt-3 mb-3">Independent</h1>
+                    {% endif %}
+                {% endfor %}
                 {% for c in current_categories %}
                     <a class="category-badge text-decoration-none" href="{% url 'products' %}?category={{ c.name }}">
-                        <span class="p-2 mt-2 badge rounded-0 cat-badge">{{ c.friendly_name }}</span>
+                        <span class="p-3 mt-2 badge rounded-0 cat-badge">{{ c.friendly_name }}</span>
                     </a>
                 {% endfor %}
                 <hr class="w-75 mb-1 mt-3 mx-auto">
@@ -44,7 +71,7 @@
                     <div class="col-12 col-md-6 order-md-first">
                         <p class="text-muted mt-3 text-center text-md-left">
                             {% if search_term or current_categories or current_brand or current_sorting != 'None_None' %}
-                                <span class="small"><a href="{% url 'products' %}">Products Home</a> | </span>
+                                <span class="small"><a href="{% url 'products' %}">All Products</a> | </span>
                             {% endif %}
                             {{ products|length }} Products{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
                         </p>
