@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 
 class Category(models.Model):
@@ -46,3 +47,33 @@ class Brand(models.Model):
 
     def get_friendly_name(self):
         return self.friendly_name
+
+
+class ProductReview(models.Model):
+    """
+    Product Review Model
+    """
+
+    class Meta:
+        ordering = ['-date_added']
+        verbose_name_plural = 'Product Reviews'
+
+    rating_selection = (
+        (1, '1'),
+        (2, '2'),
+        (3, '3'),
+        (4, '4'),
+        (5, '5'),
+    )
+
+    product = models.ForeignKey(Product, related_name='reviews', null=True,
+                                blank=True, on_delete=models.SET_NULL)
+    user = models.ForeignKey(User, null=True, blank=True,
+                             on_delete=models.CASCADE)
+    title = models.CharField(max_length=254)
+    content = models.TextField()
+    rating = models.IntegerField(choices=rating_selection, default=5)
+    date_added = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.title

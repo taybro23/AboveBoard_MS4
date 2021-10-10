@@ -4,8 +4,8 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
-from .models import Product, Category, Brand
-from .forms import ProductForm
+from .models import Product, Category, Brand, ProductReview
+from .forms import ReviewForm, ProductForm
 
 
 def all_products(request):
@@ -71,15 +71,76 @@ def all_products(request):
 
 
 def product_detail(request, product_id):
-    """ A view to show individual product details """
+    """
+    A view to return the dedicated product page with product description
+    """
 
     product = get_object_or_404(Product, pk=product_id)
+    form = ReviewForm()
 
     context = {
         'product': product,
+        'form': form,
     }
 
     return render(request, 'products/product_detail.html', context)
+
+
+@login_required
+def add_review(request, product_id):
+    """ Allow user to add review """
+
+    product = get_object_or_404(Product, pk=product_id)
+
+    if request.user.is_authenticated:
+        if request.method == 'POST':
+            form = ReviewForm(request.POST)
+            if form.is_valid():
+                review = form.save(commit=False)
+                review.product = product
+                review.user = request.user
+                review.save()
+                messages.success(request, 'Thank You! Your review \
+                    has been added!')
+                return redirect(reverse('product_detail', args=[product.id]))
+            else:
+                messages.error(request, 'Oops, something went wrong! \
+                    Please try adding your review again.')
+    context = {
+        'form': form
+    }
+    return render(request, context)
+
+
+@login_required
+def edit_review(request, review_id):
+    """ Allow user to edit their review """
+
+    review = get_object_or_404(ProductReview, pk=review_id)
+    product = review.product
+
+    if request.method == 'POST':
+        form = ReviewForm(request.POST, instance=review)
+        if form.is_valid():
+            form.save()
+            messages.info(request, 'Your review has been amended!')
+            return redirect(reverse('product_detail', args=[product.id]))
+        else:
+            messages.error(request, 'Failed to edit your \
+                review, please try again!')
+
+    else:
+        form = ReviewForm(instance=review)
+
+    messages.info(request, 'You are currently editing your review.')
+    template = 'products/product_detail.html'
+    context = {
+        'form': form,
+        'review': review,
+        'product': product,
+        'edit': True,
+    }
+    return render(request, template, context)
 
 
 @login_required
@@ -87,7 +148,7 @@ def add_product(request):
     """ Add a product to the store """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners \
-            can access this page.')
+            and admins can access this page!')
         return redirect(reverse('home'))
 
     if request.method == 'POST':
