@@ -2,10 +2,8 @@
     <div class="row">
         <div class="col-12 col-md-10 col-lg-6 offset-lg-3"> 
             <h1 class="text-center underline">Reviews</h1> 
-            <!-- Showing all product reviews-->
             {% for review in product.reviews.all %}
                 <div class="card review-container mt-5">
-                    <!-- Edit Review Button-->
                     {% if review.user == request.user or request.user.is_superuser %}
                         <div class="card-head text-right">
                             <a class="btn btn-info edit-btn" href="{% url 'edit_review' review.id %}#reviews">
@@ -31,7 +29,6 @@
             <h5 class="text-center mt-5 mb-2">Why not write your own review?</h5>
             {% if request.user.is_authenticated %}
                 {% if edit %}
-                    <!-- Edit Review Form -->
                     <form method="POST" action="{% url 'edit_review' review.id %}#reviews">
                         {% csrf_token %}
                         {{ form|crispy }}
@@ -40,7 +37,6 @@
                         </div>
                     </form>
                 {% else %}
-                    <!--Review Form -->
                     <form method="POST" action="{% url 'add_review' product.id %}#reviews">
                         {% csrf_token %}
                         {{ form|crispy }}
