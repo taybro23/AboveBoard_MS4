@@ -148,7 +148,7 @@
     {% endblock %}
 
     <!----- Footer ------------------------------------------------>
-    <footer class="container-fluid footer-container">
+    <footer class="container-fluid footer-container mt-5">
         <div class="row">
             <!---- About Site ---->
             <div class="col-12 col-md-5 text-center mt-4">
@@ -165,7 +165,7 @@
                 <p><a href="{% url 'products' %}?category=completes,decks,trucks,wheels,grip_tape" class="footer-menu-link">Skateboards</a></p>
                 <p><a href="{% url 'products' %}?category=tshirts,hoodies,jumpers_sweatshirts,hats,backpacks_bags" class="footer-menu-link">Clothing</a></p>
                 <p><a href="{% url 'products' %}?category=adidas,converse,dc,es,etnies,lakai,nike_sb,vans" class="footer-menu-link">Skate Shoes</a></p>
-                <p><a href="" class="footer-menu-link">Help & Guidance</a></p>
+                <p><a href="{% url 'help_guidance' %}" class="footer-menu-link">Help & Guidance</a></p>
             </div>
             <!---- Contact Information ---->
             <div class="col-12 col-md-5 text-center mt-4">
