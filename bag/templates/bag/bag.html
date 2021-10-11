@@ -27,7 +27,7 @@
         <div class="row">
             <div class="col">
                 {% if bag_items %}
-                <!---- If Products in Bag ---->
+                <!----- If Products in Bag ----->
                     <div class="table-responsive rounded">
                         <table class="table table-sm table-borderless">
                             <thead class="text-black">
@@ -40,9 +40,9 @@
                                 </tr>
                             </thead>
                             {% for item in bag_items %}
-                            <!---- Bag Product Display ---->
+                            <!----- Bag Product Display ----->
                                 <tr>
-                                    <!---- Image ---->
+                                    <!----- Image ----->
                                     <td class="p-3 w-25">
                                         {% if item.product.image %}
                                             <img class="img-fluid rounded" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
@@ -50,19 +50,19 @@
                                             <img class="img-fluid rounded" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.name }}">
                                         {% endif %}
                                     </td>
-                                    <!---- Name, Size and SKU ---->
+                                    <!----- Name, Size and SKU ----->
                                     <td class="py-3">
                                         <p class="my-0">{{ item.product.name }}</p>
                                         <p class="my-0"><strong>Size: </strong>{% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}</p>
                                         <p class="my-0 small text-muted">SKU: {{ item.product.sku|upper }}</p>
                                     </td>
-                                    <!---- Price ---->
+                                    <!----- Price ----->
                                     <td class="py-3">
                                         <p class="my-0">£{{ item.product.price }}</p>
                                     </td>
-                                    <!---- Update Quantity of Product ---->
+                                    <!----- Update Quantity of Product ----->
                                     <td class="py-3 w-25">
-                                        <!---- Update Quantity of Product Form ---->
+                                        <!----- Update Quantity of Product Form ----->
                                         <form class="form update-form" action="{% url 'adjust_bag' item.item_id %}" method="POST">
                                             {% csrf_token %}
                                             <div class="form-group">
@@ -91,17 +91,17 @@
                                                 </div>
                                             </div>
                                         </form>
-                                        <!---- Update Quantity of Product Buttons ---->
+                                        <!----- Update Quantity of Product Buttons ----->
                                         <a class="update-link text-info"><small>Update</small></a>
                                         <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}"><small>Remove</small></a>
                                     </td>
-                                    <!---- Subtotal Of Product ---->
+                                    <!----- Subtotal Of Product ----->
                                     <td class="py-3">
                                         <p class="my-0">£{{ item.product.price | calc_subtotal:item.quantity }}</p>
                                     </td>
                                 </tr>
                             {% endfor %}
-                            <!---- Bag Total Display ---->
+                            <!----- Bag Total Display ----->
                             <tr>
                                 <td colspan="5" class="pt-5 text-right">
                                     <h6><strong>Bag Total: £{{ total|floatformat:2 }}</strong></h6>
@@ -114,7 +114,7 @@
                                     {% endif %}
                                 </td>
                             </tr>
-                            <!---- Continue Buttons ---->
+                            <!----- Continue Buttons ----->
                             <tr>
                                 <td colspan="5" class="text-right">
                                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
@@ -134,7 +134,7 @@
                         </table>
                     </div>
                 {% else %}
-                <!---- If Bag is Empty ---->
+                <!----- If Bag is Empty ----->
                     <p class="lead mb-5">Your bag is empty.</p>
                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-l">
                         <span class="icon">

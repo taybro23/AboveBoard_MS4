@@ -6,6 +6,11 @@ from products.models import Product
 
 def bag_contents(request):
 
+    """
+    Display items in bag, check delivery threshold
+    and calculate price
+    """
+
     bag_items = []
     total = 0
     product_count = 0
