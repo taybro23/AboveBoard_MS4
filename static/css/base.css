@@ -35,14 +35,34 @@ h1 {
     color: #ff521b;
 }
 
+/*-------------------- Forms --------------------*/
+
+.form-control {
+    border: 1px solid #0000007d;
+    color: #000;
+    margin-bottom: 7px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem #ff521b4f;
+    border: 1px solid #ff521b4f;
+}
+
+.search-bar-form:focus {
+    box-shadow: 0 0 0 0.25rem #fff9;
+    border: 1px solid #ff521b4f;
+}
+
+.form-fields {
+    border: 1px solid #0000007d;
+    color: #000;
+    margin-bottom: 7px;
+}
+
 /*-------------------- Top Nav Bar --------------------*/
 
 #topnav {
     background-color: #ff521b;
-}
-
-.form-control:focus {
-    box-shadow: 0 0 0 0.25rem #fff9;
 }
 
 /* from Bulma */

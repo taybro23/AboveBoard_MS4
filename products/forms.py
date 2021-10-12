@@ -21,11 +21,11 @@ class ProductForm(forms.ModelForm):
 
         self.fields['category'].choices = friendly_names
         for field_name, field in self.fields.items():
-            field.widget.attrs['class'] = 'border-black rounded-0 mb-5'
+            field.widget.attrs['class'] = 'rounded-0 form-fields'
 
         self.fields['brand'].choices = friendly_names_brand
         for field_name, field in self.fields.items():
-            field.widget.attrs['class'] = ''
+            field.widget.attrs['class'] = 'rounded-0 form-fields'
 
 
 class ReviewForm(forms.ModelForm):

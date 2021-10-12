@@ -9,7 +9,7 @@
 
 #profile-update-form .form-control {
     color: #000;
-    border: 1px solid #000000;
+    border: 1px solid #0000007d;
     margin-bottom: 7px;
 }
 
@@ -19,6 +19,7 @@
 
 #profile-update-form .form-control:focus {
     box-shadow: 0 0 0 0.25rem #ff521b4f;
+    border: 1px solid #ff521b4f;
 }
 
 #id_default_country,
