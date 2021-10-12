@@ -14,7 +14,19 @@
 {% block content %}
 
     <div class="overlay"></div>
-    <!----- Products Page ----------------------------------------->
+    <!----- Products Cover Image Section -------------------------->
+    <div class="container-fluid carousel-padding">
+        {% for c in current_categories %}
+            {% if c.name == 'completes' and 'decks' and 'trucks' and 'wheels' and 'grip_tape' %}
+                <img src="{% static 'images/skateboard_product_page.jpg' %}" class="d-none d-md-block w-100" alt="">
+            {% elif c.name == 'tshirts' and 'hoodies' and 'jumpers_sweatshirts' and 'hats' and 'backpacks_bags' %}
+                <img src="{% static 'images/clothing_product_page.jpg' %}" class="d-none d-md-block w-100" alt="">
+            {% elif c.name == 'adidas' and 'converse' and 'dc' and 'es' and 'etnies' and 'lakai' and 'nike_sb' and 'vans' %}
+                <img src="{% static 'images/shoes_product_page.jpg' %}" class="d-none d-md-block w-100" alt="">
+            {% endif %}
+        {% endfor %}
+    </div>
+    <!----- Products Section -------------------------------------->
     <div class="container-fluid">
         <div class="row">
             <!----- Page Headers Based On Category/Brand ----->
@@ -56,7 +68,7 @@
                 <hr class="w-75 mb-1 mt-3 mx-auto">
             </div>
         </div>
-        <!----- Products Page Content ----------------------------->
+        <!----- Products ----->
         <div class="row">
             <div class="product-container col-10 offset-1">
                 <div class="row mt-1 mb-2">
