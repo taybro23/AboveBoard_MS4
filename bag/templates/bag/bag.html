@@ -27,7 +27,7 @@
         <div class="row">
             <div class="col">
                 {% if bag_items %}
-                <!----- If Products in Bag ----->
+                <!----- If Products in Bag Table ----->
                     <div class="table-responsive rounded">
                         <table class="table table-sm table-borderless">
                             <thead class="text-black">
@@ -60,9 +60,8 @@
                                     <td class="py-3">
                                         <p class="my-0">£{{ item.product.price }}</p>
                                     </td>
-                                    <!----- Update Quantity of Product ----->
+                                    <!----- Update Quantity of Product Form ----->
                                     <td class="py-3 w-25">
-                                        <!----- Update Quantity of Product Form ----->
                                         <form class="form update-form" action="{% url 'adjust_bag' item.item_id %}" method="POST">
                                             {% csrf_token %}
                                             <div class="form-group">
@@ -146,7 +145,7 @@
             </div>
         </div>
     </div>
-
+    
 {% endblock %}
 
 {% block postloadjs %}
@@ -159,7 +158,6 @@
         var form = $(this).prev('.update-form');
         form.submit();
     })
-
     // remove item and reload on click
     $('.remove-item').click(function(e) {
         var csrfToken = "{{ csrf_token }}";
@@ -167,13 +165,11 @@
         var size = $(this).data('product_size');
         var url = `/bag/remove/${itemId}/`;
         var data = {'csrfmiddlewaretoken': csrfToken, 'product_size': size};
-
         $.post(url, data)
          .done(function() {
              location.reload();
          });
     })
-
 </script>
 
 {% endblock %}

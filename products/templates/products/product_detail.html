@@ -2,16 +2,19 @@
 {% load static %}
 
 {% block page_header %}
+
     <div class="container header-container">
         <div class="row">
             <div class="col"></div>
         </div>
     </div>
+
 {% endblock %}
 
 {% block content %}
+
     <div class="overlay"></div>
-    <!----- Product Detail Section ----------------------------------->
+    <!----- Product Detail Page ----------------------------------->
     <div class="container-fluid">
         <div class="row">
             <!----- Product Image ----->
@@ -46,6 +49,7 @@
                     {% else %}
                         <small class="text-muted">No Rating</small>
                     {% endif %} -->
+
                     <!----- Edit/Delete Product Option for Superusers ----->
                     {% if request.user.is_superuser %}
                         <small class="ml-3">
@@ -98,7 +102,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!----- Shopping and Add To Bag Buttons ----->
+                            <!----- Keep Shopping/Add To Bag Buttons ----->
                             <div class="col{% if s %}-12 mt-2{% endif %}">
                                 <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
                                     <span class="icon">
@@ -119,7 +123,7 @@
 
     <!----- Product Reviews Section ------------------------------->
     <div class="container-fluid review-container">
-        <!----- Product Reviews ----->
+        <!----- Product Reviews ----------------------------------->
         <div class="row">
             <div class="col-12 col-md-10 col-lg-6 offset-lg-3"> 
                 <h1 class="text-center underline">Reviews</h1> 
@@ -147,10 +151,10 @@
                 {% endfor%}
             </div>
         </div>
-        <!----- Review Form ----->
+        <!----- Review Form --------------------------------------->
         <div id="reviews" class="row">
             <div class="col-12 col-md-10 col-lg-4 offset-lg-4">
-                <h5 class="text-center mt-5 mb-2">Why not write your own review?</h5>
+                <h5 class="text-center mt-5 mb-2">Write your review here!</h5>
                 <!----- Form Display If User ----->
                 {% if request.user.is_authenticated %}
                     {% if edit %}
@@ -185,6 +189,8 @@
 {% endblock %}
 
 {% block postloadjs %}
-{{ block.super }}
-{% include 'products/includes/quantity_input_script.html' %}
+
+    {{ block.super }}
+    {% include 'products/includes/quantity_input_script.html' %}
+
 {% endblock %}

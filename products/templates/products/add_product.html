@@ -49,6 +49,7 @@
 {% endblock %}
 
 {% block postloadjs %}
+
     {{ block.super }}
     <script type="text/javascript">
         $('#new-image').change(function() {
@@ -56,4 +57,5 @@
             $('#filename').text(`Image will be set to: ${file.name}`);
         });
     </script>
+
 {% endblock %}
