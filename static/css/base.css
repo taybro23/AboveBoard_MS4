@@ -56,12 +56,6 @@ h1 {
     background: #ff521b;
 }
 
-.bb1:hover {
-    border: 1px solid #ff521b!important;
-    color: #ff521b;
-    background: #fff;
-}
-
 /*-------------------- Forms --------------------*/
 
 .form-control {
@@ -321,6 +315,12 @@ a.btt-link {
 }
 
 /*-------------------- Hover --------------------*/
+
+.bb1:hover {
+    border: 1px solid #ff521b!important;
+    color: #ff521b;
+    background: #fff;
+}
 
 /* ---------- Nav Bars ---------- */
 
