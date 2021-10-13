@@ -13,14 +13,6 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1 {
-    font-family: 'Bebas Neue', sans-serif;
-}
-
-.underline {
-    text-decoration: underline;
-}
-
 .overlay {
     height: 100%;
     width: 100%;
@@ -31,8 +23,43 @@ h1 {
     z-index: -1;
 }
 
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
 .title-span {
     color: #ff521b;
+}
+
+/*-------------------- Buttons and Badges --------------------*/
+
+.btn:focus {
+    box-shadow: 0 0 0 0.25rem #ff521b4f;
+}
+
+.cat-badge {
+    border: 1px solid #ff521b!important;
+    color: #ff521b;
+}
+
+.badge {
+    font-size: 15px;
+}
+
+.bb1 {
+    border: 1px solid #ff521b!important;
+    color: #fff;
+    background: #ff521b;
+}
+
+.bb1:hover {
+    border: 1px solid #ff521b!important;
+    color: #ff521b;
+    background: #fff;
 }
 
 /*-------------------- Forms --------------------*/
@@ -41,6 +68,7 @@ h1 {
     border: 1px solid #0000007d;
     color: #000;
     margin-bottom: 7px;
+    border-radius: 0;
 }
 
 .form-control:focus {
@@ -92,6 +120,10 @@ h1 {
 
 .navbar-light .navbar-nav .nav-link {
     color: #6f675a;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgb(0 0 0);
 }
 
 /*-------------------- Footer --------------------*/
@@ -161,16 +193,38 @@ h1 {
 
 /*-------------------- Products Pages --------------------*/
 
-.cat-badge {
-    border: 1px solid #ff521b!important;
-    color: #ff521b;
+.breadcrumb {
+    margin-left: 20px;
+    margin-top: 8px;
 }
 
-.badge {
-    font-size: 15px;
+.decrement-qty {
+    background-color: #ffc61d;
+    border: 1px solid #000;
+}
+
+.decrement-qty:focus {
+    box-shadow: 0 0 0 0.25rem #ffc61d5c;
+}
+
+.increment-qty {
+    background-color: #ff521b;
+    border: 1px solid #000;
+}
+
+.increment-qty:focus {
+    box-shadow: 0 0 0 0.25rem #ff521b4f;
 }
 
 /* ----- Reviews -----*/
+
+.review-container {
+    background: antiquewhite;
+}
+
+.card {
+    border: 1px solid #0000007d;
+}
 
 .review-text {
     font-size: 18px;

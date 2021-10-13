@@ -15,10 +15,18 @@
 
     <div class="overlay"></div>
     <!----- Product Detail Page ----------------------------------->
-    <div class="container-fluid">
+    <!----- Breadcrumb Links ----->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+          <li class="breadcrumb-item"><a href="{% url 'products' %}?category={{ product.category.name }}">{{ product.category.friendly_name }}</a></li>
+          <li class="breadcrumb-item active" aria-current="page">{{ product.name }}</li>
+        </ol>
+    </nav>
+    <div class="container-fluid mb-3">
         <div class="row">
             <!----- Product Image ----->
-            <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
+            <div class="col-12 col-md-6 col-lg-4 offset-lg-2 me-5">
                 <div class="image-container my-5">
                     {% if product.image %}
                         <a href="{{ product.image.url }}" target="_blank">
@@ -35,10 +43,10 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="product-details-container mt-md-5">
                     <!----- Product Name, Price and Category ----->
-                    <p class="mb-0">{{ product.name }}</p>
-                    <p class="lead mb-0">£{{ product.price }}</p>
+                    <h1 class="mb-3">{{ product.name }}</h1>
+                    <p class="lead mb-3">£{{ product.price }}</p>
                     {% if product.category %}
-                    <p class="small mt-1 mb-0">
+                    <p class="small mb-3">
                         <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
                             <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
                         </a>
@@ -67,7 +75,7 @@
                             {% if s %}
                                 <div class="col-12">
                                     <p><strong>Size:</strong></p>
-                                    <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size'>
+                                    <select class="form-control w-50" name="product_size" id='id_product_size'>
                                         <option value="xs">XS</option>
                                         <option value="s">S</option>
                                         <option value="m" selected>M</option>
@@ -82,7 +90,7 @@
                                 <div class="form-group w-50">
                                     <div class="input-group">
                                         <div class="input-group-prepend">
-                                            <button class="decrement-qty btn btn-black rounded-0" 
+                                            <button class="decrement-qty btn rounded-0" 
                                                 data-item_id="{{ product.id }}" id="decrement-qty_{{ product.id }}">
                                                 <span class="icon">
                                                     <i class="fas fa-minus"></i>
@@ -104,13 +112,13 @@
                             </div>
                             <!----- Keep Shopping/Add To Bag Buttons ----->
                             <div class="col{% if s %}-12 mt-2{% endif %}">
-                                <a href="{% url 'products' %}" class="btn rounded-0 mt-5">
+                                <a href="{% url 'products' %}" class="btn bb2 rounded-0 mt-5">
                                     <span class="icon">
                                         <i class="fas fa-chevron-left"></i>
                                     </span>
                                     <span class="text-uppercase">Keep Shopping</span>
                                 </a>
-                                <input type="submit" class="btn rounded-0 text-uppercase mt-5" value="Add to Bag">
+                                <input type="submit" class="btn bb1 rounded-0 text-uppercase mt-5" value="Add to Bag">
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                             {% endwith %}
@@ -122,13 +130,13 @@
     </div>
 
     <!----- Product Reviews Section ------------------------------->
-    <div class="container-fluid">
+    <div class="container-fluid review-container pt-4 pb-5">
         <!----- Product Reviews ----------------------------------->
         <div class="row">
             <div class="col-12 col-md-10 col-lg-6 offset-lg-3"> 
                 <h1 class="text-center underline">Reviews</h1> 
                 {% for review in product.reviews.all %}
-                    <div class="card mt-5">
+                    <div class="card mt-5 rounded-0">
                         <!----- Review Card ----->
                         <div class="card-body">
                             <p class="small text-muted"> by {{ review.user }} on {{ review.date_added|date:"d-m-Y"}}</p>    
@@ -159,7 +167,7 @@
                 {% empty %}
                     <hr>
                 {% endfor %}
-                <h5 class="text-center mt-5 mb-2">Write your review here!</h5>
+                <h5 class="text-center underline mt-5 mb-2">Write your review here!</h5>
                 <!----- Form Display If User ----->
                 {% if request.user.is_authenticated %}
                     {% if edit %}
@@ -176,8 +184,8 @@
                         <form method="POST" action="{% url 'add_review' product.id %}#reviews">
                             {% csrf_token %}
                             {{ form|crispy }}
-                            <div class="text-center">
-                                <button class="btn" type="submit">Submit Review</button>
+                            <div class="text-center mt-3">
+                                <button class="btn bb1 rounded-0 text-uppercase" type="submit">Submit Review</button>
                             </div>
                         </form>
                     {% endif %}

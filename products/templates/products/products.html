@@ -27,51 +27,50 @@
         {% endfor %}
     </div>
     <!----- Products Section -------------------------------------->
-    <div class="container-fluid">
+    <div class="container-fluid mb-5">
         <div class="row">
             <!----- Page Headers Based On Category/Brand ----->
-            <div class="col text-center mt-3">
+            <div class="col text-center mt-4 mb-4">
                 {% for c in current_categories %}
                     {% if c.name == 'completes' and 'decks' and 'trucks' and 'wheels' and 'grip_tape' %}
-                        <h1 class="underline mt-3 mb-3">Skateboards</h1>
+                        <h1 class="underline">Skateboards</h1>
                     {% elif c.name == 'tshirts' and 'hoodies' and 'jumpers_sweatshirts' and 'hats' and 'backpacks_bags' %}
-                        <h1 class="underline mt-3 mb-3">Clothing</h1>
+                        <h1 class="underline">Clothing</h1>
                     {% elif c.name == 'adidas' and 'converse' and 'dc' and 'es' and 'etnies' and 'lakai' and 'nike_sb' and 'vans' %}
-                        <h1 class="underline mt-3 mb-3">Skate Shoes</h1>
+                        <h1 class="underline">Skate Shoes</h1>
                     {% endif %}
                 {% endfor %}
                 {% for b in current_brands %}
                     {% if b.name == 'nikesb' %}
-                        <h1 class="underline mt-3 mb-3">Nike SB</h1>
+                        <h1 class="underline">Nike SB</h1>
                     {% elif b.name == 'tensor' %}
-                        <h1 class="underline mt-3 mb-3">Tensor</h1>
+                        <h1 class="underline">Tensor</h1>
                     {% elif b.name == 'santa_cruz' %}
-                        <h1 class="underline mt-3 mb-3">Santa Cruz</h1>
+                        <h1 class="underline">Santa Cruz</h1>
                     {% elif b.name == 'chocolate' %}
-                        <h1 class="underline mt-3 mb-3">Chocolate</h1>
+                        <h1 class="underline">Chocolate</h1>
                     {% elif b.name == 'real' %}
-                        <h1 class="underline mt-3 mb-3">Real</h1>
+                        <h1 class="underline">Real</h1>
                     {% elif b.name == 'planb' %}
-                        <h1 class="underline mt-3 mb-3">Plan B</h1>
+                        <h1 class="underline">Plan B</h1>
                     {% elif b.name == 'etnies' %}
-                        <h1 class="underline mt-3 mb-3">Etnies</h1>
+                        <h1 class="underline">Etnies</h1>
                     {% elif b.name == 'independent' %}
-                        <h1 class="underline mt-3 mb-3">Independent</h1>
+                        <h1 class="underline">Independent</h1>
                     {% endif %}
                 {% endfor %}
                 <!----- Category Badges ----->
                 {% for c in current_categories %}
                     <a class="category-badge text-decoration-none" href="{% url 'products' %}?category={{ c.name }}">
-                        <span class="p-3 mt-2 badge rounded-0 cat-badge">{{ c.friendly_name }}</span>
+                        <span class="p-3 mt-3 badge rounded-0 cat-badge">{{ c.friendly_name }}</span>
                     </a>
                 {% endfor %}
-                <hr class="w-75 mb-1 mt-3 mx-auto">
             </div>
         </div>
         <!----- Products ----->
         <div class="row">
             <div class="product-container col-10 offset-1">
-                <div class="row mt-1 mb-2">
+                <div class="row mb-3">
                     <!----- 'Sort By' Options Dropdown ----->
                     <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
                         <div class="sort-select-wrapper w-50">
@@ -99,7 +98,7 @@
                     </div>
                 </div>
                 <!----- Product Display ----->
-                <div class="row">
+                <div class="row mt-3 mb-5">
                     {% for product in products %}
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                             <div class="card h-100 border-0">
