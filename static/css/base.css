@@ -479,7 +479,7 @@ a.btt-link {
         max-width: 80%;
     }
     .header-container {
-        padding-top: 150px;
+        padding-top: 128px;
     }
     .header-container-home {
         padding-top: 112px;
@@ -495,7 +495,7 @@ a.btt-link {
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .header-container {
-        padding-top: 150px;
+        padding-top: 128px;
     }
     .header-container-home {
         padding-top: 112px;
@@ -523,7 +523,7 @@ a.btt-link {
 /* pad the top when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 150px;
+        padding-top: 96px;
     }
     .header-container-home {
         padding-top: 116px;
