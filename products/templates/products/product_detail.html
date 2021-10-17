@@ -23,6 +23,7 @@
           <li class="breadcrumb-item active" aria-current="page">{{ product.name }}</li>
         </ol>
     </nav>
+    <!----- Product ----->
     <div class="container-fluid mb-3">
         <div class="row">
             <!----- Product Image ----->
@@ -75,7 +76,7 @@
                             {% if s %}
                                 <div class="col-12">
                                     <p><strong>Size:</strong></p>
-                                    <select class="form-control w-50" name="product_size" id='id_product_size'>
+                                    <select class="form-control w-50 size-select" name="product_size" id='id_product_size'>
                                         <option value="xs">XS</option>
                                         <option value="s">S</option>
                                         <option value="m" selected>M</option>
@@ -111,8 +112,8 @@
                                 </div>
                             </div>
                             <!----- Keep Shopping/Add To Bag Buttons ----->
-                            <div class="col{% if s %}-12 mt-2{% endif %}">
-                                <a href="{% url 'products' %}" class="btn bb2 rounded-0 mt-5">
+                            <div class="col{% if s %}-12 mt-2{% endif %} mb-3">
+                                <a href="{% url 'products' %}" class="btn bb2 rounded-0 mt-5 me-3">
                                     <span class="icon">
                                         <i class="fas fa-chevron-left"></i>
                                     </span>
@@ -167,7 +168,13 @@
                 {% empty %}
                     <hr>
                 {% endfor %}
-                <h5 class="text-center underline mt-5 mb-2">Write your review here!</h5>
+                {% if request.user.is_authenticated %}
+                    <h5 class="text-center underline mt-4 mb-2">Write your review here!</h5>
+                {% else %}
+                    <p class="review-text text-center mt-4">
+                        <a href="{% url 'account_signup' %}">Register</a> or <a href="{% url 'account_login' %}">Log In</a> to leave a review!
+                    </p>
+                {% endif %}
                 <!----- Form Display If User ----->
                 {% if request.user.is_authenticated %}
                     {% if edit %}
@@ -189,11 +196,6 @@
                             </div>
                         </form>
                     {% endif %}
-                {% else %}
-                <!----- Register/Login Text ----->
-                <p class="review-text">
-                    <a href="{% url 'account_signup' %}">Register</a> or <a href="{% url 'account_login' %}">Log In</a> to leave a review!
-                </p>
                 {% endif %}
             </div>
         </div>

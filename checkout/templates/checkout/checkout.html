@@ -130,25 +130,25 @@
                     <!----- Back To Bag/Submit Buttons ----->
                     <div class="submit-button mt-5 mb-2">
                         <!----- Back To Bag Button ----->
-						<a href="{% url 'view_bag' %}" class="btn rounded-0">
+						<a href="{% url 'view_bag' %}" class="btn rounded-0 bb2 my-3 me-3">
 							<span class="icon">
 								<i class="fas fa-chevron-left"></i>
 							</span>
 							<span>Back To Bag</span>
 						</a>
-						<button>
-                            <!----- Submit Button ----->
-                            <input type="submit" class="btn rounded-0" id="submit-button" value="Complete Order">
+                        <!----- Submit Button ----->
+						<button class="btn rounded-0 bb1">
 							<span class="icon">
 								<i class="fas fa-lock"></i>
 							</span>
+                            <span>Complete Order Securely</span>
 						</button>
                         <!----- Card Charge Warning ----->
-						<p class="small text-danger my-0">
+						<p class="text-danger my-0">
 							<span class="icon">
 								<i class="fas fa-exclamation-circle"></i>
 							</span>
-							<span>Your card will be charged <strong>£{{ grand_total|floatformat:2 }}</strong></span>
+							<span>Warning! Your card will be charged <strong>£{{ grand_total|floatformat:2 }}</strong></span>
 						</p>
 					</div>
                 </form>
