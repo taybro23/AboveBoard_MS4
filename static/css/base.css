@@ -279,6 +279,10 @@ a.btt-link {
     cursor: pointer;
 }
 
+.bag-img {
+    width: 80%;
+}
+
 /*-------------------- Toasts --------------------*/
 
 .message-container {
