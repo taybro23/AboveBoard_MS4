@@ -527,10 +527,10 @@ a.btt-link {
 /* pad the top when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 96px;
+        padding-top: 140px;
     }
     .header-container-home {
-        padding-top: 116px;
+        padding-top: 126px;
     }
     .nav-link i.fa-lg {
         font-size: 1rem;

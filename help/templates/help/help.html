@@ -14,40 +14,88 @@
 {% block content %}
 
     <div class="overlay"></div>
+    <!----- Help & Guidance Page ---------------------------------->
     <div class="container">
         <div class="row">
             <div class="col">
                 <hr>
-                <h1 class="mb-3 text-center">Help & Guidance</h1>
+                <h1 class="mb-3">Help & Guidance</h1>
                 <hr>
+                {% if request.user.is_superuser %}
+                    <a href="{% url 'add_post' %}" class="btn rounded-0 cat-badge">Add Post</a>
+                {% endif %}
             </div>
         </div>
     </div>
+    <!----- Post Display ----->
     <div class="container mt-3 mb-5">
-        <!-- if statement. if post in posts - display posts -->
+        {% for post in post_pages %}
+        <!----- Title and Superuser Edit/Delete ----->
         <div class="row">
             <div class="col">
-                <h1>Post title</h1>
-                <!-- if superuser - edit/delete post buttons -->
-                <a href="">Edit</a>
-                <a href="">Delete</a>
+                <h1>{{ post.title }}</h1>
+                {% if request.user.is_superuser %}
+                    <small class="ml-3">
+                        <a href="{% url 'edit_post' post.id %}">Edit</a> |
+                        <a href="{% url 'delete_post' post.id %}" class="text-danger">Delete</a>
+                    </small>
+                {% endif %}
             </div>
-            <div class="col">
-                <button>View post</button>
+        </div>
+        <!----- Post Body and Image Row ----->
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <p>{{ post.body|truncatechars:80 }}</p>
+            </div>
+            <div class="col-12 col-md-6">
+                {% if post.image %}
+                    <a href="{{ post.image.url }}" target="_blank">
+                        <img class="img-fluid post-img" src="{{ post.image.url }}" alt="{{ post.title }}">
+                    </a>
+                {% else %}
+                    <a href="">
+                        <img class="img-fluid post-img" src="{{ MEDIA_URL }}noimage.png" alt="{{ post.title }}">
+                    </a>
+                {% endif %}
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <p>Post body</p>
-            </div>
-            <div class="col">
-                <a href="">
-                    <img src="" alt="post image">
+                <a class="category-badge text-decoration-none" href="{% url 'post_detail' post.id %}">
+                    <span class="p-3 mt-3 me-1 badge rounded-0 cat-badge">View Post</span>
                 </a>
             </div>
         </div>
         <hr>
-        <!-- endif -->
+        {% endfor %}
     </div>
+
+    <!----- Pagination ----->
+    <nav aria-label="Page Navigation" style="margin: auto;">
+        <ul class="pagination">
+            <!----- Previous Links ----->
+            {% if post_pages.has_previous %}
+                <li class="page-item">
+                    <a class="page-link" href="?page=1">First</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ post_pages.previous_page_number }}">Previous</a>
+                </li>
+            {% endif %}
+            <!----- Current Page ----->
+            <li class="page-item disabled">
+                <a class="page-link" href="">Page {{ post_pages.number }} of {{ post_pages.paginator.num_pages }}</a>
+            </li>
+            <!----- Next Links ----->
+            {% if post_pages.has_next %}
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ post_pages.next_page_number }}">Next</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ post_pages.paginator.num_pages }}">Last</a>
+                </li>
+            {% endif %}
+        </ul>
+    </nav>
 
 {% endblock %}
