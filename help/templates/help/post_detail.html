@@ -17,39 +17,22 @@
     <!----- Post Detail Page ----------------------------------->
     <!----- Breadcrumb Links ----->
     <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
+        <ol class="breadcrumb mt-3 ms-3">
           <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
-          <li class="breadcrumb-item"><a href="{% url 'all_posts' %}">Help & Guidance Posts</a></li>
+          <li class="breadcrumb-item"><a href="{% url 'all_posts' %}">Help & Guidance</a></li>
           <li class="breadcrumb-item active" aria-current="page">{{ post.title }}</li>
         </ol>
     </nav>
-    <!----- Product ----->
-    <div class="container">
+    <!----- Post Display ----->
+    <div class="container mt-3">
+        <!----- Title ----->
         <div class="row">
             <div class="col">
                 <h1>{{ post.title }}</h1>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <p>{{ post.body }}</p>
-            </div>
-            <!----- Post Image ----->
-            <div class="col-12 col-md-6 col-lg-4 offset-lg-2 me-5">
-                <div class="image-container my-5">
-                    {% if post.image %}
-                        <a href="{{ post.image.url }}" target="_blank">
-                            <img class="card-img-top img-fluid" src="{{ post.image.url }}" alt="{{ post.title }}">
-                        </a>
-                        {% else %}
-                        <a href="">
-                            <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ post.title }}">
-                        </a>
-                    {% endif %}
-                </div>
-            </div>
-        </div>
-        <div class="row">
+        <!----- Edit/Delete Buttons For Superuser ----->
+        <div class="row mb-2">
             <div class="col">
                 {% if request.user.is_superuser %}
                     <small class="ml-3">
@@ -57,6 +40,37 @@
                         <a href="{% url 'delete_post' post.id %}" class="text-danger">Delete</a>
                     </small>
                 {% endif %}
+            </div>
+        </div>
+        <!----- Body and Image ----->
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <p>{{ post.body }}</p>
+            </div>
+            <!----- Image ----->
+            <div class="col-12 col-md-6">
+                <div class="image-container mb-3">
+                    {% if post.image %}
+                        <a href="{{ post.image.url }}" target="_blank">
+                            <img class="img-fluid rounded-0" src="{{ post.image.url }}" alt="{{ post.title }}">
+                        </a>
+                        {% else %}
+                        <a href="">
+                            <img class="img-fluid rounded-0" src="{{ MEDIA_URL }}noimage.png" alt="{{ post.title }}">
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <!----- Back To All Posts Button ----->
+        <div class="row mb-5">
+            <div class="col">
+                <a href="{% url 'all_posts' %}" class="btn bb2 rounded-0">
+                    <span class="icon">
+                        <i class="fas fa-chevron-left"></i>
+                    </span>
+                    <span class="text-uppercase">Back</span>
+                </a>
             </div>
         </div>
     </div>
