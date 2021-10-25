@@ -139,6 +139,10 @@ h1 {
     border-color: rgb(0 0 0);
 }
 
+.nav-collapse-brand {
+    margin: auto;
+}
+
 /*-------------------- Footer --------------------*/
 
 .footer-container {
@@ -246,7 +250,7 @@ h1 {
     font-size: 18px;
 }
 
-/*-------------------- Add Product --------------------*/
+/*-------------------- Custom Clearable File Input --------------------*/
 
 .text-red {
     color: red;
@@ -273,6 +277,8 @@ a.btt-link {
 .remove-item {
     cursor: pointer;
 }
+
+/*-------------------- Bag --------------------*/
 
 .bag-img {
     width: 80%;
@@ -304,10 +310,10 @@ a.btt-link {
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 4px solid transparent;
-    border-right: 4px solid transparent; 
+    border-right: 4px solid transparent;
     border-bottom: 10px solid black;
     position: absolute;
     top: -10px;
@@ -479,7 +485,7 @@ a.btt-link {
 
 /*-------------------- Media Queries --------------------*/
 
-/* Slightly larger container on xl screens */
+/*  XL screen size padding and width/height */
 @media (min-width: 1200px) {
     .container {
         max-width: 80%;
@@ -499,6 +505,7 @@ a.btt-link {
     }
 }
 
+/* General screen size padding and width/height */
 @media (min-width: 992px) and (max-width: 1199px) {
     .header-container {
         padding-top: 128px;
@@ -515,7 +522,7 @@ a.btt-link {
     }
 }
 
-/* fixed top navbar only on medium and up */
+/* Fixed top navbar on medium and wider screens */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -526,13 +533,10 @@ a.btt-link {
     }
 }
 
-/* pad the top when navbar is collapsed on mobile */
+/* Padding and font-size when navbar is collapsed, plus qty buttons */
 @media (max-width: 991px) {
     .header-container {
         padding-top: 140px;
-    }
-    .header-container-home {
-        padding-top: 126px;
     }
     .nav-link i.fa-lg {
         font-size: 1rem;
@@ -555,9 +559,29 @@ a.btt-link {
     }
 }
 
+/* Home container on small screen sizes above mobile views */
+@media (min-width: 506px) and (max-width: 991px) {
+    .header-container-home {
+        padding-top: 80px;
+    }
+}
+
+/* Home container on mobile devices */
+@media (max-width: 505px) {
+    .header-container-home {
+        padding-top: 126px;
+    }
+}
+
 /* Code for navbar hover dropdowns from https://bootstrap-menu.com/detail-basic-hover.html */
 @media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+	.navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+	.navbar .nav-item:hover .dropdown-menu {
+         display: block;
+    }
+	.navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
 }
