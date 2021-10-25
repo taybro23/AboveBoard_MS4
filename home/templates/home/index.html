@@ -19,15 +19,27 @@
             <div class="carousel-inner p-0">
                 <!----- New Arrivals ----->
                 <div class="carousel-item active">
-                    <a href="#">
-                        <img src="{% static 'images/newarrivals.jpg' %}" class="d-block w-100" alt="...">
-                    </a>
+                    <img src="{% static 'images/carousel1.jpg' %}" class="d-block w-100 image" alt="...">
+                    <div class="overlay-1 text-center">
+                        <h1 class="text-white">
+                            Clothing Range
+                        </h1>
+                        <a href="{% url 'products' %}?category=tshirts,hoodies,jumpers_sweatshirts,hats,backpacks_bags" class="btn bb1 rounded-0">
+                            <span>Shop Now!</span>
+                        </a>
+                    </div>
                 </div>
                 <!----- Sale Items ----->
                 <div class="carousel-item">
-                    <a href="#">
-                        <img src="{% static 'images/saleitems.jpg' %}" class="d-block w-100" alt="...">
-                    </a>
+                    <img src="{% static 'images/carousel2.jpg' %}" class="d-block w-100" alt="...">
+                    <div class="overlay-2 text-center">
+                        <h1 class="text-white">
+                            Skate Shoes
+                        </h1>
+                        <a href="{% url 'products' %}?category=adidas,converse,dc,es,etnies,lakai,nike_sb,vans" class="btn btn-lg bb1 rounded-0">
+                            <span>Shop Now!</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -36,7 +48,7 @@
     <!----- Featured Brands ----------------------------------->
     <div class="container-fluid text-center">
         <h1 class="text-center mt-5 mb-5">
-            <span class="underline title-span">Featured</span> Brands
+            <span class="title-span">Featured</span> Brands
         </h1>
         <div class="row justify-content-center">
             <div class="col-6 col-md-3">
@@ -88,7 +100,7 @@
     <div class="container mb-5">
         <div class="row">
             <div class="col">
-                <h1 class="text-center mt-5"><span class="underline title-span">About</span> Above Board</h1>
+                <h1 class="text-center mt-5"><span class="title-span">About</span> Above Board</h1>
             </div>
         </div>
         <div class="row">
@@ -97,9 +109,10 @@
                     Welcome to Above Board, the online skateshop built FOR skaters, BY skaters!
                     Check out our vast range of Skateboards, Clothes and Shoes to keep you looking
                     fresh! Here at Above Board though, we're not just here to kit you out, we're here to provide you with
-                    all the skating info you could possibly need. Head over to Help & Guidance for hints and tips,
+                    all the skating info you could possibly need. Head over to Help & Guidance for posts with hints and tips,
                     links to social media and much more!
-                    <br> <br>
+                    <br>
+                    <br>
                     Interested in discounts and deals for our shop? Of course you are! Register for an account to recieve
                     deals straight to your inbox!
                 </p>

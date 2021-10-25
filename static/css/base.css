@@ -182,6 +182,7 @@ h1 {
 
 .title-span {
     color: #ff521b;
+    text-decoration: underline;
 }
 
 /* ----- Carousel -----*/
@@ -194,6 +195,36 @@ h1 {
     position: relative;
     width: 100%;
     overflow: hidden;
+}
+
+/* Text overlay */
+.carousel-item img {
+    width: 100%;
+    position: relative;
+}
+  
+.overlay-1 {
+    position: absolute;
+    top: 65px;
+    left: 105px;
+    padding: 30px;
+    background: #00000073;
+}
+
+.overlay-1 h1 {
+    font-size: 55px;
+}
+
+.overlay-2 {
+    position: absolute;
+    top: 65px;
+    left: 105px;
+    padding: 30px;
+    background: #00000073;
+}
+
+.overlay-2 h1 {
+    font-size: 60px;
 }
 
 /* ----- Brand Bar -----*/
@@ -419,6 +450,14 @@ a.btt-link {
 
 /*-------------------- Hover --------------------*/
 
+.overlay-1 h1 a:hover {
+    text-decoration: underline;
+}
+
+.clothing-list li a:hover {
+    text-decoration: underline;
+}
+
 /* ---------- All Auth ---------- */
 
 .allauth-form-inner-content button:hover,
@@ -556,6 +595,38 @@ a.btt-link {
     }
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
+    }
+    .overlay-1 {
+        padding: 15px;
+        left: 95px;
+    }
+    .overlay-1 h1 {
+        font-size: 30px;
+    }
+    .overlay-2 {
+        padding: 15px;
+        left: 40px;
+        top: 55px;
+    }
+    .overlay-2 h1 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 990px) {
+    .overlay-1 {
+        padding: 25px;
+        left: 95px;
+    }
+    .overlay-1 h1 {
+        font-size: 40px;
+    }
+    .overlay-2 {
+        padding: 25px;
+        left: 95px;
+    }
+    .overlay-2 h1 {
+        font-size: 40px;
     }
 }
 
