@@ -2,6 +2,8 @@
 {% load static %}
 {% load bag_tools %}
 
+{% block extra_title %} - Checkout {% endblock %}
+
 {% block extra_css %}
 
     <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
@@ -158,7 +160,7 @@
 
     <!----- Loading Overlay --------------------------------------->
     <div id="loading-overlay">
-        <h1 class="text-light loading-spinner">
+        <h1 class="loading-spinner">
             <span class="icon">
                 <i class="fas fa-3x fa-sync-alt fa-spin"></i>
             </span>

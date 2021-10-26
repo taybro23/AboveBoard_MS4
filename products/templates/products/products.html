@@ -1,6 +1,68 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block extra_title %}
+    - Products
+        {% for c in current_categories %}
+            {% if c.name == 'completes' and 'decks' and 'trucks' and 'wheels' and 'grip_tape' %}
+                - Skateboards
+            {% elif c.name == 'decks' %}
+                - Decks
+            {% elif c.name == 'trucks' %}
+                - Trucks
+            {% elif c.name == 'wheels' %}
+                - Wheels
+            {% elif c.name == 'grip_tape' %}
+                - Grip Tape
+            {% elif c.name == 'tshirts' and 'hoodies' and 'jumpers_sweatshirts' and 'hats' and 'backpacks_bags' %}
+                - Clothing
+            {% elif c.name == 'hoodies' %}
+                - Hoodies
+            {% elif c.name == 'jumpers_sweatshirts' %}
+                - Jumpers & Sweatshirts
+            {% elif c.name == 'hats' %}
+                - Hats
+            {% elif c.name == 'backpacks_bags' %}
+                - Backpacks & Bags
+            {% elif c.name == 'adidas' and 'converse' and 'dc' and 'es' and 'etnies' and 'lakai' and 'nike_sb' and 'vans' %}
+                - Skate Shoes
+            {% elif c.name == 'converse' %}
+                - Converse
+            {% elif c.name == 'dc' %}
+                - DC
+            {% elif c.name == 'es' %}
+                - éS
+            {% elif c.name == 'etnies' %}
+                - Etnies
+            {% elif c.name == 'lakai' %}
+                - Lakai
+            {% elif c.name == 'nike_sb' %}
+                - Nike SB
+            {% elif c.name == 'vans' %}
+                - Vans
+            {% endif %}
+        {% endfor %}
+        {% for b in current_brands %}
+            {% if b.name == 'nikesb' %}
+                - Nike SB
+            {% elif b.name == 'tensor' %}
+                - Tensor
+            {% elif b.name == 'santa_cruz' %}
+                - Santa Cruz
+            {% elif b.name == 'chocolate' %}
+                - Chocolate
+            {% elif b.name == 'real' %}
+                - Real
+            {% elif b.name == 'planb' %}
+                - Plan B
+            {% elif b.name == 'etnies' %}
+                - Etnies
+            {% elif b.name == 'independent' %}
+                - Independent
+            {% endif %}
+        {% endfor %}
+{% endblock %}
+
 {% block page_header %}
 
     <div class="container header-container">

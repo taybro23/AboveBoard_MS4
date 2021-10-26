@@ -35,7 +35,7 @@
     {% block extra_js %}
     {% endblock %}
 
-    <title>Above Board -{% block extra_title %} {% endblock %}</title>
+    <title>Above Board {% block extra_title %} {% endblock %}</title>
 </head>
 
 <body>
@@ -54,7 +54,7 @@
                 <form method="GET" action="{% url 'products' %}">
                     <div class="input-group w-100">
                         <input class="form-control search-bar-form border" type="text" name="q"
-                            placeholder="Search our site">
+                            placeholder="Search for something...">
                         <div class="input-group-append">
                             <button class="form-control search-bar-form btn search-btn border" type="submit">
                                 <span class="icon">
@@ -82,10 +82,10 @@
                                     <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
                                 {% endif %}
                                 <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
-                                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                                <a href="{% url 'account_logout' %}" class="dropdown-item">Sign Out</a>
                             {% else %}
-                                <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                                <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                                <a href="{% url 'account_signup' %}" class="dropdown-item">Sign Up</a>
+                                <a href="{% url 'account_login' %}" class="dropdown-item">Sign In</a>
                             {% endif %}
                         </div>
                     </li>
