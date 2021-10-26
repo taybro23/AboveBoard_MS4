@@ -37,6 +37,12 @@ h1 {
     box-shadow: 0 0 0 0.25rem #ff521b4f;
 }
 
+.btn-home {
+    border: 1px solid #ff521b!important;
+    color: #fff;
+    background: #ff521b;
+}
+
 .cat-badge {
     border: 1px solid #ff521b!important;
     color: #ff521b;
@@ -322,6 +328,29 @@ a.btt-link {
     max-width: 100%;
 }
 
+/* ----- Pagination -----*/
+
+.page-item.disabled .page-link {
+    background-color: #fff;
+    border-color: #000000;
+}
+
+.page-link {
+    color: #ff521b;
+    border: 1px solid #000;
+    border-radius: 0!important;
+}
+
+.page-link:hover {
+    color: #ffffff;
+    background-color: #ff521b;
+    border-color: #000000;
+}
+
+.page-link:focus {
+    box-shadow: 0 0 0 0.25rem #ff521b4f;
+}
+
 /*-------------------- Toasts --------------------*/
 
 .message-container {
@@ -468,6 +497,12 @@ a.btt-link {
 }
 
 /* ---------- Buttons & Badges ---------- */
+
+.btn-home:hover {
+    border: 1px solid #ffc61d!important;
+    color: #000;
+    background: #ffc61d;
+}
 
 .cat-badge:hover {
     color: #fff;
