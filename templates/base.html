@@ -18,6 +18,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{% static 'css/base.css' %}">
+        <link rel="icon" type="image/png" href="{% static 'images/favicon.png' %}"/>
     {% endblock %}
 
     {% block extra_css %}
@@ -34,7 +35,7 @@
     {% block extra_js %}
     {% endblock %}
 
-    <title>Above Board {% block extra_title %} {% endblock %}</title>
+    <title>Above Board -{% block extra_title %} {% endblock %}</title>
 </head>
 
 <body>
