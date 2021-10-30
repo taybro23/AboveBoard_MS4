@@ -4,7 +4,10 @@ from .models import HelpGuidance
 
 
 class PostForm(forms.ModelForm):
-
+    """
+    Form for posts, displays and captures
+    post information
+    """
     class Meta:
         model = HelpGuidance
         fields = '__all__'
@@ -13,6 +16,10 @@ class PostForm(forms.ModelForm):
                              widget=CustomClearableFileInput)
 
     def __init__(self, *args, **kwargs):
+        """
+        Add placeholders and classes, remove auto-generated
+        labels and set autofocus on first field
+        """
         super().__init__(*args, **kwargs)
         placeholders = {
             'title': 'Title',

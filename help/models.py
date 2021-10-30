@@ -2,7 +2,10 @@ from django.db import models
 
 
 class HelpGuidance(models.Model):
-
+    """
+    Creates HelpGuidance Model containing data
+    on each post
+    """
     class Meta:
         verbose_name_plural = 'Help & Guidance'
 

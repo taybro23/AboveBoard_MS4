@@ -11,6 +11,9 @@ from profiles.models import UserProfile
 
 
 class Order(models.Model):
+    """
+    Creates Order Model containing data on each order
+    """
     order_number = models.CharField(max_length=32, null=False, editable=False)
     user_profile = models.ForeignKey(UserProfile, on_delete=models.SET_NULL,
                                      null=True, blank=True,
@@ -70,6 +73,10 @@ class Order(models.Model):
 
 
 class OrderLineItem(models.Model):
+    """
+    Create OrderLineItem Model, contains
+    data of each product added to bag
+    """
     order = models.ForeignKey(Order, null=False, blank=False,
                               on_delete=models.CASCADE,
                               related_name='lineitems')

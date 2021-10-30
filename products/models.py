@@ -3,7 +3,10 @@ from django.contrib.auth.models import User
 
 
 class Category(models.Model):
-
+    """
+    Creates Category Model containing names of
+    Product Categories
+    """
     class Meta:
         verbose_name_plural = 'Categories'
 
@@ -18,7 +21,10 @@ class Category(models.Model):
 
 
 class Product(models.Model):
-
+    """
+    Creates Product Model containing data about each
+    product
+    """
     category = models.ForeignKey('Category', null=True, blank=True,
                                  on_delete=models.SET_NULL)
     brand = models.ForeignKey('Brand', null=True, blank=True,
@@ -38,7 +44,9 @@ class Product(models.Model):
 
 
 class Brand(models.Model):
-
+    """
+    Creates Brand Model containing names of each Brand
+    """
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
 
@@ -53,7 +61,6 @@ class ProductReview(models.Model):
     """
     Product Review Model
     """
-
     class Meta:
         ordering = ['-date_added']
         verbose_name_plural = 'Product Reviews'

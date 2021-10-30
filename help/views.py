@@ -39,35 +39,6 @@ def post_detail(request, post_id):
     return render(request, 'help/post_detail.html', context)
 
 
-# @login_required
-# def add_post(request):
-#     """ A view to add posts """
-
-#     if not request.user.is_superuser:
-#         messages.error(request, 'Sorry, only store owners \
-#             and admins can access this page!')
-#         return redirect(reverse('home'))
-
-#     if request.method == 'POST':
-#         form = PostForm(request.POST, request.FILES)
-#         if form.is_valid():
-#             post = form.save()
-#             messages.success(request, 'Successfully added Post!')
-#             return redirect(reverse('post_detail', args=[post.id]))
-#         else:
-#             messages.error(request, 'Failed to add Product, please \
-#                            ensure the form is valid.')
-#     else:
-#         form = PostForm()
-
-#     template = 'help/add_post.html'
-#     context = {
-#         'form': form
-#     }
-
-#     return render(request, template, context)
-
-
 @login_required
 def add_post(request):
     """ Add a post to the blog """

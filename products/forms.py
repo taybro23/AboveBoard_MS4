@@ -4,7 +4,7 @@ from .models import Product, Category, Brand, ProductReview
 
 
 class ProductForm(forms.ModelForm):
-
+    """ Form to add products to the site """
     class Meta:
         model = Product
         fields = '__all__'
@@ -29,7 +29,7 @@ class ProductForm(forms.ModelForm):
 
 
 class ReviewForm(forms.ModelForm):
-
+    """ ReviewForm to allow users to add reviews """
     class Meta:
         model = ProductReview
         exclude = ('product', 'user', 'date_added')
