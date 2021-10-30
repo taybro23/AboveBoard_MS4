@@ -105,9 +105,9 @@ https://cdn-icons-png.flaticon.com/128/1099/1099579.png
 
 ### Product Images
 
-All product images were taken from external sources, and none of the images belong to me. Please see the [Product Credits]() document for full product image credits and where I sourced them from. 
+All product images were taken from external sources, and none of the images belong to me. Please see the [Product Image Credits](PRODUCTS.md) document for full product image credits and where I sourced them from. 
 
-### Featured Images
+## Featured Images
 
 ### Home Clothing Carousel Image
 
