@@ -84,16 +84,17 @@ Find the full Testing Document [here!](TESTING.md)
 
 I followed the course walkthrough project "Boutique Ado" by Code Institute which helped massively in setting up my project. 
 
-### Hover on menu items
+#### Hover on menu items
 
 https://bootstrap-menu.com/detail-basic-hover.html
 
-### Django Pagination
+#### Django Pagination
 
 https://www.youtube.com/watch?v=N-PB-HMFmdo
+
 https://www.youtube.com/watch?v=wY_BNsxCEi4
 
-### Product Reviews
+#### Product Reviews
 
 For the product reviews, I had a lot of help from student Harry Dhillon who I thank immensely. 
 
@@ -107,29 +108,29 @@ https://cdn-icons-png.flaticon.com/128/1099/1099579.png
 
 All product images were taken from external sources, and none of the images belong to me. Please see the [Product Image Credits](PRODUCTS.md) document for full product image credits and where I sourced them from. 
 
-## Featured Images
+### Featured Images
 
-### Home Clothing Carousel Image
+#### Home Clothing Carousel Image
 
 https://images.pexels.com/photos/3761523/pexels-photo-3761523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 
-### Home Skate Shoes Carousel Image
+#### Home Skate Shoes Carousel Image
 
 https://images.pexels.com/photos/4663421/pexels-photo-4663421.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 
-### Skateboard Product Page
+#### Skateboard Product Page
 
 https://pixabay.com/photos/skater-skateboarder-skatepark-la-4618922/
 
-### Clothing Product Page
+#### Clothing Product Page
 
 https://www.pexels.com/photo/woman-in-white-shirt-and-black-pants-holding-girl-in-pink-jacket-8415139/
 
-### Shoes Product Page
+#### Shoes Product Page
 
 https://pixabay.com/photos/skateboard-sports-shoes-shoelaces-1150036/
 
-### 404/500 Pages
+#### 404/500 Pages
 
 https://images.pexels.com/photos/6864673/pexels-photo-6864673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 
