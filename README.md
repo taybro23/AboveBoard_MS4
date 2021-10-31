@@ -3,7 +3,7 @@
 
 [Visit my live website here!](https://aboveboard-ms4.herokuapp.com/)
 
-![Site preview]()
+![Site preview](static/images/site-view.png)
 
 # Table Of Contents
 
@@ -12,6 +12,7 @@
     * [Five UX Planes](#five-ux-planes)
         * [Strategy](#strategy)
             * [Target Audience](#target-audience)
+            * [Business Goals](#business-goals)
             * [User Stories](#user-stories)
         * [Scope](#scope)
         * [Structure](#structure)
@@ -22,11 +23,11 @@
             * [Typography](#typography)
             * [Imagery](#imagery)
 3. [Features](#features)
-    * [Current Features]()
-    * [Future Features]()
+    * [Current Features](#current-features)
+    * [Future Features](#future-features)
 4. [Technologies Used](#technologies-used)
-    * [Languages]()
-    * [Frameworks]()
+    * [Languages](#languages)
+    * [Frameworks](#frameworks)
 5. [Testing](#testing)
 6. [Deployment](#deployment)
 7. [Credits](#credits)
@@ -43,15 +44,138 @@ You’ll find the essential products you’d need to start or continue skating, 
 ## Five UX Planes
 
 ### Strategy
+
 #### Target Audience
+The target audience of my site is people who are looking to purchase skateboards, skateboarding hardware or clothes. It is geared towards both current and new skaters, and including products for both of these types of customer. 
+
+#### Business Goals
+-	To provide an easily navigable e-commerce site
+-	Connect with users via social media and through blog posts
+-	Making a profit by selling products
+
 #### User Stories
+#### Common User Stories
+
+
+#### First Time Users
+
+
+#### Returning Users
+
+
+#### Site Owner/Admin
+-	Provide a clean, simple e-commerce store so that users can easily find what they’re looking for
+-	Have the ability to add, edit/update and delete products
+-	Have the ability to add, edit and delete blog posts
+-	Keep the site secure by only allowing authorised users access certain areas of the site
+-	Securely store user information in case an error occurs
+
 
 ### Scope
 
+
 ### Structure
 
+
 ### Skeleton
+
 #### Wireframes
+
+<details>
+<summary>Home</summary>
+
+![Mobile Wireframe]()
+![Desktop Wireframe]()
+
+</details>
+
+<details>
+<summary>Products</summary>
+
+![Mobile Wireframe]()
+![Desktop Wireframe]()
+
+</details>
+
+<details>
+<summary>Product Detail</summary>
+
+![Mobile Wireframe]()
+![Desktop Wireframe]()
+
+</details>
+
+<details>
+<summary>Checkout</summary>
+
+![Mobile Wireframe]()
+![Desktop Wireframe]()
+
+</details>
+
+<details>
+<summary>Checkout Success/Order History</summary>
+
+![Mobile Wireframe]()
+![Desktop Wireframe]()
+
+</details>
+
+<details>
+<summary>Sign Up</summary>
+
+![Mobile Wireframe]()
+![Desktop Wireframe]()
+
+</details>
+
+<details>
+<summary>Sign In</summary>
+
+![Mobile Wireframe]()
+![Desktop Wireframe]()
+
+</details>
+
+<details>
+<summary>Profile</summary>
+
+![Mobile Wireframe]()
+![Desktop Wireframe]()
+
+</details>
+
+<details>
+<summary>Product Management</summary>
+
+![Mobile Wireframe]()
+![Desktop Wireframe]()
+
+</details>
+
+<details>
+<summary>Help & Guidance</summary>
+
+![Mobile Wireframe]()
+![Desktop Wireframe]()
+
+</details>
+
+<details>
+<summary>Help & Guidance Management</summary>
+
+![Mobile Wireframe]()
+![Desktop Wireframe]()
+
+</details>
+
+<details>
+<summary>404/500 Pages</summary>
+
+![Mobile Wireframe]()
+![Desktop Wireframe]()
+
+</details>
 
 ### Surface
 #### Colours
@@ -62,9 +186,17 @@ You’ll find the essential products you’d need to start or continue skating, 
 
 # Features
 
+## Current Features
+
+## Future Features
+
 [Back to Contents](#table-of-contents)
 
 # Technologies Used
+
+## Languages
+
+## Frameworks
 
 [Back to Contents](#table-of-contents)
 
