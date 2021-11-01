@@ -77,8 +77,6 @@ The target audience of my site is people who are looking to purchase skateboards
 -	Receive their order confirmations directly to their email inbox
 -	Leave reviews of products
 
-
-
 #### Site Owner/Admin
 -	Provide a clean, simple e-commerce store so that users can easily find what they’re looking for
 -	Have the ability to add, edit/update and delete products
@@ -211,8 +209,25 @@ The target audience of my site is people who are looking to purchase skateboards
 # Technologies Used
 
 ## Languages
+-	HTML5
+-	CSS3
+-	JavaScript
+-	Python3
 
 ## Frameworks
+-	Django - Used as the main framework
+-	Bootstrap 5 - Used for the responsive layout and various classes
+-	Google Fonts - Used for the fonts on the site
+-	Font Awesome - Used for Icons that are displayed throughout the site
+-	SQlite3 - Used as the development database
+-	PostgreSQL - Used as the deployed database
+-	Stripe - Used for card payments
+-	AWS S3 - Amazon Web Services, used for hosting images and static files
+-	GitHub - Used for storing the project files
+-	GitPod - Used as the IDE for my project
+-	Heroku - Used for deploying the site
+-	Balsamiq - Used to create Wireframes
+-	Adobe Photoshop - Used for re-sizing of images
 
 [Back to Contents](#table-of-contents)
 
