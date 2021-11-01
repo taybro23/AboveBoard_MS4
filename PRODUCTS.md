@@ -23,7 +23,7 @@
     * [Nike SB](#nike-sb-shoes)
     * [Vans](#vans)
 4. [Website Links](#website-links)
-5. [Brand Images](#brand-images)
+5. [Brand Logo Images](#brand-logo-images)
 
 # Skateboards
 
@@ -103,13 +103,13 @@ https://skatehut.images.blucommerce.com/skatehut/product/Skateboard%20Parts/mosa
 
 ## Grip Tape
 
-Grizzly Stamp Skateboard Grip Tape - White
-
-https://skatehut.images.blucommerce.com/skatehut/product/Grizzly-Stamp-Skateboard-Grip-Tape-White.jpg?auto=format%2Ccompress&bluhash=1eb2b2eba97939e60f9b3b8c0e8ca0f1&w=750&h=750&fit=fillmax&fill=solid&s=50b8f58c3cb98afef554c28cbb2ae213
-
 CORE Skateboard Grip Tape
 
 https://skatehut.images.blucommerce.com/skatehut/product/Scooter%20Parts/core-skateboard-grip-tape-black.jpg?auto=format%2Ccompress&bluhash=a846d384e770bd8f0a1d728823fb22bc&w=750&h=750&fit=fillmax&fill=solid&s=f8745f0395e0433688ed5bb4c8e7f095
+
+Grizzly Stamp Skateboard Grip Tape - White
+
+https://skatehut.images.blucommerce.com/skatehut/product/Grizzly-Stamp-Skateboard-Grip-Tape-White.jpg?auto=format%2Ccompress&bluhash=1eb2b2eba97939e60f9b3b8c0e8ca0f1&w=750&h=750&fit=fillmax&fill=solid&s=50b8f58c3cb98afef554c28cbb2ae213
 
 ## [Back to Contents](#table-of-contents)
 
@@ -263,7 +263,7 @@ https://cdn.shopify.com/s/files/1/0274/4293/7933/products/001114089_804x.progres
 
 ## [Back to Contents](#table-of-contents)
 
-# Websites Links
+# Website Links
 
 https://www.adidas.co.uk/skateboarding-shoes
 
@@ -279,11 +279,11 @@ https://www.skatehut.co.uk/
 
 ## Nike SB
 
-https://skatehut.images.blucommerce.com/skatehut/cms/117/1517/Website_Featured_Brand_Logos_NikeSB.png?auto=format,compress&bluhash=f9bb604d3d4d1337c966d45eda9b85af&w=300&h=150&fit=fillmax&fill=solid&s=ece733a5ddce2f62c46fece2b4200435
+https://www.skatehut.co.uk/media/wysiwyg/Website_Featured_Brand_Logos_NikeSB.png
 
 ## Santa Cruz
 
-https://skatehut.images.blucommerce.com/skatehut/cms/117/1516/Website_Featured_Brand_Logos_SantaCruz.png?auto=format,compress&bluhash=09ca510d0092f9eb8f01e0d6a90c599f&w=300&h=150&fit=fillmax&fill=solid&s=77a909d46d239669f55964b0f75dc60c
+https://www.skatehut.co.uk/media/wysiwyg/Website_Featured_Brand_Logos_SantaCruz.png
 
 ## Chocolate
 
