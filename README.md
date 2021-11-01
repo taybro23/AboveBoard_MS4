@@ -46,7 +46,7 @@ You’ll find the essential products you’d need to start or continue skating, 
 ### Strategy
 
 #### Target Audience
-The target audience of my site is people who are looking to purchase skateboards, skateboarding hardware or clothes. It is geared towards both current and new skaters, and including products for both of these types of customer. 
+The target audience of my site is people who are looking to purchase skateboards, skateboarding hardware or clothes. It is geared towards both current and new skaters, and includes products for both of these types of customer. 
 
 #### Business Goals
 -	To provide an easily navigable e-commerce site
@@ -55,12 +55,28 @@ The target audience of my site is people who are looking to purchase skateboards
 
 #### User Stories
 #### Common User Stories
-
+-	To be able to easily navigate through the site on any size screen
+-	Search for products
+-	Sort products by Price, Name etc.
+-	View product details
+-	Ability to choose quantity of items, and size if applicable
+-	Able to purchase products without an account
+-	View their shopping bag and amend their order
+-	View Posts in Help & Guidance section
+-	Contact the company with any queries or if an issue occurs
 
 #### First Time Users
-
+-	Understand the purpose of the site
+-	See the reasons behind registering for an account
+-	Being able to easily sign up for an account
 
 #### Returning Users
+-	Ability to securely log into their account
+-	View their past orders and order confirmations
+-	Purchase products and have their orders saved to their profile
+-	Receive their order confirmations directly to their email inbox
+-	Leave reviews of products
+
 
 
 #### Site Owner/Admin
