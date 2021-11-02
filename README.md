@@ -8,20 +8,19 @@
 # Table Of Contents
 
 1. [Overview](#overview)
-2. [UX](#ux)
-    * [Five UX Planes](#five-ux-planes)
-        * [Strategy](#strategy)
-            * [Target Audience](#target-audience)
-            * [Business Goals](#business-goals)
-            * [User Stories](#user-stories)
-        * [Scope](#scope)
-        * [Structure](#structure)
-        * [Skeleton](#skeleton)
-            * [Wireframes](#wireframes)
-        * [Surface](#surface)
-            * [Colours](#colours)
-            * [Typography](#typography)
-            * [Imagery](#imagery)
+2. [UX - Five UX Planes](#ux---five-ux-planes)
+    * [Strategy](#strategy)
+        * [Target Audience](#target-audience)
+        * [Business Goals](#business-goals)
+        * [User Stories](#user-stories)
+    * [Scope](#scope)
+    * [Structure](#structure)
+    * [Skeleton](#skeleton)
+        * [Wireframes](#wireframes)
+    * [Surface](#surface)
+        * [Colours](#colours)
+        * [Typography](#typography)
+        * [Imagery](#imagery)
 3. [Features](#features)
     * [Current Features](#current-features)
     * [Future Features](#future-features)
@@ -40,21 +39,20 @@ You’ll find the essential products you’d need to start or continue skating, 
 
 [Back to Contents](#table-of-contents)
 
-# UX
-## Five UX Planes
+# UX - Five UX Planes
 
-### Strategy
+## Strategy
 
-#### Target Audience
+### Target Audience
 The target audience of my site is people who are looking to purchase skateboards, skateboarding hardware or clothes. It is geared towards both current and new skaters, and includes products for both of these types of customer. 
 
-#### Business Goals
+### Business Goals
 -	To provide an easily navigable e-commerce site
 -	Connect with users via social media and through blog posts
 -	Making a profit by selling products
 
-#### User Stories
-#### Common User Stories
+### User Stories
+### Common User Stories
 -	To be able to easily navigate through the site on any size screen
 -	Search for products
 -	Sort products by Price, Name etc.
@@ -65,35 +63,144 @@ The target audience of my site is people who are looking to purchase skateboards
 -	View Posts in Help & Guidance section
 -	Contact the company with any queries or if an issue occurs
 
-#### First Time Users
+### First Time Users
 -	Understand the purpose of the site
 -	See the reasons behind registering for an account
 -	Being able to easily sign up for an account
 
-#### Returning Users
+### Returning Users
 -	Ability to securely log into their account
 -	View their past orders and order confirmations
 -	Purchase products and have their orders saved to their profile
 -	Receive their order confirmations directly to their email inbox
 -	Leave reviews of products
 
-#### Site Owner/Admin
+### Site Owner/Admin
 -	Provide a clean, simple e-commerce store so that users can easily find what they’re looking for
 -	Have the ability to add, edit/update and delete products
 -	Have the ability to add, edit and delete blog posts
 -	Keep the site secure by only allowing authorised users access certain areas of the site
 -	Securely store user information in case an error occurs
 
+---
 
-### Scope
+## Scope
 
+The following features were implemented to reflect the user stories. For a full list of features please see the [Features](#features) section.
+-	Clear and fully responsive site design and navigation
+-	Detailed Product pages 
+-	Working and secure payment system
+-	Secure authorisation 
+-	Profile page
+-	Full admin access
+-	404/500 pages set up for if errors occur
 
-### Structure
+---
 
+## Structure
 
-### Skeleton
+The structure of my site is shown below. I outline the apps I have, and what HTML files and Models sit within those apps to make my site work;
 
-#### Wireframes
+### Home App 
+
+**HTML files**
+
+index.html
+- This is the main page of my site. There is a carousel with two images and links to products on the site; Clothing and Skate Shoes. Below that is a Brand display section which highlights some of the popular brands that are stocked on the site. Towards the bottom of the page is an “About Above Board” section that overviews what the site is about, and a great incentive for registering for an account. 
+
+### Products App
+
+**HTML files**
+
+add_product.html
+- Template that contains a form to add a product. Only the admin has access to this page.
+
+edit_product.html
+- Similar template and form as the one to add a product, but allows the admin to edit an existing product.
+
+product_detail.html
+- Displays the Product detail page to the user. Shows the Product name, image, description, price, SKU and size (if applicable) and quantity options. The user is also given the option to add this product to their shopping bag in their size and quantity of choice. At the bottom of this page is a review section. This is where logged in users can leave a review of the product. 
+
+products.html
+- Displays a list of Products that are available to purchase to the user. The Products displayed on this page will differ depending on which Category, Brand or specified search query the user is searching by. If none have been selected, it will display all Products available on the site.
+
+**Models**
+
+Category
+- Stores the Product categories.
+
+Product
+- Stores individual Product information.
+
+Brand
+- Stores the Product brands.
+
+ProductReview
+- Stores Product Reviews left by users.
+
+### Bag App
+
+**HTML files**
+
+bag.html
+- Users can view their shopping bag contents here, make changes to quantities of products and continue securely to the checkout page.
+
+### Checkout App
+
+**HTML files**
+
+checkout.html
+- Displays the final checkout page to the user. They can view their order via a summery, and complete a form with their personal details on so they can have the product/s delivered to them. This is where they will be asked to input their payment information, and once the “Complete Order Securely” button has been clicked, payment will be taken and the order processed. A warning note is placed below this button to warn users of this. 
+
+checkout_success.html
+- This is a confirmation page, and one that will be shown to the user upon successful completion of an order. Here will be the order confirmation summary, with all of the details of the order and the personal details the user put in on the page prior. 
+
+**Models**
+
+Order
+- Holds information of each order, and is created when a user completes the checkout. 
+
+OrderLineItem
+- Contains information of each product added to the bag. 
+
+### Profiles App 
+
+**HTML files**
+
+profile.html
+- Displays the users profile to the user. Contains their saved personal details and order history. Only accessible by someone who is registered to the site. 
+
+**Models**
+
+UserProfile
+- This model securely stores information on each user. Information is pulled from this Model to pre-fill the personal information form on the checkout page if the user is logged in, and has information saved. 
+
+### Help App
+
+**HTML files**
+
+add_post.html
+- Template that contains a form to add a post. Only the admin has access to this page.
+
+edit_post.html
+- Similar template and form as the one to add a post, but allows the admin to edit an existing post.
+
+help.html
+- This page displays all of the posts that have been created on the site. Pagination is used in this section to limit the number of posts per page, which is set to four. 
+
+post_detail.html
+- Page to display the full post details. 
+
+**Models**
+
+HelpGuidance
+- This Model stores information on each Post made. 
+
+---
+
+## Skeleton
+
+### Wireframes
 
 <details>
 <summary>Home</summary>
@@ -191,10 +298,12 @@ The target audience of my site is people who are looking to purchase skateboards
 
 </details>
 
-### Surface
-#### Colours
-#### Typography
-#### Imagery
+---
+
+## Surface
+### Colours
+### Typography
+### Imagery
 
 [Back to Contents](#table-of-contents)
 
