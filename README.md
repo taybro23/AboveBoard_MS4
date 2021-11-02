@@ -251,7 +251,7 @@ Below, is the process to deploy the site using Heroku, and to set up and store t
 
 •	Choose the region closest to you and select “Create App”
 
-<br>
+---
 
 •	When the app has been created, click on the “Resources” tab to add the Postgres database
 
@@ -265,49 +265,54 @@ Below, is the process to deploy the site using Heroku, and to set up and store t
 
 •	Click “Connect”, then “Enable automatic deployments”
 
-<br>
+---
 
-•	Back in your IDE, install both ‘dj_database_url’ and ‘psycopg2-binary’ in order to use Heroku Postgres
+•	Back in your IDE, install both `dj_database_url` and `psycopg2-binary` in order to use Heroku Postgres
 
-•	In your ‘settings.py’ file, comment out the existing sqlite DATABASES and add the following code;
-
+•	In your `settings.py` file, comment out the existing sqlite DATABASES and add the following code;
+```
 DATABASES = {
-	‘default’ = dj_database_url.parse(‘database_url_goes_here’)
+	‘default’ = dj_database_url.parse(‘database_url')
 }
+```
 
+---
 
-•	Login to Heroku within your IDE by typing ‘heroku login –i’
+•	Login to Heroku within your IDE by typing `heroku login –i`
 
-•	Once logged in, you will need to run migrations to migrate your models to Postgres
+•	Once logged in, you will need to run migrations to migrate your models to Postgres;
 
-•	In the terminal, enter ‘heroku run python3 manage.py migrate --plan’ to show what will be migrated
+•	In the terminal, enter `heroku run python3 manage.py migrate --plan` to show what will be migrated
 
-•	If you are happy with the migrations, enter ‘heroku run python3 manage.py migrate’
+•	If you are happy with the migrations, enter `heroku run python3 manage.py migrate`
 
 •	If you are using a JSON file with product information stores, you will need to load these to Heroku also
 
-•	‘heroku run python3 manage.py loaddata categories’
+•	`heroku run python3 manage.py loaddata categories`
 
-•	‘heroku run python3 manage.py loaddata products’
+•	`heroku run python3 manage.py loaddata products`
 
-•	Make sure to also create a super user so you can access the admin page by entering ‘python3 manage.py createsuperuser’
+•	Make sure to also create a super user so you can access the admin page by entering `python3 manage.py createsuperuser`
 
-•	If you haven’t already, you will need to create a requirements.txt file and a procfile
+•	If you haven’t already, you will need to create a `requirements.txt` file and a `procfile`
 
-•	Install ‘gunicorn’ and make a create your requirements.txt by entering ‘pip3 freeze > requirements.txt’ in your terminal
+•	Install `gunicorn` and make a create your `requirements.txt` by entering `pip3 freeze > requirements.txt` in your terminal
 
-•	Create a procfile by entering the following into your terminal;
+•	Create a `procfile` by entering the following into your terminal;
 
-‘web: gunicorn name_of_your_app.wsgi:application’
+`web: gunicorn name_of_your_app.wsgi:application`
 
-•	Before committing and pushing these changes to GitHub, make sure you uncomment your ‘DATABASES’ in settings.py and amend your code to ensure your database url doesn’t get accidentally committed to GitHub!
+•	Before committing and pushing these changes to GitHub, make sure you uncomment your `DATABASES` code in `settings.py` and amend your code to ensure your database url doesn’t get accidentally committed to GitHub!
 
-•	Once this is done, add, commit and push your changes to GitHub
+•	Once this is done, `add`, `commit` and `push` your changes to GitHub
 
+---
 
 IMPORTANT!
 
-Make sure that all of your configuration variables are up to date on Heroku such as any secret keys to ensure your app works as intended.
+Make sure that all of your configuration variables are up to date on Heroku such as any secret keys to ensure your app works as intended!
+
+---
 
 ## AWS
 
