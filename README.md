@@ -395,11 +395,11 @@ DATABASES = {
 
 •	If you are happy with the migrations, enter `heroku run python3 manage.py migrate`
 
-•	If you are using a JSON file with product information stores, you will need to load these to Heroku also
+•	If you are using a JSON file with product information stored, you will need to load these to Heroku also by entering the following into your terminal;
 
-•	`heroku run python3 manage.py loaddata categories`
+`heroku run python3 manage.py loaddata categories`
 
-•	`heroku run python3 manage.py loaddata products`
+`heroku run python3 manage.py loaddata products`
 
 •	Make sure to also create a super user so you can access the admin page by entering `python3 manage.py createsuperuser`
 
@@ -419,7 +419,20 @@ DATABASES = {
 
 IMPORTANT!
 
-Make sure that all of your configuration variables are up to date on Heroku such as any secret keys to ensure your app works as intended!
+Make sure that all of your configuration variables are up to date on Heroku such as any secret keys to ensure your app works as intended! Your Config Variables should look similar to this;
+
+| Key                   | Value                    |
+| --------------------- |--------------------------|
+| AWS_ACCESS_KEY_ID     | `aws_access_key`         |
+| AWS_SECRET_ACCESS_KEY | `aws_secret_access_key`  |
+| DATABASE_URL          | `auto-generated`         |
+| EMAIL_HOST_PASS       | `email_key`              |
+| EMAIL_HOST_USER       | `your_email`             |
+| SECRET_KEY            | `secret_key`             |
+| STRIPE_PUBLIC_KEY     | `your_stripe_public_key` |
+| STRIPE_SECRET_KEY     | `your_stripe_secret_key` |
+| STRIPE_WH_SECRET      | `stripe_webhook_key`     |
+| USE_AWS               | `True`                   |
 
 ---
 
