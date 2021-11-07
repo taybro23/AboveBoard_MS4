@@ -207,96 +207,108 @@ HelpGuidance
 <details>
 <summary>Home</summary>
 
-![Mobile Wireframe]()
-![Desktop Wireframe]()
+![Desktop Wireframe](media/wireframes/home-desktop.png)
+![Mobile Wireframe](media/wireframes/home-mobile.png)
 
 </details>
 
 <details>
 <summary>Products</summary>
 
-![Mobile Wireframe]()
-![Desktop Wireframe]()
+![Desktop Wireframe](media/wireframes/products-desktop.png)
+![Mobile Wireframe](media/wireframes/products-mobile.png)
 
 </details>
 
 <details>
 <summary>Product Detail</summary>
 
-![Mobile Wireframe]()
-![Desktop Wireframe]()
+![Desktop Wireframe](media/wireframes/product-detail-desktop.png)
+![Mobile Wireframe](media/wireframes/product-detail-mobile.png)
+
+</details>
+
+<details>
+<summary>Shopping Bag</summary>
+
+![Desktop Wireframe](media/wireframes/shopping-bag-desktop.png)
+![Mobile Wireframe](media/wireframes/shopping-bag-mobile.png)
 
 </details>
 
 <details>
 <summary>Checkout</summary>
 
-![Mobile Wireframe]()
-![Desktop Wireframe]()
+![Mobile Wireframe](media/wireframes/checkout-desktop.png)
+![Desktop Wireframe](media/wireframes/checkout-mobile.png)
 
 </details>
 
 <details>
 <summary>Checkout Success/Order History</summary>
 
-![Mobile Wireframe]()
-![Desktop Wireframe]()
+![Desktop Wireframe](media/wireframes/checkout-success-desktop.png)
+![Mobile Wireframe](media/wireframes/checkout-success-mobile.png)
 
 </details>
 
 <details>
 <summary>Sign Up</summary>
 
-![Mobile Wireframe]()
-![Desktop Wireframe]()
+![Desktop Wireframe](media/wireframes/signup-desktop.png)
+![Mobile Wireframe](media/wireframes/signup-mobile.png)
 
 </details>
 
 <details>
 <summary>Sign In</summary>
 
-![Mobile Wireframe]()
-![Desktop Wireframe]()
+![Mobile Wireframe](media/wireframes/signin-desktop.png)
+![Desktop Wireframe](media/wireframes/signin-mobile.png)
 
 </details>
 
 <details>
 <summary>Profile</summary>
 
-![Mobile Wireframe]()
-![Desktop Wireframe]()
+![Desktop Wireframe](media/wireframes/profile-desktop.png)
+![Mobile Wireframe](media/wireframes/profile-mobile.png)
 
 </details>
 
 <details>
 <summary>Product Management</summary>
 
-![Mobile Wireframe]()
-![Desktop Wireframe]()
+![Desktop Wireframe](media/wireframes/product-add-desktop.png)
+![Desktop Wireframe](media/wireframes/product-edit-desktop.png)
+![Mobile Wireframe](media/wireframes/product-add-mobile.png)
+![Mobile Wireframe](media/wireframes/product-edit-mobile.png)
 
 </details>
 
 <details>
 <summary>Help & Guidance</summary>
 
-![Mobile Wireframe]()
-![Desktop Wireframe]()
+![Desktop Wireframe](media/wireframes/help-and-guidance-desktop.png)
+![Mobile Wireframe](media/wireframes/help-and-guidance-mobile.png)
 
 </details>
 
 <details>
 <summary>Help & Guidance Management</summary>
 
-![Mobile Wireframe]()
-![Desktop Wireframe]()
+![Desktop Wireframe](media/wireframes/help-and-guidance-add-desktop.png)
+![Desktop Wireframe](media/wireframes/help-and-guidance-edit-desktop.png)
+![Mobile Wireframe](media/wireframes/help-and-guidance-add-mobile.png)
+![Mobile Wireframe](media/wireframes/help-and-guidance-edit-mobile.png)
 
 </details>
 
 <details>
 <summary>404/500 Pages</summary>
 
-![Mobile Wireframe]()
-![Desktop Wireframe]()
+![Desktop Wireframe](media/wireframes/404-500-desktop.png)
+![Mobile Wireframe](media/wireframes/404-500-mobile.png)
 
 </details>
 
