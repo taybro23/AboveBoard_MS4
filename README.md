@@ -29,6 +29,8 @@
     * [Frameworks](#frameworks)
 5. [Testing](#testing)
 6. [Deployment](#deployment)
+    * [Heroku](#heroku)
+    * [AWS](#aws)
 7. [Credits](#credits)
 
 # Overview
@@ -440,33 +442,41 @@ Make sure that all of your configuration variables are up to date on Heroku such
 
 ### Setting Up
 
-1. Go to AWS and set up an account if you don’t already have one. You will be asked to enter credit/debit card details, but whilst you are using the free tier, you should not need to make any payments. Please keep an eye on your usage though to avoid any charges!
+1. Go to AWS and set up an account if you don’t already have one. You will be asked to enter credit/debit card details, but whilst you are using the free tier you should not need to make any payments. Please keep an eye on your usage though to avoid any charges!
 
 2. Log in to AWS, and navigate to S3. You can search for “S3” in the search bar at the top of the screen. 
-•	Create a new bucket by clicking on the orange “Create Bucket” button. 
 
-3. Make sure that your bucket name matches the name of your app on Heroku, and that you select the region closest to you. 
+3. Create a new bucket by clicking on the orange “Create Bucket” button. 
 
-4. Scroll down to “Block Public Access settings for this bucket” and uncheck the checked box. Confirm that you are happy to do this, then scroll to the bottom of the page and click the orange “Create Bucket” button. You will be taken to your bucket dashboard, and from here, you will need to make some amendments to your bucket. 
+4. Make sure that your bucket name matches the name of your app on Heroku, and that you select the region closest to you. 
 
----
-
-•	Click on the “Properties” tab, and scroll down to the bottom of the page where you will find a “Static website hosting” section. Click on the edit button.
-
-•	The top section will allow you to choose between “Disable” or “Enable”, and you will want to select “Enable” to enable static website hosting. 
-
-•	The section below is “Hosting Type”. Select “Host a static website” and scroll down to the “Index Document” inputs. 
-
-•	It will first ask you to specify the home or default page, which is index.html.
-
-•	It will then give you the option of entering an error link for if an error occurs. In the input, type error.html.
-
-•	Leave the Redirection rules blank, and click the orange “Save Changes”. 
+5. Scroll down to “Block Public Access settings for this bucket” and uncheck the checked box. Confirm that you are happy to do this, then scroll to the bottom of the page and click the orange “Create Bucket” button. You will be taken to your bucket dashboard, and from here, you will need to make some amendments to your bucket. 
 
 ---
 
-•	Next, click on the “Permissions” tab, scroll to the bottom of the page and click edit in the “Cross-origin resource sharing (CORS)” section. 
-•	Add in the following code, making sure to use correct indentation;
+### Bucket Properties
+
+1. Click on the “Properties” tab and scroll down to the bottom of the page, where you will find a “Static website hosting” section. Click on the edit button.
+
+2. The top section will allow you to choose between “Disable” or “Enable”, and you will want to select “Enable” to enable static website hosting. 
+
+3. The section below is “Hosting Type”. Select “Host a static website” and scroll down to the “Index Document” inputs. 
+
+4. It will first ask you to specify the home or default page, which is `index.html`
+
+5. It will then give you the option of entering an error link for if an error occurs. In the input, type `error.html`
+
+6. Leave the Redirection rules blank, and click the orange “Save Changes”. 
+
+---
+
+### Setting Permissions
+
+1. Next, click on the “Permissions” tab, scroll to the bottom of the page and click edit in the “Cross-origin resource sharing (CORS)” section. 
+
+2. Add in the following code, making sure to use correct indentation;
+
+```
 [
     {
         "AllowedHeaders": [
@@ -481,28 +491,56 @@ Make sure that all of your configuration variables are up to date on Heroku such
         "ExposeHeaders": []
     }
 ]
-•	Click on the orange “Save Changes” button and navigate to the “Bucket Policy” section which will be near the top of the page, and click edit. 
+```
 
-•	Click on the “Policy Generator” button. This will open a new window. 
-•	Within that new window will be a series of steps. For step one, you will need to select “S3 Bucket Policy from the dropdown list. 
-•	In step two, you will need the following options set;
-o	Effect – Allow
-o	Principle - *
-o	Actions – GetObject, GetObjectAcl, PutObject, PutObjectAcl and DeleteObject
-o	Amazon Resource Name (ARN) – This will be found on the previous page, under “Bucket ARN”. Copy this and paste it into this box
-•	After these have been entered, click “Add Statement”, then “Generate Policy”.
-•	Copy the policy into the bucket policy editor, adding /* onto the end, the click “Save Changes”.
+3. Click on the orange “Save Changes” button and navigate to the “Bucket Policy” section which will be near the top of the page, and click edit. 
 
-•	Staying in the permissions tab, click edit under the “Access Control List (ACL)” section. 
-•	You will be shown a series of options and tick boxes. Navigate to “Everyone (public access)” and tick the box on the left, “List” under the “Objects” heading. You will need to agree that you understand the effects before you can save, so tick that, then click on “Save Changes”.
+---
 
-•	Next, search for IAM in the search bar at the top, and click on it to set up a group policy.
-•	Under “Access Management” on the left hand side, click on “User Groups” and create a new group.
-•	Give the group a name and click “Create Group”. 
-•	This will take you back to the IAM dashboard. Go back to the “Access Management” section on the left hand side, and click on “Policies”. 
-•	Click “Create Policy” and head over to the JSON tab, and select “Import Managed Policy”. 
-•	Search for and click on “AmazonS3FullAccess”, then “Import”.
-•	Copy your ARN and place it in the code so that it looks like the below;
+### Generating A Bucket Policy
+
+1. Click on the “Policy Generator” button. This will open a new window. 
+
+2. Within that new window will be a series of steps. For step one, you will need to select “S3 Bucket Policy from the dropdown list.
+
+3. In step two, you will need the following options set;
+
+    - Effect – Allow
+    - Principle - *
+    - Actions – GetObject, GetObjectAcl, PutObject, PutObjectAcl and DeleteObject
+    - Amazon Resource Name (ARN) – This will be found on the previous page, under “Bucket ARN”. Copy this and paste it into this box
+
+4. After these have been entered, click “Add Statement” then “Generate Policy”.
+
+5. Copy the policy into the bucket policy editor, adding `/*` onto the end, the click “Save Changes”.
+
+---
+
+### Access Control List (ACL)
+
+1. Staying in the permissions tab, click edit under the “Access Control List (ACL)” section. 
+
+2. You will be shown a series of options and tick boxes. Navigate to “Everyone (public access)” and tick the box on the left, “List” under the “Objects” heading. You will need to agree that you understand the effects before you can save, so tick that, then click on “Save Changes”.
+
+---
+
+### IAM - Creating A Group and Policy
+
+1. Next, search for IAM in the search bar at the top, and click on it to set up a group policy.
+
+2. Under “Access Management” on the left hand side, click on “User Groups” and create a new group.
+
+3. Give the group a name and click “Create Group”. 
+
+4. This will take you back to the IAM dashboard. Go back to the “Access Management” section on the left hand side, and click on “Policies”. 
+
+5. Click “Create Policy” and head over to the JSON tab, and select “Import Managed Policy”. 
+
+6. Search for and click on “AmazonS3FullAccess” then “Import”.
+
+7. Copy your ARN and place it in the code so that it looks like the below;
+
+```
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -519,33 +557,62 @@ o	Amazon Resource Name (ARN) – This will be found on the previous page, under 
         }
     ]
 }
-•	Click on “Next: Tags”, “Next: Review”, put in a name and click on “Create Policy”. 
+```
 
-•	Next, you will need to attach the Policy to the Group created
-•	Go to “User Groups” on the left hand side menu, under “Access Management”.
-•	Click on the your newly created group and go over to the “Permissions” tab.
-•	Click on the “Add Permissions” button, and select “Attach Policy”.
-•	Search for and click on the checkbox next to the policy you have just created, then click “Add Permissions”.
+8. Click on “Next: Tags”, “Next: Review”, put in a name and click on “Create Policy”. 
 
-•	Back at the IAM dashboard, click on “Users” on the left hand side menu, then “Add User”.
-•	Choose a name and tick the checkbox to give the user access, then click “Next: Permissions”.
-•	Select the group to put the user in and keep clicking the next buttons until the very end and click “Create user”.
-•	Click on “Download .csv” file and make sure you save this somewhere you remember, as you will not have access to this page again! This file will contain information such as your access codes (shown above in the Heroku Deployment section).
+---
+
+### Group Policy
+
+1. Next, you will need to attach the Policy to the Group created.
+
+2. Go to “User Groups” on the left hand side menu, under “Access Management”.
+
+3. Click on the your newly created group and go over to the “Permissions” tab.
+
+4. Click on the “Add Permissions” button, and select “Attach Policy”.
+
+5. Search for and click on the checkbox next to the policy you have just created, then click “Add Permissions”.
+
+---
+
+### IAM - Create User
+
+1. Back at the IAM dashboard, click on “Users” on the left hand side menu, then “Add User”.
+
+2. Choose a name and tick the checkbox to give the user access, then click “Next: Permissions”.
+
+3. Select the group to put the user in and keep clicking the next buttons until the very end and click “Create user”.
+
+4. Click on “Download .csv” file and make sure you save this somewhere you remember, as you will not have access to this page again! This file will contain information such as your access codes (shown above in the Heroku Deployment section).
+
+---
+
+### **Important!**
 
 Make sure to also update your settings.py file to reflect the changes to the database! It should look something like this;
 
+```
 if 'USE_AWS' in os.environ:
     AWS_STORAGE_BUCKET_NAME = 'your_bucket_name'
     AWS_S3_REGION_NAME = 'eu-west-2'
     AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
     AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+```
+
+---
+
+### Saving Images To S3 Bucket
 
 If you need to save images to your S3 bucket, you will need to do the following;
-•	Go back to the S3 dashboard, and click on your bucket. 
-•	Click “Create Folder”, call it ‘media’ and confirm with the second “Create Folder” button.
-•	When you are in this folder, click “Upload”, then “Add Files” or “Add Folder”, then “Upload”.
 
+1. Go back to the S3 dashboard, and click on your bucket. 
+
+2. Click “Create Folder”, call it ‘media’ and confirm with the second “Create Folder” button.
+
+3. When you are in this folder, click “Upload”, then “Add Files” or “Add Folder”, then “Upload”.
 
 [Back to Contents](#table-of-contents)
 
