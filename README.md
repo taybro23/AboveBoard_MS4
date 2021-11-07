@@ -3,7 +3,7 @@
 
 [Visit my live website here!](https://aboveboard-ms4.herokuapp.com/)
 
-![Site preview](static/images/site-view.png)
+![Site preview](media/readme/site-view.png)
 
 # Table Of Contents
 
@@ -315,9 +315,37 @@ HelpGuidance
 ---
 
 ## Surface
+
 ### Colours
+
+The following colours were the main colours I used for my site;
+
+![Colours Used](media/readme/colours.jpg)
+
+White
+- This was the background colour used for all of my pages. I didn't want any other colours as it would have detracted from the bright colours I had chosen for the other sections of each page. White was also used for the main logo on desktop view, and as a hover colour for certain buttons across the site.
+
+Black
+- I used black as the colour of the text. As I had a white background I chose black to stand out the most. The other colours I chose were being used for emphasis so I didn't want to overuse them. 
+
+Red Orange Colour Wheel
+- This colour was used as the primary colour throughout my site. It was used for the top navbar, primary buttons and for emphasis throughout the site. This colour was also used as an overlay on the carousel image for Skate Shoes, which I edited in Adobe Photoshop.
+
+Mikado Yellow
+- Mikado Yellow was used as the secondary colour on my site. It went extremely well with the shade of Orange I had chosen, and was bright which was what I wanted. I coloured the bottom navbar with Mikado Yellow, as well as the secondary buttons, and hover colour for certain buttons. 
+
+### Other Colours
+
+Antique White
+- This was used as the background for the review section on the Product Details pages. I wanted the review section to stand out from the rest of the page so chose this colour as it was subtle enough to not detract from the colours already chosen, but also complimented them.
+
 ### Typography
+
+
+
 ### Imagery
+
+
 
 [Back to Contents](#table-of-contents)
 
