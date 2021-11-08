@@ -339,13 +339,25 @@ Mikado Yellow
 Antique White
 - This was used as the background for the review section on the Product Details pages. I wanted the review section to stand out from the rest of the page so chose this colour as it was subtle enough to not detract from the colours already chosen, but also complimented them.
 
+Red
+- Red was used for the colour of the filename when uploading a new image to a product or post.
+
+Bootstrap Colour Classes
+- Various Bootstrap colour classes were used for alerts, warning, success messages etc.
+
 ### Typography
 
+I have used 2 fonts in this project, which I sourced from Google Fonts;
+- Babas Neue
+- Titillium Web
 
+Babas Neue was used for all H1 elements on my site. This includes the main site logo, all headings on pages, product names on product detail pages, and post titles. I like this font because it's bold, stands out, and looks clean.
+
+Titillium Web was the secondary font on the site. All general text, buttons, etc. use this font. I chose this as the secondary font because of its clean look and readability. It also works well with the main font I chose.
 
 ### Imagery
 
-
+Using imagery is really important on websites as it allows the user to understand visually what the theme of the site is, and see exactly what is going on. Users also need to see images of the products they are searching for so they can make informed choices on what products suit their needs the most. 
 
 [Back to Contents](#table-of-contents)
 
