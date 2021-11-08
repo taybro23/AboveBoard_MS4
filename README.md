@@ -295,6 +295,14 @@ HelpGuidance
 </details>
 
 <details>
+<summary>Help & Guidance Post Detail</summary>
+
+![Desktop Wireframe](media/wireframes/help-and-guidance-post-view-desktop.png)
+![Mobile Wireframe](media/wireframes/help-and-guidance-post-mobile.png)
+
+</details>
+
+<details>
 <summary>Help & Guidance Management</summary>
 
 ![Desktop Wireframe](media/wireframes/help-and-guidance-add-desktop.png)
@@ -365,7 +373,54 @@ Using imagery is really important on websites as it allows the user to understan
 
 ## Current Features
 
+### All/Multiple Page Features
+
+Responsiveness
+- The site is fully responsive, regardless of device type and screen size.
+
+Navbar & Footer
+- The Navbar and Footers are the same across all pages. The top navbar has the site logo, a working search bar, an account dropdown and a link to the shopping bag. The bottom navbar has links to all areas of the site. Dropdowns are used for the product pages for easy navigation.
+- The footer consists of a brief overview of what the site is, the main menu links and contact information with links to social media sites. Both the navbar and the footer make use of icons taken from Font Awesome to make the site more aesthetically pleasing. 
+
+Messages/Toasts
+- Messages and Toasts are used when executing certain actions on the site, such as logging in and out, adding and removing products from the shopping bag, completing a transaction, and for admin actions too like adding and editing products. 
+
+Headers
+- All headers (H1) elements are the same across the site, using the same font, size and colour. The placing of headers is mixed between central alignment, and left alignment depending on the layout of the page.
+
+Buttons
+- Buttons are used throughout the site to choose certain options, confirm choices etc. I mainly use 3 different button colour schemes throughout the site, and have given these specific classes so that the buttons flow correctly through the site. 
+
+Breadcrumbs
+- I used breadcrumb links on both the product detail pages and the post detail pages. This is so that the user can see the visual trail of pages and go back to the previous pages or categories. I personally prefer the use of breadcrumb links on e-commerce sites when shopping myself so wanted to include these on my own site.
+
+
+### Page Specific Features
+
+
+
 ## Future Features
+
+Extra filtering options – size, colour etc. 
+- I want to add extra filtering options on the main products pages to make it more like e-commerce sites that companies use.
+
+Pagination on products
+- Pagination on products would allow for only a set number of products to show per page, and this is extremely useful. For e-commerce sites with thousands of products, it would not be viable to NOT have pagination as no one would take the time to continuously scroll without knowing when the product list would end. 
+
+Rating wire up with product rating
+- I have implemented ratings on my site through reviews, but have not wired these up to the actual products. This is something that should be done due to other users then being able to see the ratings that it has received without having to look through the reviews themselves. 
+
+Shoe Sizes rather than XS, S etc.
+- At the moment, I have got all sizes across the site set up as XS, S, M etc. and this is not how shoe sizes work. I tried to implement this, but the way I set up my shoe categories did not work with what I wanted, so I would more than likely have to redo my product fixtures to implement this. 
+
+Post comments
+- Adding post comments would be a good way for users to interact with the admins of the site who have created the posts. They would also be able to add any additional info, or views and opinions on the posts. 
+
+Contact Us page
+- A contact us page would be useful as all the information would be in one place, and could consist of a contact us form. All contact information is stored in the footer, which is why I did not take the time to create this page.
+
+Social media logins – Facebook, google etc.
+- Logging in through social media sites is an increasingly popular feature on most sites, so it would be good to implement this on my site as well for ease of use for users. 
 
 [Back to Contents](#table-of-contents)
 
