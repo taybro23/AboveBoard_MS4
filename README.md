@@ -204,6 +204,10 @@ HelpGuidance
 
 ### Wireframes
 
+**_Please Note_**
+
+*Contact Us page was not implemented as I had info I already needed to provide within the footer, and I chose to focus on other areas of the site.* 
+
 <details>
 <summary>Home</summary>
 
@@ -461,7 +465,7 @@ Edit Products/Posts – Admin Only
 Help & Guidance
 -	Add Post button for admin so they can add a new post to this section
 -	Posts displayed in a responsive format
--	Post title, edit/delete buttons for admin, description with character cap at , and post image
+-	Post title, edit/delete buttons for admin, description with character cap at 400, and post image
 -	View Post button that will take the user to the post details page
 
 Post Detail
