@@ -394,9 +394,86 @@ Buttons
 Breadcrumbs
 - I used breadcrumb links on both the product detail pages and the post detail pages. This is so that the user can see the visual trail of pages and go back to the previous pages or categories. I personally prefer the use of breadcrumb links on e-commerce sites when shopping myself so wanted to include these on my own site.
 
-
 ### Page Specific Features
 
+Home
+-	Carousel images with buttons that send the user to the relevant product pages
+-	Featured Brands section that take the user to all products on the site that are categorised under the brand clicked
+-	About section that gives an overview of the site, as well as reasons to register an account.
+
+Products
+-	Products are displayed in a responsive format
+-	Featured images at the top of each main category page
+-	Product Category buttons so the user can select which sub-category they would like to look at
+-	Basic filtering options to sort products by category, name, price etc.
+-	Basic product info is displayed to the user such as the product image, name, price, category button, and for admins, edit/delete buttons
+-	Users can click on the product images which will take them to the product details page for that particular product
+
+Product Detail
+-	Breadcrumb links featured on these pages
+-	Product details shown to user; image, name, price, edit/delete buttons for admins and description
+-	Size selector (if applicable)
+-	Quantity selector that allows the user to choose the quantity they would like to purchase
+-	Keep Shopping button that takes the user back to the products page
+-	Add To Bag button that adds the product to the users shopping bag
+-	Review section with user reviews that can be viewed by all users regardless of registered status
+-	If a user is registered and logged in, they can leave a review for the product
+
+Shopping Bag
+-	Shows the user the product/s that they have in their bag
+-	Displays product image, name, size, SKU
+-	Quantity selector allows user to see how many they have in their shopping bag and amend that amount
+-	Subtotal shows the amount of the product, reflects changes upon quantity amendments
+-	Bag total, delivery and grand total show these amounts to the user
+-	Keep Shopping button allows the user to navigate back to the products page
+-	Secure Checkout buttons takes the customer to the Checkout page
+
+Checkout
+-	Order summary that shows the product info that the user will be purchasing
+-	Delivery form that allows users to input a name, email address and their delivery details
+-	Payment input using Stripe
+-	Back To Bag buttons that takes the user back to the shopping bag so they can amend their order
+-	Complete Order Securely button that allows the user to process their order. This processes their payment method and completes the order
+-	Text warning alerting the user that payment WILL be taken upon completing their order
+
+Checkout Success/Order History
+-	Order details provided to the user including products ordered, costs and delivery details
+-	Button at the bottom of the screen showing an option to either navigate back to products page or back to the users profile depending on whether the user completed a new order, or viewed a previous order from the profile screen
+
+Sign Up/Sign In
+-	Allows the user to sign up for an account using their email address
+-	Allows the user to log in using their email or username
+
+Profile
+-	Shows the users default delivery information and allows them to update it freely
+-	Order History section allows users to see an overview of past orders, and if they click on the order number it takes them to the Order History page 
+
+Add Products/Posts – Admin Only 
+-	Crispy form is used to generate the form for adding a product/post
+-	Allows the admin to enter necessary details of the product/post
+-	Option to add an image to the product/post
+
+Edit Products/Posts – Admin Only
+-	Generates a crispy form with the current product/post information already input
+-	Allows the admin to edit the form as necessary 
+-	Option to remove and add an image to the product/post
+
+Help & Guidance
+-	Add Post button for admin so they can add a new post to this section
+-	Posts displayed in a responsive format
+-	Post title, edit/delete buttons for admin, description with character cap at , and post image
+-	View Post button that will take the user to the post details page
+
+Post Detail
+-	Breadcrumb links featured on these pages
+-	Post title, edit/delete buttons for admins, post description and image displayed to user
+-	Back button that takes the user back to the Help & Guidance main page
+
+404/500 Pages
+-	Page displayed when 404/500 error occurs
+-	Large text to display there is an error to the user
+-	Back To Home button so the user can navigate back to the home page
+-	Fun image below the button to give the page a bit of character
 
 
 ## Future Features
@@ -409,6 +486,9 @@ Pagination on products
 
 Rating wire up with product rating
 - I have implemented ratings on my site through reviews, but have not wired these up to the actual products. This is something that should be done due to other users then being able to see the ratings that it has received without having to look through the reviews themselves. 
+
+Delete product reviews
+- Giving the user and admin access to delete the review from the product details page would be benificial for the user if they left the review in error, or reviewed the wrong product. It would be quicker to access for the admin of the site.
 
 Shoe Sizes rather than XS, S etc.
 - At the moment, I have got all sizes across the site set up as XS, S, M etc. and this is not how shoe sizes work. I tried to implement this, but the way I set up my shoe categories did not work with what I wanted, so I would more than likely have to redo my product fixtures to implement this. 
