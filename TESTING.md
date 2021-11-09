@@ -274,10 +274,10 @@ I have implemented product reviews on my site, however I was unable to figure ou
 As I wanted to display each shoe brand separately I created them as separate categories. This made some future developments rather difficult to navigate on my site as I essentially need to rebuild my fixtures, but did not want to edit them at a late stage in my project.
 -	Pagination :- This was not something I could implement on Products pages due to the set up of my fixtures. I followed a few tutorials (which successfully worked for my Help & Guidance section) but they were not successful on my product pages
 
-### Keep Shopping buttons
+## Keep Shopping buttons
 
 I would like these buttons to take the user back by one page, but could not find a fix for this.
 
-### 500 Error
+## 500 Error
 
 If a new product is added to the site, added to the basket then deleted, it causes an error and the entire site crashes. If the cookies are cleared, the site works again as expected. I'm not 100% sure what is causing this error or how to fix it, so it is being left as unresolved. 
