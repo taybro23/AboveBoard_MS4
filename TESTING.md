@@ -277,3 +277,7 @@ As I wanted to display each shoe brand separately I created them as separate cat
 ### Keep Shopping buttons
 
 I would like these buttons to take the user back by one page, but could not find a fix for this.
+
+### 500 Error
+
+If a new product is added to the site, added to the basket then deleted, it causes an error and the entire site crashes. If the cookies are cleared, the site works again as expected. I'm not 100% sure what is causing this error or how to fix it, so it is being left as unresolved. 
