@@ -25,12 +25,12 @@ All tests passed
 ## Python
 All tests passed
 
-*Please Note* - Warnings and errors were given on most pages due to template logic being used in this project. Certain Python files also failed PEP8 checks due to base code set by Django.
+*Please Note - Warnings and errors were given on most pages due to template logic being used in this project. Certain Python files also failed PEP8 checks due to base code set by Django.*
 
 # Functionality
 
 ## Security Testing
-All pages were tested with a non-admin account to make sure that no access was given to those users that should not be given. This was tested by me copying the links, accessing them on an incognito browser in Google Chrome that I was not logged into, then logging into it with a non-admin user, and trying the links again. The error pops up correctly and advises the user that only admins and site owners can view that page.
+All pages were tested with a non-admin account to make sure that no access was given to those users that should not have access. This was tested by me copying the links, accessing them on an incognito browser in Google Chrome that I was not logged into, then logging into it with a non-admin user, and trying the links again. The error pops up correctly and advises the user that only admins and site owners can view that page.
 
 ## Responsiveness
 The responsiveness of the site was tested using Google Chrome on a windows laptop, Safari on an Apple MacBook Pro, Google Chrome on a Samsung Galaxy S20 and S21, and Safari on an iPhone 13. I found no issues with any elements of the site when testing this.

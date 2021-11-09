@@ -37,7 +37,7 @@
 
 Above Board is an e-commerce site used for educational purposes, and I have focused on Skateboarding for the theme of my project. 
 
-You’ll find the essential products you’d need to start or continue skating, from complete decks, trucks and wheels, to t-shirts, hats and skate shoes. The Help & Guidance section provides information on how to start skating, useful links and more!
+You’ll find all of the essential products you’d need to start or continue skating, from complete decks, trucks and wheels, to t-shirts, hats and skate shoes. The Help & Guidance section provides information on how to start skating, useful links and more!
 
 [Back to Contents](#table-of-contents)
 
@@ -46,7 +46,7 @@ You’ll find the essential products you’d need to start or continue skating, 
 ## Strategy
 
 ### Target Audience
-The target audience of my site is people who are looking to purchase skateboards, skateboarding hardware or clothes. It is geared towards both current and new skaters, and includes products for both of these types of customer. 
+The target audience of my site is people who are looking to purchase skateboards, skateboarding hardware or clothes. It is geared towards both current and new skaters, and includes products for both of these types of users. 
 
 ### Business Goals
 -	To provide an easily navigable e-commerce site
@@ -81,7 +81,7 @@ The target audience of my site is people who are looking to purchase skateboards
 -	Provide a clean, simple e-commerce store so that users can easily find what they’re looking for
 -	Have the ability to add, edit/update and delete products
 -	Have the ability to add, edit and delete blog posts
--	Keep the site secure by only allowing authorised users access certain areas of the site
+-	Keep the site secure by only allowing authorised users to access certain areas of the site
 -	Securely store user information in case an error occurs
 
 ---
@@ -152,7 +152,7 @@ bag.html
 **HTML files**
 
 checkout.html
-- Displays the final checkout page to the user. They can view their order via a summery, and complete a form with their personal details on so they can have the product/s delivered to them. This is where they will be asked to input their payment information, and once the “Complete Order Securely” button has been clicked, payment will be taken and the order processed. A warning note is placed below this button to warn users of this. 
+- Displays the final checkout page to the user. They can view their order via a summary, and complete a form with their personal details on so they can have the product/s delivered to them. This is where they will be asked to input their payment information, and once the “Complete Order Securely” button has been clicked, payment will be taken and the order processed. A warning note is placed below this button to warn users of this. 
 
 checkout_success.html
 - This is a confirmation page, and one that will be shown to the user upon successful completion of an order. Here will be the order confirmation summary, with all of the details of the order and the personal details the user put in on the page prior. 
@@ -344,7 +344,7 @@ Red Orange Colour Wheel
 - This colour was used as the primary colour throughout my site. It was used for the top navbar, primary buttons and for emphasis throughout the site. This colour was also used as an overlay on the carousel image for Skate Shoes, which I edited in Adobe Photoshop.
 
 Mikado Yellow
-- Mikado Yellow was used as the secondary colour on my site. It went extremely well with the shade of Orange I had chosen, and was bright which was what I wanted. I coloured the bottom navbar with Mikado Yellow, as well as the secondary buttons, and hover colour for certain buttons. 
+- Mikado Yellow was used as the secondary colour on my site. It went extremely well with the shade of Orange I had chosen, and was bright which was what I wanted. I coloured the bottom navbar with Mikado Yellow, as well as the secondary buttons, and hover colour for certain buttons. This colour was also used as an overlay on the carousel image for Clothing, which I edited in Adobe Photoshop.
 
 ### Other Colours
 
@@ -410,11 +410,11 @@ Products
 -	Featured images at the top of each main category page
 -	Product Category buttons so the user can select which sub-category they would like to look at
 -	Basic filtering options to sort products by category, name, price etc.
--	Basic product info is displayed to the user such as the product image, name, price, category button, and for admins, edit/delete buttons
+-	Basic product info is displayed to the user such as the product image, name, price, category link, and for admins, edit/delete buttons
 -	Users can click on the product images which will take them to the product details page for that particular product
 
 Product Detail
--	Breadcrumb links featured on these pages
+-	Breadcrumb links feature on these pages
 -	Product details shown to user; image, name, price, edit/delete buttons for admins and description
 -	Size selector (if applicable)
 -	Quantity selector that allows the user to choose the quantity they would like to purchase
@@ -427,7 +427,7 @@ Shopping Bag
 -	Shows the user the product/s that they have in their bag
 -	Displays product image, name, size, SKU
 -	Quantity selector allows user to see how many they have in their shopping bag and amend that amount
--	Subtotal shows the amount of the product, reflects changes upon quantity amendments
+-	Subtotal shows the cost of the product, reflects changes upon quantity amendments
 -	Bag total, delivery and grand total show these amounts to the user
 -	Keep Shopping button allows the user to navigate back to the products page
 -	Secure Checkout buttons takes the customer to the Checkout page
@@ -436,7 +436,7 @@ Checkout
 -	Order summary that shows the product info that the user will be purchasing
 -	Delivery form that allows users to input a name, email address and their delivery details
 -	Payment input using Stripe
--	Back To Bag buttons that takes the user back to the shopping bag so they can amend their order
+-	Back To Bag button that takes the user back to the shopping bag so they can amend their order
 -	Complete Order Securely button that allows the user to process their order. This processes their payment method and completes the order
 -	Text warning alerting the user that payment WILL be taken upon completing their order
 
@@ -465,12 +465,13 @@ Edit Products/Posts – Admin Only
 Help & Guidance
 -	Add Post button for admin so they can add a new post to this section
 -	Posts displayed in a responsive format
--	Post title, edit/delete buttons for admin, description with character cap at 400, and post image
+-	Post title, edit/delete links for admins, description with character cap at 400, and post image
 -	View Post button that will take the user to the post details page
+- Pagination implemented so that only 4 posts are displayed per page
 
 Post Detail
--	Breadcrumb links featured on these pages
--	Post title, edit/delete buttons for admins, post description and image displayed to user
+-	Breadcrumb links feature on these pages
+-	Post title, edit/delete links for admins, post description and image displayed to user
 -	Back button that takes the user back to the Help & Guidance main page
 
 404/500 Pages
@@ -478,7 +479,6 @@ Post Detail
 -	Large text to display there is an error to the user
 -	Back To Home button so the user can navigate back to the home page
 -	Fun image below the button to give the page a bit of character
-
 
 ## Future Features
 
@@ -529,7 +529,7 @@ Social media logins – Facebook, google etc.
 -	GitPod - Used as the IDE for my project
 -	Heroku - Used for deploying the site
 -	Balsamiq - Used to create Wireframes
--	Adobe Photoshop - Used for re-sizing of images
+-	Adobe Photoshop - Used for re-sizing and editing images
 
 [Back to Contents](#table-of-contents)
 
@@ -541,7 +541,7 @@ Find the full Testing Document [here!](TESTING.md)
 
 # Deployment
 
-Below, is the process to deploy the site using Heroku, and to set up and store the images and static files in AWS;
+Below is the process to deploy the site using Heroku, and to set up and store the images and static files in AWS;
 
 ## Heroku
 
