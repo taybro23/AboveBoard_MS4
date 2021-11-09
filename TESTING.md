@@ -9,7 +9,8 @@
     * [Responsiveness](#responsiveness)
     * [General Functionality Testing](#general-functionality-testing)
 3. [User Stories Testing](#user-stories-testing)
-4. [Unresolved Issues](#unresolved-issues)
+4. [Resolved Issues](#resolved-issues)
+5. [Unresolved Issues](#unresolved-issues)
 
 # Code Validation
 
@@ -45,7 +46,7 @@ The responsiveness of the site was tested using Google Chrome on a windows lapto
 -	Navbar correctly collapses on smaller screens including mobile view. This has been tested both on Google Chrome devtools and mobile phones
 -	Overall collapsed layout is consistent with rest of the site
 -	Search bar toggle works correctly
--	Site Logo displays on mobile view (bottom navbar) and is correctly hidden when on larger screens
+-	Site Logo displays on mobile view and is correctly hidden when on larger screens
 
 ### Navbar Search Bar
 -	Focus and hover colours work correctly
@@ -59,7 +60,7 @@ The responsiveness of the site was tested using Google Chrome on a windows lapto
 
 ### Home 
 -	Carousel Images and text/button overlays are nicely responsive on desktop and mobile views
--	Buttons on carousel images work correctly and navigate the user to the correct pages, and position correctly depending on screen size
+-	Buttons on carousel images work correctly and navigate the user to the correct pages. They also position correctly depending on screen size
 -	Featured Brand section works correctly, and all products that are under that brand are displayed when the option is clicked. This has been tested by adding and editing products with those set brands and making sure the products displayed were all correct
 
 ### Products
@@ -76,13 +77,13 @@ The responsiveness of the site was tested using Google Chrome on a windows lapto
 -	Breadcrumb links work as they should, and I have tested this on a range of categories to make sure it is consistent
 -	Product images are all correct, and should a product not have an image, the correct default image is displayed
 -	Product information is correctly shown to the user, such as price, description etc.
--	Edit/Delete buttons for admin use work and direct admin to the correct pages
--	Size dropdown box (id applicable) works correctly and if user adds that product to the bag will see the size they have selected. I have checked every product to make sure that no products show as having sizes when they shouldn’t, and vice versa
+-	Edit/Delete links for admins work and direct admin to the correct pages
+-	Size dropdown box (if applicable) works correctly and if user adds that product to the bag will see the size they have selected. I have checked every product to make sure that no products show as having sizes when they shouldn’t, and vice versa
 -	Quantity selector works correctly, by changing the amount of the product using the up/down arrows within the box, at the sides of the box and by using the up/down arrow keys on the users keyboard. Focus colours work as intended
 -	Keep Shopping button hover works, and takes the user back to the products page
 -	Add To Bag button adds the product to the users shopping bag in the correct size (if applicable) and quantity that the user has selected. This is displayed to the user by way of an on screen alert, showing a mini view of the users shopping bag. This was tested using a range of products with different sizes and quantities selected
 -	Reviews section shows reviews that users have left, and allows both the user who submitted the review and the admin to edit the review
--	If user is logged in, a review form is displayed with the submit button below to submit the review form once they are done. 
+-	If user is logged in, a review form is displayed with the submit button below to submit the review form once they are done
 -	If form is not filled in correctly, a warning will show on the section of the form that is not correct. This was tested by leaving sections of the form blank and trying to submit. All input focus colours are correct
 -	If the user is not logged in, text is displayed asking the user to register or log in to leave a review. This has been tested by viewing the site in Google Chromes Incognito mode
 
@@ -149,7 +150,7 @@ The responsiveness of the site was tested using Google Chrome on a windows lapto
 
 ### Help & Guidance Post Detail
 -	Post displays are all correct, and should a post not have an image, the correct default image is displayed
--	Edit/Delete buttons for admin work correctly and take the admin to the edit page/delete the post from the site
+-	Edit/Delete links for admins work correctly and take the admin to the edit page/delete the post from the site
 -	Back button takes the user back to the main Help & Guidance page
 
 ### Help & Guidance Add/Edit Post
@@ -224,7 +225,7 @@ The responsiveness of the site was tested using Google Chrome on a windows lapto
 
 *Purchase products and have their orders saved to their profile*
 -	All users, regardless of logged in status, will be able to purchase products through the site
--	If a user is logged in when the process an order, it will be displayed on their profile order history
+-	If a user is logged in when they process an order, it will be displayed on their profile order history
 
 *Receive their order confirmations directly to their email inbox*
 -	When a user completes an order, they will receive an email to confirm said order
@@ -254,19 +255,25 @@ The responsiveness of the site was tested using Google Chrome on a windows lapto
 *Securely store user information in case an error occurs*
 -	User information is stored securely using Django. Only information provided is kept, but does not include passwords for security reasons
 
+# Resolved Issues
+
+## Migrations
+
+After I had deployed my project to Heroku, I was getting issues with my migrations not being pushed to Heroku correctly. I reset my migrations, but I didn't do this correctly the first time which lead to me needing to do it twice. 
+
+To successfully reset my migrations, I deleted all previous migrations and the `db.sqlite3` file from GitPod. I then re-ran migrations on GitPod and Heroku, and this fixed the issue I was having. 
+
 # Unresolved Issues
 
-I have been incredibly lucky during production and have not encountered many issues/bugs when creating this project. I do however have a few outstanding issues that I am yet to resolve. 
-
-## Product reviews linked to product ratings.
+## Product reviews linked to product ratings
 
 I have implemented product reviews on my site, however I was unable to figure out a way to link these up to display as an average rating for the product the reviews are for. I attempted this by following tutorials but was unable to make this work.
 
-## Product Fixtures.
+## Product Fixtures
 
 As I wanted to display each shoe brand separately I created them as separate categories. This made some future developments rather difficult to navigate on my site as I essentially need to rebuild my fixtures, but did not want to edit them at a late stage in my project.
 -	Pagination :- This was not something I could implement on Products pages due to the set up of my fixtures. I followed a few tutorials (which successfully worked for my Help & Guidance section) but they were not successful on my product pages
 
-### Keep Shopping buttons.
+### Keep Shopping buttons
 
 I would like these buttons to take the user back by one page, but could not find a fix for this.
