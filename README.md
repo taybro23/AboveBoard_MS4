@@ -1,7 +1,7 @@
 # Taylor Brookes - Milestone Project 4
 ## Above Board
 
-[Visit my live website here!](https://aboveboard-ms4.herokuapp.com/)
+[Visit my live website here!](https://above-board.onrender.com/)
 
 ![Site preview](media/readme/site-view.png)
 
@@ -32,6 +32,10 @@
     * [Heroku](#heroku)
     * [AWS](#aws)
 7. [Credits](#credits)
+
+## IMPORTANT
+
+This site is now deployed with Render and ElephantSQL. Documentation not updated due to completion of Diploma.
 
 # Overview
 
